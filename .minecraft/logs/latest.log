@@ -1,367 +1,327 @@
-[20:28:26] [Render thread/INFO]: Environment: authHost='https://mcskin.littleservice.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:51123/https/api.mojang.com', sessionHost='http://127.0.0.1:51123/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:51123/https/api.minecraftservices.com', name='PROD'
-[20:28:27] [Render thread/INFO]: Setting user: GLgele
-[20:28:28] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
-[20:28:42] [Render thread/INFO]: Narrator library for x64 successfully loaded
-[20:28:42] [Render thread/INFO]: Reloading ResourceManager: Default, Dream-HELL
-[20:28:47] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[20:28:58] [Worker-Main-8/WARN]: Texture minecraft:item/orange_dye with size 18x18 limits mip level from 4 to 1
-[20:28:58] [Worker-Main-8/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 1, because of minimum power of two: 2
-[20:29:02] [Render thread/INFO]: OpenAL initialized.
-[20:29:02] [Render thread/INFO]: Sound engine started
-[20:29:04] [Render thread/INFO]: Created: 1024x1024x1 minecraft:textures/atlas/blocks.png-atlas
-[20:29:04] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[20:29:04] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[20:29:04] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[20:29:04] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[20:29:04] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[20:29:04] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[20:29:07] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[20:29:07] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[20:29:07] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[20:29:27] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:29:27] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:29:27] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:29:27] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:29:27] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:29:27] [Render thread/INFO]: Reloading ResourceManager: Default, Dream-HELL
-[20:29:28] [Render thread/INFO]: Loaded 7 recipes
-[20:29:28] [Render thread/INFO]: Loaded 927 advancements
-[20:29:29] [Render thread/INFO]: Environment: authHost='https://mcskin.littleservice.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:51123/https/api.mojang.com', sessionHost='http://127.0.0.1:51123/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:51123/https/api.minecraftservices.com', name='PROD'
-[20:29:29] [Server thread/INFO]: Starting integrated minecraft server version 1.16.5
-[20:29:29] [Server thread/INFO]: Generating keypair
-[20:29:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:29:30] [Render thread/INFO]: 准备生成区域中：0%
-[20:29:30] [Render thread/INFO]: 准备生成区域中：0%
-[20:29:30] [Render thread/INFO]: Time elapsed: 850 ms
-[20:29:31] [Server thread/INFO]: Changing view distance to 11, from 10
-[20:29:32] [Server thread/INFO]: GLgele[local:E:a809c022] logged in with entity id 8 at (0.39657017559151403, 4.0, -1.091442499255649)
-[20:29:32] [Server thread/INFO]: GLgele加入了游戏
-[20:29:33] [Server thread/INFO]: Saving and pausing game...
-[20:29:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:29:33] [Render thread/INFO]: Loaded 82 advancements
-[20:29:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:29:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:29:37] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为旁观模式 
-[20:29:50] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为创造模式 
-[20:29:53] [Server thread/INFO]: Saving and pausing game...
-[20:29:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:29:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:29:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:30:05] [Render thread/INFO]: [CHAT] 成功设置：execute @e[type=falling_block] ~ ~ ~ tp @s ^ ^ ^1 ~10
-[20:30:05] [Server thread/INFO]: Saving and pausing game...
-[20:30:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:30:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:30:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:30:30] [Render thread/INFO]: [CHAT] 成功设置：execute at @e[type=falling_block] as @s run tp @s ^ ^ ^1 ~10
-[20:30:32] [Server thread/INFO]: Saving and pausing game...
-[20:30:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:30:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:30:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:30:33] [Render thread/INFO]: [CHAT] 成功设置：execute at @e[type=falling_block] as @s run tp @s ^ ^ ^1 ~10
-[20:30:34] [Server thread/INFO]: Saving and pausing game...
-[20:30:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:30:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:30:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:30:35] [Render thread/INFO]: [CHAT] 成功设置：execute at @e[type=falling_block] as @s run tp @s ^ ^ ^1 ~10
-[20:30:36] [Server thread/INFO]: Saving and pausing game...
-[20:30:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:30:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:30:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:30:42] [Server thread/INFO]: Saving and pausing game...
-[20:30:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:30:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:30:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:30:49] [Server thread/INFO]: Saving and pausing game...
-[20:30:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:30:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:30:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:31:14] [Server thread/INFO]: Saving and pausing game...
-[20:31:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:31:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:31:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:31:18] [Render thread/INFO]: [CHAT] 成功设置：execute at @e[type=falling_block] as @s run tp @s ^0 ^0 ^1 ~10
-[20:31:26] [Render thread/INFO]: [CHAT] 将GLgele传送到 -9.02987572482316, 4.7286173422506685, -7.965556236214212
-[20:31:35] [Render thread/INFO]: [CHAT] 将GLgele传送到 -9.02987572482316, 4.7286173422506685, -7.965556236214212
-[20:31:38] [Server thread/INFO]: Saving and pausing game...
-[20:31:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:31:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:31:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:31:48] [Render thread/INFO]: [CHAT] 成功设置：execute at @e[type=falling_block] as @s run tp @s ^0 ^0 ^1
-[20:31:50] [Server thread/INFO]: Saving and pausing game...
-[20:31:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:31:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:31:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:31:51] [Server thread/INFO]: Saving and pausing game...
-[20:31:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:31:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:31:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:31:52] [Render thread/INFO]: [CHAT] 成功设置：execute at @e[type=falling_block] as @s run tp @s ^0 ^0 ^1
-[20:32:17] [Render thread/INFO]: [CHAT] 错误的命令参数
-[20:32:17] [Render thread/INFO]: [CHAT] /tp @s ~ ~ ~ facing 0<--[此处]
-[20:32:21] [Render thread/INFO]: [CHAT] 错误的命令参数
-[20:32:21] [Render thread/INFO]: [CHAT] /tp @s ~ ~ ~ facing north<--[此处]
-[20:32:24] [Render thread/INFO]: [CHAT] 错误的命令参数
-[20:32:24] [Render thread/INFO]: [CHAT] /tp @s ~ ~ ~ facing east<--[此处]
-[20:33:27] [Render thread/INFO]: [CHAT] 错误的命令参数
-[20:33:27] [Render thread/INFO]: [CHAT] /tp @s ~ ~ ~ facing ~10<--[此处]
-[20:33:46] [Render thread/INFO]: [CHAT] 将GLgele传送到 -11.53435127051386, 4.7286173422506685, -7.737602138049583
-[20:34:49] [Render thread/INFO]: [CHAT] 已将GLgele传送至GLgele
-[20:35:06] [Render thread/INFO]: [CHAT] 错误的命令参数
-[20:35:06] [Render thread/INFO]: [CHAT] /tp @s ~ ~ ~ facing 0<--[此处]
-[20:35:10] [Render thread/INFO]: [CHAT] 错误的命令参数
-[20:35:10] [Render thread/INFO]: [CHAT] /tp @s ~ ~ ~ facing @s<--[此处]
-[20:35:44] [Render thread/INFO]: [CHAT] 将GLgele传送到 -11.53435127051386, 4.7286173422506685, -7.737602138049583
-[20:35:45] [Render thread/INFO]: [CHAT] 将GLgele传送到 -11.53435127051386, 4.7286173422506685, -7.737602138049583
-[20:35:47] [Server thread/INFO]: Saving and pausing game...
-[20:35:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:35:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:35:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:35:57] [Render thread/INFO]: [CHAT] 成功设置：execute at @e[type=falling_block] as @s run tp @s ^0 ^0 ^1 ~10 
-[20:35:58] [Server thread/INFO]: Saving and pausing game...
-[20:35:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:35:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:35:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:35:59] [Render thread/INFO]: [CHAT] 成功设置：execute at @e[type=falling_block] as @s run tp @s ^0 ^0 ^1 ~10 ~
-[20:36:10] [Render thread/INFO]: Loaded 100 advancements
-[20:36:45] [Server thread/INFO]: Saving and pausing game...
-[20:36:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:36:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:36:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:36:49] [Render thread/INFO]: [CHAT] 成功设置：execute at @e[type=falling_block] as @s run tp @s ^0 ^0 ^1 ~10 ~
-[20:36:50] [Server thread/INFO]: Saving and pausing game...
-[20:36:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:36:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:36:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:36:51] [Server thread/INFO]: Saving and pausing game...
-[20:36:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:36:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:36:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:36:51] [Server thread/INFO]: Saving and pausing game...
-[20:36:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:36:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:36:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:36:56] [Server thread/INFO]: Saving and pausing game...
-[20:36:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:36:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:36:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:37:01] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=falling_block] at @s run tp @s ^0 ^0 ^1 ~10 ~
-[20:37:08] [Server thread/INFO]: Saving and pausing game...
-[20:37:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:37:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:37:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:37:09] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=falling_block] at @s run tp @s ^0 ^0 ^1 ~10 ~
-[20:37:21] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为旁观模式 
-[20:37:25] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为创造模式 
-[20:37:28] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为旁观模式 
-[20:37:33] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为创造模式 
-[20:37:46] [Render thread/INFO]: [CHAT] 未找到实体
-[20:37:48] [Render thread/INFO]: [CHAT] 未找到实体
-[20:37:51] [Render thread/INFO]: [CHAT] 未找到实体
-[20:37:54] [Server thread/INFO]: Saving and pausing game...
-[20:37:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:37:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:37:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:37:55] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=falling_block] at @s run tp @s ^0 ^0 ^1 ~10 ~
-[20:37:56] [Render thread/INFO]: [CHAT] 无法应用此效果（对象对效果免疫，或已有更强的效果）
-[20:38:11] [Render thread/INFO]: [CHAT] 未找到实体
-[20:38:14] [Server thread/INFO]: Saving and pausing game...
-[20:38:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:38:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:38:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:38:16] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=falling_block] at @s run tp @s ^0 ^0 ^1 ~10 ~
-[20:38:21] [Server thread/INFO]: Saving and pausing game...
-[20:38:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:38:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:38:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:38:22] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=falling_block] at @s run tp @s ^0 ^0 ^1 ~10 ~
-[20:38:32] [Server thread/INFO]: Saving and pausing game...
-[20:38:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:38:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:38:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:38:33] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=falling_block] at @s run tp @s ^0 ^0 ^1 ~10 ~
-[20:38:34] [Server thread/INFO]: Saving and pausing game...
-[20:38:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:38:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:38:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:38:39] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=falling_block] at @s run tp @s ^0 ^0 ^1 ~10 ~
-[20:38:40] [Server thread/INFO]: Saving and pausing game...
-[20:38:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:38:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:38:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:38:41] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=falling_block] at @s run tp @s ^0 ^0 ^1 ~10 ~
-[20:38:42] [Server thread/INFO]: Saving and pausing game...
-[20:38:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:38:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:38:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:38:45] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=falling_block] at @s run tp @s ^0 ^0 1 ~10 ~
-[20:38:46] [Server thread/INFO]: Saving and pausing game...
-[20:38:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:38:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:38:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:38:54] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=falling_block] at @s run tp @s ~ ~ ~1 ~10 ~
-[20:39:00] [Server thread/INFO]: Saving and pausing game...
-[20:39:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:39:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:39:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:39:01] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=falling_block] at @s run tp @s ~ ~ ~1 ~10 ~
-[20:39:12] [Server thread/INFO]: Saving and pausing game...
-[20:39:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:39:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:39:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:39:19] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=falling_block] at @s run tp @s ^ ^ ^1 ~10 ~
-[20:39:43] [Render thread/INFO]: [CHAT] 未找到实体
-[20:40:19] [Server thread/INFO]: Saving and pausing game...
-[20:40:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:40:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:40:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:40:53] [Render thread/INFO]: [CHAT] 已清除潜影贝
-[20:40:55] [Server thread/INFO]: Saving and pausing game...
-[20:40:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:40:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:40:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:40:59] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=minecraft:shulker] at @s run tp @s ^ ^ ^1 ~10 ~
-[20:41:05] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为旁观模式 
-[20:41:20] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为创造模式 
-[20:41:23] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为旁观模式 
-[20:41:26] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为创造模式 
-[20:41:35] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为旁观模式 
-[20:41:57] [Render thread/INFO]: [CHAT] 已将截图保存为2021-10-07_20.41.56.png
-[20:41:59] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为创造模式 
-[20:42:02] [Server thread/INFO]: Saving and pausing game...
-[20:42:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:42:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:42:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:42:05] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=minecraft:shulker] at @s run tp @s ^ ^-1 ^1 ~10 ~
-[20:42:07] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为旁观模式 
-[20:42:14] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为创造模式 
-[20:42:21] [Server thread/INFO]: Saving and pausing game...
-[20:42:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:42:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:42:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:42:22] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=minecraft:shulker] at @s run tp @s ^ ^-1 ^1 ~10 ~
-[20:42:35] [Server thread/INFO]: Saving and pausing game...
-[20:42:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:42:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:42:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:42:38] [Server thread/INFO]: Saving and pausing game...
-[20:42:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:42:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:42:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:42:42] [Server thread/INFO]: Saving and pausing game...
-[20:42:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:42:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:42:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:42:47] [Server thread/INFO]: Saving and pausing game...
-[20:42:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:42:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:42:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:42:49] [Server thread/INFO]: Saving and pausing game...
-[20:42:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:42:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:42:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:42:52] [Server thread/INFO]: Saving and pausing game...
-[20:42:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:42:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:42:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:42:56] [Server thread/INFO]: Saving and pausing game...
-[20:42:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:42:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:42:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:43:15] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=falling_block] at @s run tp @s ^ ^ ^1 ~10 ~
-[20:43:16] [Server thread/INFO]: Saving and pausing game...
-[20:43:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:43:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:43:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:43:18] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=falling_block] at @s run tp @s ^ ^ ^1 ~10 ~
-[20:43:19] [Server thread/INFO]: Saving and pausing game...
-[20:43:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:43:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:43:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:43:37] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=minecraft:armor_stand,name=helper] at @s run tp @s ^ ^ ^1 ~10 ~
-[20:44:07] [Server thread/WARN]: Trying to add entity with duplicated UUID b3d1aaa0-2f66-4a25-95a4-5fb658c4228a. Existing minecraft:armor_stand#841, new: minecraft:armor_stand#841
-[20:44:18] [Render thread/INFO]: [CHAT] 已清除盔甲架
-[20:44:30] [Render thread/INFO]: [CHAT] 更改了位于-9, 7, -7的方块
-[20:44:38] [Render thread/INFO]: [CHAT] 更改了位于-9, 7, -7的方块
-[20:44:42] [Server thread/INFO]: Saving and pausing game...
-[20:44:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:44:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:44:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:44:48] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=minecraft:bat,name=helper] at @s run tp @s ^ ^ ^1 ~10 ~
-[20:45:19] [Render thread/INFO]: [CHAT] 未找到实体
-[20:45:46] [Render thread/INFO]: [CHAT] 召唤了新的helper
-[20:45:55] [Server thread/INFO]: Saving and pausing game...
-[20:45:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:45:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:45:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:45:56] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=minecraft:bat,name=helper] at @s run tp @s ^ ^ ^1 ~10 ~
-[20:46:03] [Server thread/INFO]: Saving and pausing game...
-[20:46:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:46:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:46:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:46:04] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=minecraft:bat,name=helper] at @s run tp @s ^ ^ ^1 ~10 ~
-[20:46:10] [Server thread/INFO]: Saving and pausing game...
-[20:46:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:46:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:46:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:46:18] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=
-[20:46:19] [Server thread/INFO]: Saving and pausing game...
-[20:46:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:46:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:46:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:46:21] [Server thread/INFO]: Saving and pausing game...
-[20:46:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:46:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:46:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:46:22] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=
-[20:46:22] [Server thread/INFO]: Saving and pausing game...
-[20:46:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:46:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:46:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:46:39] [Render thread/INFO]: [CHAT] 成功设置：execute as @e[type=minecraft:bat,name=helper] at @s run summon minecraft:falling_block
-[20:46:52] [Server thread/INFO]: Saving and pausing game...
-[20:46:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:46:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:46:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:46:58] [Render thread/INFO]: [CHAT] 已清除helper
-[20:47:40] [Server thread/INFO]: Saving and pausing game...
-[20:47:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:47:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:47:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:47:43] [Render thread/INFO]: [CHAT] 召唤了新的helper
-[20:48:17] [Render thread/INFO]: [CHAT] 已将隐身效果应用于helper
-[20:48:25] [Render thread/INFO]: [CHAT] 已将隐身效果应用于helper
-[20:48:38] [Render thread/INFO]: [CHAT] 已清除helper
-[20:48:40] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为旁观模式 
-[20:48:44] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为创造模式 
-[20:48:47] [Render thread/INFO]: [CHAT] 未找到实体
-[20:48:50] [Render thread/INFO]: [CHAT] 召唤了新的helper
-[20:48:56] [Render thread/INFO]: [CHAT] 已将隐身效果应用于helper
-[20:49:24] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为旁观模式 
-[20:49:28] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为创造模式 
-[20:49:36] [Render thread/INFO]: [CHAT] 已清除helper
-[20:49:39] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为旁观模式 
-[20:49:41] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为创造模式 
-[20:49:42] [Render thread/INFO]: [CHAT] 输入/trigger trig set 3来进入旁观者模式，输入/trigger trig set 2来返回冒险模式
-[20:49:42] [Render thread/INFO]: [CHAT] [点我查看帮助]
-[20:49:42] [Render thread/INFO]: [CHAT] 输入/trigger trig set 3来进入旁观者模式，输入/trigger trig set 2来返回冒险模式
-[20:49:42] [Render thread/INFO]: [CHAT] [点我查看帮助]
-[20:49:44] [Server thread/INFO]: Saving and pausing game...
-[20:49:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:49:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:49:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:49:44] [Server thread/INFO]: GLgele lost connection: 连接中止
-[20:49:44] [Server thread/INFO]: GLgele退出了游戏
-[20:49:44] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[20:49:44] [Server thread/INFO]: Stopping server
-[20:49:44] [Server thread/INFO]: Saving players
-[20:49:44] [Server thread/INFO]: Saving worlds
-[20:49:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:overworld
-[20:49:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (梦魇之渊): All chunks are saved
-[20:49:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_nether
-[20:49:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:49:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[梦魇之渊]'/minecraft:the_end
-[20:49:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:49:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (梦魇之渊): All chunks are saved
-[20:49:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:49:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:49:45] [Render thread/INFO]: Stopping!
+[12:50:52] [Render thread/INFO]: Environment: authHost='https://mcskin.littleservice.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:62612/https/api.mojang.com', sessionHost='http://127.0.0.1:62612/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:62612/https/api.minecraftservices.com', name='PROD'
+[12:50:53] [Render thread/INFO]: Setting user: GLgele
+[12:50:53] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[12:50:57] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[12:50:57] [Render thread/INFO]: Reloading ResourceManager: Default, Dream-HELL
+[12:51:01] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[12:51:04] [Worker-Main-9/WARN]: Texture minecraft:item/orange_dye with size 18x18 limits mip level from 4 to 1
+[12:51:04] [Worker-Main-9/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 1, because of minimum power of two: 2
+[12:51:05] [Render thread/INFO]: OpenAL initialized.
+[12:51:05] [Render thread/INFO]: Sound engine started
+[12:51:06] [Render thread/INFO]: Created: 1024x1024x1 minecraft:textures/atlas/blocks.png-atlas
+[12:51:06] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[12:51:06] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[12:51:06] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[12:51:06] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[12:51:06] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[12:51:06] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[12:51:07] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[12:51:07] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[12:51:07] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[12:51:42] [Render thread/INFO]: Found new data pack file/Test, loading it automatically
+[12:51:43] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:51:43] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:51:43] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:51:43] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:51:43] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:51:43] [Render thread/INFO]: Reloading ResourceManager: Default, Test
+[12:51:43] [Render thread/INFO]: Loaded 7 recipes
+[12:51:43] [Render thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
+[12:51:43] [Render thread/ERROR]: Couldn't load function tag minecraft:load as it is missing following references: test:load (from Test)
+[12:51:43] [Render thread/INFO]: Loaded 927 advancements
+[12:51:44] [Render thread/INFO]: Environment: authHost='https://mcskin.littleservice.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:62612/https/api.mojang.com', sessionHost='http://127.0.0.1:62612/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:62612/https/api.minecraftservices.com', name='PROD'
+[12:51:44] [Server thread/INFO]: Starting integrated minecraft server version 1.16.5
+[12:51:44] [Server thread/INFO]: Generating keypair
+[12:51:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:51:45] [Render thread/INFO]: 准备生成区域中：0%
+[12:51:45] [Render thread/INFO]: 准备生成区域中：0%
+[12:51:45] [Server thread/INFO]: Changing view distance to 11, from 10
+[12:51:45] [Render thread/INFO]: Time elapsed: 733 ms
+[12:51:48] [Server thread/INFO]: GLgele[local:E:8273ccb6] logged in with entity id 1 at (-0.8188133245326167, 4.0, -3.254763180888982)
+[12:51:48] [Server thread/INFO]: GLgele加入了游戏
+[12:51:48] [Server thread/INFO]: Saving and pausing game...
+[12:51:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[12:51:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[12:51:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[12:51:48] [Render thread/INFO]: Loaded 927 advancements
+[12:52:04] [Render thread/INFO]: [CHAT] 掉落了1个[item.test.test_bow]
+[12:52:16] [Server thread/INFO]: Saving and pausing game...
+[12:52:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[12:52:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[12:52:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[12:52:20] [Render thread/INFO]: Reloading ResourceManager: Default
+[12:52:21] [Render thread/INFO]: OpenAL initialized.
+[12:52:21] [Render thread/INFO]: Sound engine started
+[12:52:21] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[12:52:21] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[12:52:21] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[12:52:21] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[12:52:21] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[12:52:21] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[12:52:21] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[12:52:22] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[12:52:22] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[12:52:22] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[12:52:26] [Server thread/INFO]: Saving and pausing game...
+[12:52:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[12:52:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[12:52:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[16:30:04] [Render thread/INFO]: Reloading ResourceManager: Default, TestPack
+[16:30:05] [Worker-Main-23/WARN]: Texture test:item/remote_off with size 200x200 limits mip level from 4 to 3
+[16:30:05] [Worker-Main-23/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[16:30:05] [Render thread/INFO]: OpenAL initialized.
+[16:30:05] [Render thread/INFO]: Sound engine started
+[16:30:06] [Render thread/INFO]: Created: 1024x1024x3 minecraft:textures/atlas/blocks.png-atlas
+[16:30:06] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[16:30:06] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[16:30:06] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[16:30:06] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[16:30:06] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[16:30:06] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16:30:06] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[16:30:06] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16:30:06] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16:30:30] [Render thread/INFO]: [CHAT] 掉落了1个[item.test.test_bow]
+[16:31:22] [Render thread/INFO]: [CHAT] [调试]： 已重新加载资源包
+[16:31:22] [Render thread/INFO]: Reloading ResourceManager: Default, TestPack
+[16:31:22] [Server thread/INFO]: Saving and pausing game...
+[16:31:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[16:31:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[16:31:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[16:31:23] [Worker-Main-23/WARN]: Texture test:item/remote_off with size 200x200 limits mip level from 4 to 3
+[16:31:23] [Worker-Main-23/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[16:31:23] [Render thread/INFO]: OpenAL initialized.
+[16:31:23] [Render thread/INFO]: Sound engine started
+[16:31:24] [Render thread/INFO]: Created: 1024x1024x3 minecraft:textures/atlas/blocks.png-atlas
+[16:31:24] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[16:31:24] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[16:31:24] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[16:31:24] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[16:31:24] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[16:31:24] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16:31:24] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[16:31:24] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16:31:24] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16:31:27] [Server thread/INFO]: [GLgele: 重新加载中！]
+[16:31:27] [Render thread/INFO]: [CHAT] 重新加载中！
+[16:31:27] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:31:27] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:31:27] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:31:27] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:31:27] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:31:27] [Server thread/INFO]: Reloading ResourceManager: Default, Test
+[16:31:27] [Server thread/INFO]: Loaded 7 recipes
+[16:31:27] [Server thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
+[16:31:27] [Server thread/ERROR]: Couldn't load function tag minecraft:load as it is missing following references: test:load (from Test)
+[16:31:27] [Server thread/INFO]: Loaded 927 advancements
+[16:31:28] [Render thread/INFO]: Loaded 927 advancements
+[16:31:30] [Render thread/INFO]: [CHAT] 掉落了1个[§fTest Bow]
+[16:32:25] [Server thread/INFO]: [GLgele: 重新加载中！]
+[16:32:25] [Render thread/INFO]: [CHAT] 重新加载中！
+[16:32:25] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:32:25] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:32:25] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:32:25] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:32:25] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:32:25] [Server thread/INFO]: Reloading ResourceManager: Default, Test
+[16:32:25] [Server thread/INFO]: Loaded 7 recipes
+[16:32:25] [Server thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
+[16:32:25] [Server thread/ERROR]: Couldn't load function tag minecraft:load as it is missing following references: test:load (from Test)
+[16:32:25] [Server thread/INFO]: Loaded 927 advancements
+[16:32:26] [Render thread/INFO]: Loaded 927 advancements
+[16:32:33] [Server thread/INFO]: [GLgele: 重新加载中！]
+[16:32:33] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:32:33] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:32:33] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:32:33] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:32:33] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:32:33] [Server thread/INFO]: Reloading ResourceManager: Default, Test
+[16:32:33] [Render thread/INFO]: [CHAT] 重新加载中！
+[16:32:34] [Server thread/INFO]: Loaded 7 recipes
+[16:32:34] [Server thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
+[16:32:34] [Server thread/ERROR]: Couldn't load function tag minecraft:load as it is missing following references: test:load (from Test)
+[16:32:34] [Server thread/INFO]: Loaded 927 advancements
+[16:32:34] [Render thread/INFO]: Loaded 927 advancements
+[16:32:35] [Render thread/INFO]: [CHAT] 掉落了1个[§fTest Bow]
+[16:34:56] [Server thread/INFO]: [GLgele: 重新加载中！]
+[16:34:56] [Render thread/INFO]: [CHAT] 重新加载中！
+[16:34:56] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:34:56] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:34:56] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:34:56] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:34:56] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:34:56] [Server thread/INFO]: Reloading ResourceManager: Default, Test
+[16:34:56] [Server thread/INFO]: Loaded 7 recipes
+[16:34:56] [Server thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
+[16:34:56] [Server thread/INFO]: Loaded 927 advancements
+[16:34:57] [Render thread/INFO]: Loaded 927 advancements
+[16:36:11] [Server thread/INFO]: [GLgele: 重新加载中！]
+[16:36:11] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:36:11] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:36:11] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:36:11] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:36:11] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:36:11] [Server thread/INFO]: Reloading ResourceManager: Default, Test
+[16:36:11] [Render thread/INFO]: [CHAT] 重新加载中！
+[16:36:11] [Server thread/INFO]: Loaded 7 recipes
+[16:36:11] [Server thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
+[16:36:11] [Server thread/INFO]: Loaded 927 advancements
+[16:36:12] [Render thread/INFO]: [CHAT] Reload successed!
+[16:36:12] [Render thread/INFO]: Loaded 927 advancements
+[16:37:31] [Server thread/INFO]: [GLgele: 重新加载中！]
+[16:37:31] [Render thread/INFO]: [CHAT] 重新加载中！
+[16:37:31] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:37:31] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:37:31] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:37:31] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:37:31] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:37:31] [Server thread/INFO]: Reloading ResourceManager: Default, Test
+[16:37:31] [Server thread/INFO]: Loaded 7 recipes
+[16:37:31] [Server thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
+[16:37:31] [Server thread/INFO]: Loaded 927 advancements
+[16:37:31] [Render thread/INFO]: [CHAT] Reload successed!
+[16:37:31] [Render thread/INFO]: Loaded 927 advancements
+[16:37:37] [Render thread/INFO]: [CHAT] 需要浮点型
+[16:37:37] [Render thread/INFO]: [CHAT] /time set f<--[此处]
+[16:37:39] [Server thread/INFO]: [GLgele: 将时间设为1000]
+[16:37:39] [Render thread/INFO]: [CHAT] 将时间设为1000
+[16:37:43] [Server thread/INFO]: Saving and pausing game...
+[16:37:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[16:37:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[16:37:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[16:40:50] [Server thread/INFO]: [GLgele: 重新加载中！]
+[16:40:50] [Render thread/INFO]: [CHAT] 重新加载中！
+[16:40:50] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:40:50] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:40:50] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:40:50] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:40:50] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:40:50] [Server thread/INFO]: Reloading ResourceManager: Default, Test
+[16:40:51] [Server thread/INFO]: Loaded 7 recipes
+[16:40:51] [Server thread/ERROR]: Failed to load function test:tick
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: 需要':' at position 61: ...st_bow\"}"<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: 需要':' at position 61: ...st_bow\"}"<--[HERE]
+	at cy.a(SourceFile:62) ~[1.16.5.jar:?]
+	at vw.a(SourceFile:86) ~[1.16.5.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 6 more
+[16:40:51] [Server thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
+[16:40:51] [Server thread/INFO]: Loaded 927 advancements
+[16:40:51] [Render thread/INFO]: [CHAT] Reload successed!
+[16:40:51] [Render thread/INFO]: Loaded 927 advancements
+[16:41:04] [Server thread/INFO]: [GLgele: 重新加载中！]
+[16:41:04] [Render thread/INFO]: [CHAT] 重新加载中！
+[16:41:04] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:41:04] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:41:04] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:41:04] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:41:04] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:41:04] [Server thread/INFO]: Reloading ResourceManager: Default, Test
+[16:41:04] [Server thread/INFO]: Loaded 7 recipes
+[16:41:04] [Server thread/ERROR]: Failed to load function test:tick
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: 需要':' at position 61: ...st_bow\"}"<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: 需要':' at position 61: ...st_bow\"}"<--[HERE]
+	at cy.a(SourceFile:62) ~[1.16.5.jar:?]
+	at vw.a(SourceFile:86) ~[1.16.5.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 6 more
+[16:41:04] [Server thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
+[16:41:04] [Server thread/INFO]: Loaded 927 advancements
+[16:41:05] [Render thread/INFO]: [CHAT] Reload successed!
+[16:41:05] [Render thread/INFO]: Loaded 927 advancements
+[16:41:10] [Server thread/INFO]: Saving and pausing game...
+[16:41:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[16:41:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[16:41:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[16:42:47] [Server thread/INFO]: [GLgele: 重新加载中！]
+[16:42:47] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:42:47] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:42:47] [Render thread/INFO]: [CHAT] 重新加载中！
+[16:42:47] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:42:47] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:42:47] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:42:47] [Server thread/INFO]: Reloading ResourceManager: Default, Test
+[16:42:48] [Server thread/INFO]: Loaded 7 recipes
+[16:42:48] [Server thread/INFO]: Loaded 927 advancements
+[16:42:48] [Render thread/INFO]: [CHAT] Reload successed!
+[16:42:48] [Render thread/INFO]: Loaded 927 advancements
+[16:43:10] [Server thread/INFO]: [GLgele: 杀死了41个实体]
+[16:43:10] [Render thread/INFO]: [CHAT] 杀死了41个实体
+[16:44:07] [Server thread/INFO]: [GLgele: 重新加载中！]
+[16:44:07] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:44:07] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:44:07] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:44:07] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:44:07] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:44:07] [Server thread/INFO]: Reloading ResourceManager: Default, Test
+[16:44:07] [Render thread/INFO]: [CHAT] 重新加载中！
+[16:44:07] [Server thread/INFO]: Loaded 7 recipes
+[16:44:07] [Server thread/INFO]: Loaded 927 advancements
+[16:44:08] [Render thread/INFO]: [CHAT] Reload successed!
+[16:44:08] [Render thread/INFO]: Loaded 927 advancements
+[16:44:47] [Server thread/INFO]: [GLgele: 重新加载中！]
+[16:44:47] [Render thread/INFO]: [CHAT] 重新加载中！
+[16:44:47] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:44:47] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:44:47] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:44:47] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:44:47] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:44:47] [Server thread/INFO]: Reloading ResourceManager: Default, Test
+[16:44:47] [Server thread/INFO]: Loaded 7 recipes
+[16:44:47] [Server thread/INFO]: Loaded 927 advancements
+[16:44:48] [Render thread/INFO]: [CHAT] Reload successed!
+[16:44:48] [Render thread/INFO]: Loaded 927 advancements
+[16:45:41] [Server thread/INFO]: [GLgele: 召唤了新的箭]
+[16:45:41] [Render thread/INFO]: [CHAT] 召唤了新的箭
+[16:45:44] [Server thread/INFO]: [GLgele: 召唤了新的箭]
+[16:45:44] [Render thread/INFO]: [CHAT] 召唤了新的箭
+[16:45:52] [Server thread/INFO]: [GLgele: 召唤了新的箭]
+[16:45:52] [Render thread/INFO]: [CHAT] 召唤了新的箭
+[16:46:04] [Server thread/INFO]: [GLgele: 召唤了新的箭]
+[16:46:04] [Render thread/INFO]: [CHAT] 召唤了新的箭
+[16:46:07] [Server thread/INFO]: [GLgele: 召唤了新的箭]
+[16:46:07] [Render thread/INFO]: [CHAT] 召唤了新的箭
+[16:46:15] [Server thread/INFO]: [GLgele: 召唤了新的箭]
+[16:46:15] [Render thread/INFO]: [CHAT] 召唤了新的箭
+[16:46:19] [Server thread/INFO]: [GLgele: 召唤了新的箭]
+[16:46:19] [Render thread/INFO]: [CHAT] 召唤了新的箭
+[16:46:23] [Server thread/INFO]: [GLgele: 召唤了新的箭]
+[16:46:23] [Render thread/INFO]: [CHAT] 召唤了新的箭
+[16:46:25] [Server thread/INFO]: Saving and pausing game...
+[16:46:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[16:46:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[16:46:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[16:46:31] [Server thread/INFO]: GLgele lost connection: 连接中止
+[16:46:31] [Server thread/INFO]: GLgele退出了游戏
+[16:46:31] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[16:46:31] [Server thread/INFO]: Stopping server
+[16:46:31] [Server thread/INFO]: Saving players
+[16:46:31] [Server thread/INFO]: Saving worlds
+[16:46:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[16:46:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (Void_CBtest): All chunks are saved
+[16:46:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[16:46:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:46:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[16:46:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:46:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (Void_CBtest): All chunks are saved
+[16:46:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:46:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:46:31] [Render thread/INFO]: Stopping!
