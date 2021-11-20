@@ -1,327 +1,571 @@
-[12:50:52] [Render thread/INFO]: Environment: authHost='https://mcskin.littleservice.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:62612/https/api.mojang.com', sessionHost='http://127.0.0.1:62612/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:62612/https/api.minecraftservices.com', name='PROD'
-[12:50:53] [Render thread/INFO]: Setting user: GLgele
-[12:50:53] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
-[12:50:57] [Render thread/INFO]: Narrator library for x64 successfully loaded
-[12:50:57] [Render thread/INFO]: Reloading ResourceManager: Default, Dream-HELL
-[12:51:01] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[12:51:04] [Worker-Main-9/WARN]: Texture minecraft:item/orange_dye with size 18x18 limits mip level from 4 to 1
-[12:51:04] [Worker-Main-9/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 1, because of minimum power of two: 2
-[12:51:05] [Render thread/INFO]: OpenAL initialized.
-[12:51:05] [Render thread/INFO]: Sound engine started
-[12:51:06] [Render thread/INFO]: Created: 1024x1024x1 minecraft:textures/atlas/blocks.png-atlas
-[12:51:06] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[12:51:06] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[12:51:06] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[12:51:06] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[12:51:06] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[12:51:06] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[12:51:07] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[12:51:07] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[12:51:07] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[12:51:42] [Render thread/INFO]: Found new data pack file/Test, loading it automatically
-[12:51:43] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12:51:43] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:51:43] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:51:43] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12:51:43] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:51:43] [Render thread/INFO]: Reloading ResourceManager: Default, Test
-[12:51:43] [Render thread/INFO]: Loaded 7 recipes
-[12:51:43] [Render thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
-[12:51:43] [Render thread/ERROR]: Couldn't load function tag minecraft:load as it is missing following references: test:load (from Test)
-[12:51:43] [Render thread/INFO]: Loaded 927 advancements
-[12:51:44] [Render thread/INFO]: Environment: authHost='https://mcskin.littleservice.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:62612/https/api.mojang.com', sessionHost='http://127.0.0.1:62612/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:62612/https/api.minecraftservices.com', name='PROD'
-[12:51:44] [Server thread/INFO]: Starting integrated minecraft server version 1.16.5
-[12:51:44] [Server thread/INFO]: Generating keypair
-[12:51:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:51:45] [Render thread/INFO]: 准备生成区域中：0%
-[12:51:45] [Render thread/INFO]: 准备生成区域中：0%
-[12:51:45] [Server thread/INFO]: Changing view distance to 11, from 10
-[12:51:45] [Render thread/INFO]: Time elapsed: 733 ms
-[12:51:48] [Server thread/INFO]: GLgele[local:E:8273ccb6] logged in with entity id 1 at (-0.8188133245326167, 4.0, -3.254763180888982)
-[12:51:48] [Server thread/INFO]: GLgele加入了游戏
-[12:51:48] [Server thread/INFO]: Saving and pausing game...
-[12:51:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
-[12:51:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
-[12:51:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
-[12:51:48] [Render thread/INFO]: Loaded 927 advancements
-[12:52:04] [Render thread/INFO]: [CHAT] 掉落了1个[item.test.test_bow]
-[12:52:16] [Server thread/INFO]: Saving and pausing game...
-[12:52:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
-[12:52:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
-[12:52:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
-[12:52:20] [Render thread/INFO]: Reloading ResourceManager: Default
-[12:52:21] [Render thread/INFO]: OpenAL initialized.
-[12:52:21] [Render thread/INFO]: Sound engine started
-[12:52:21] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[12:52:21] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[12:52:21] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[12:52:21] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[12:52:21] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[12:52:21] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[12:52:21] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[12:52:22] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[12:52:22] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[12:52:22] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[12:52:26] [Server thread/INFO]: Saving and pausing game...
-[12:52:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
-[12:52:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
-[12:52:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
-[16:30:04] [Render thread/INFO]: Reloading ResourceManager: Default, TestPack
-[16:30:05] [Worker-Main-23/WARN]: Texture test:item/remote_off with size 200x200 limits mip level from 4 to 3
-[16:30:05] [Worker-Main-23/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
-[16:30:05] [Render thread/INFO]: OpenAL initialized.
-[16:30:05] [Render thread/INFO]: Sound engine started
-[16:30:06] [Render thread/INFO]: Created: 1024x1024x3 minecraft:textures/atlas/blocks.png-atlas
-[16:30:06] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[16:30:06] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[16:30:06] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[16:30:06] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[16:30:06] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[16:30:06] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[16:30:06] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[16:30:06] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[16:30:06] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[16:30:30] [Render thread/INFO]: [CHAT] 掉落了1个[item.test.test_bow]
-[16:31:22] [Render thread/INFO]: [CHAT] [调试]： 已重新加载资源包
-[16:31:22] [Render thread/INFO]: Reloading ResourceManager: Default, TestPack
-[16:31:22] [Server thread/INFO]: Saving and pausing game...
-[16:31:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
-[16:31:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
-[16:31:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
-[16:31:23] [Worker-Main-23/WARN]: Texture test:item/remote_off with size 200x200 limits mip level from 4 to 3
-[16:31:23] [Worker-Main-23/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
-[16:31:23] [Render thread/INFO]: OpenAL initialized.
-[16:31:23] [Render thread/INFO]: Sound engine started
-[16:31:24] [Render thread/INFO]: Created: 1024x1024x3 minecraft:textures/atlas/blocks.png-atlas
-[16:31:24] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[16:31:24] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[16:31:24] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[16:31:24] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[16:31:24] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[16:31:24] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[16:31:24] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[16:31:24] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[16:31:24] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[16:31:27] [Server thread/INFO]: [GLgele: 重新加载中！]
-[16:31:27] [Render thread/INFO]: [CHAT] 重新加载中！
-[16:31:27] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:31:27] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:31:27] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:31:27] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:31:27] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:31:27] [Server thread/INFO]: Reloading ResourceManager: Default, Test
-[16:31:27] [Server thread/INFO]: Loaded 7 recipes
-[16:31:27] [Server thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
-[16:31:27] [Server thread/ERROR]: Couldn't load function tag minecraft:load as it is missing following references: test:load (from Test)
-[16:31:27] [Server thread/INFO]: Loaded 927 advancements
-[16:31:28] [Render thread/INFO]: Loaded 927 advancements
-[16:31:30] [Render thread/INFO]: [CHAT] 掉落了1个[§fTest Bow]
-[16:32:25] [Server thread/INFO]: [GLgele: 重新加载中！]
-[16:32:25] [Render thread/INFO]: [CHAT] 重新加载中！
-[16:32:25] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:32:25] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:32:25] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:32:25] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:32:25] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:32:25] [Server thread/INFO]: Reloading ResourceManager: Default, Test
-[16:32:25] [Server thread/INFO]: Loaded 7 recipes
-[16:32:25] [Server thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
-[16:32:25] [Server thread/ERROR]: Couldn't load function tag minecraft:load as it is missing following references: test:load (from Test)
-[16:32:25] [Server thread/INFO]: Loaded 927 advancements
-[16:32:26] [Render thread/INFO]: Loaded 927 advancements
-[16:32:33] [Server thread/INFO]: [GLgele: 重新加载中！]
-[16:32:33] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:32:33] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:32:33] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:32:33] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:32:33] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:32:33] [Server thread/INFO]: Reloading ResourceManager: Default, Test
-[16:32:33] [Render thread/INFO]: [CHAT] 重新加载中！
-[16:32:34] [Server thread/INFO]: Loaded 7 recipes
-[16:32:34] [Server thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
-[16:32:34] [Server thread/ERROR]: Couldn't load function tag minecraft:load as it is missing following references: test:load (from Test)
-[16:32:34] [Server thread/INFO]: Loaded 927 advancements
-[16:32:34] [Render thread/INFO]: Loaded 927 advancements
-[16:32:35] [Render thread/INFO]: [CHAT] 掉落了1个[§fTest Bow]
-[16:34:56] [Server thread/INFO]: [GLgele: 重新加载中！]
-[16:34:56] [Render thread/INFO]: [CHAT] 重新加载中！
-[16:34:56] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:34:56] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:34:56] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:34:56] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:34:56] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:34:56] [Server thread/INFO]: Reloading ResourceManager: Default, Test
-[16:34:56] [Server thread/INFO]: Loaded 7 recipes
-[16:34:56] [Server thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
-[16:34:56] [Server thread/INFO]: Loaded 927 advancements
-[16:34:57] [Render thread/INFO]: Loaded 927 advancements
-[16:36:11] [Server thread/INFO]: [GLgele: 重新加载中！]
-[16:36:11] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:36:11] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:36:11] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:36:11] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:36:11] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:36:11] [Server thread/INFO]: Reloading ResourceManager: Default, Test
-[16:36:11] [Render thread/INFO]: [CHAT] 重新加载中！
-[16:36:11] [Server thread/INFO]: Loaded 7 recipes
-[16:36:11] [Server thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
-[16:36:11] [Server thread/INFO]: Loaded 927 advancements
-[16:36:12] [Render thread/INFO]: [CHAT] Reload successed!
-[16:36:12] [Render thread/INFO]: Loaded 927 advancements
-[16:37:31] [Server thread/INFO]: [GLgele: 重新加载中！]
-[16:37:31] [Render thread/INFO]: [CHAT] 重新加载中！
-[16:37:31] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:37:31] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:37:31] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:37:31] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:37:31] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:37:31] [Server thread/INFO]: Reloading ResourceManager: Default, Test
-[16:37:31] [Server thread/INFO]: Loaded 7 recipes
-[16:37:31] [Server thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
-[16:37:31] [Server thread/INFO]: Loaded 927 advancements
-[16:37:31] [Render thread/INFO]: [CHAT] Reload successed!
-[16:37:31] [Render thread/INFO]: Loaded 927 advancements
-[16:37:37] [Render thread/INFO]: [CHAT] 需要浮点型
-[16:37:37] [Render thread/INFO]: [CHAT] /time set f<--[此处]
-[16:37:39] [Server thread/INFO]: [GLgele: 将时间设为1000]
-[16:37:39] [Render thread/INFO]: [CHAT] 将时间设为1000
-[16:37:43] [Server thread/INFO]: Saving and pausing game...
-[16:37:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
-[16:37:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
-[16:37:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
-[16:40:50] [Server thread/INFO]: [GLgele: 重新加载中！]
-[16:40:50] [Render thread/INFO]: [CHAT] 重新加载中！
-[16:40:50] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:40:50] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:40:50] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:40:50] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:40:50] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:40:50] [Server thread/INFO]: Reloading ResourceManager: Default, Test
-[16:40:51] [Server thread/INFO]: Loaded 7 recipes
-[16:40:51] [Server thread/ERROR]: Failed to load function test:tick
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: 需要':' at position 61: ...st_bow\"}"<--[HERE]
-	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
-	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: 需要':' at position 61: ...st_bow\"}"<--[HERE]
-	at cy.a(SourceFile:62) ~[1.16.5.jar:?]
-	at vw.a(SourceFile:86) ~[1.16.5.jar:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
-	... 6 more
-[16:40:51] [Server thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
-[16:40:51] [Server thread/INFO]: Loaded 927 advancements
-[16:40:51] [Render thread/INFO]: [CHAT] Reload successed!
-[16:40:51] [Render thread/INFO]: Loaded 927 advancements
-[16:41:04] [Server thread/INFO]: [GLgele: 重新加载中！]
-[16:41:04] [Render thread/INFO]: [CHAT] 重新加载中！
-[16:41:04] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:41:04] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:41:04] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:41:04] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:41:04] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:41:04] [Server thread/INFO]: Reloading ResourceManager: Default, Test
-[16:41:04] [Server thread/INFO]: Loaded 7 recipes
-[16:41:04] [Server thread/ERROR]: Failed to load function test:tick
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: 需要':' at position 61: ...st_bow\"}"<--[HERE]
-	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
-	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: 需要':' at position 61: ...st_bow\"}"<--[HERE]
-	at cy.a(SourceFile:62) ~[1.16.5.jar:?]
-	at vw.a(SourceFile:86) ~[1.16.5.jar:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
-	... 6 more
-[16:41:04] [Server thread/ERROR]: Couldn't load function tag minecraft:tick as it is missing following references: test:tick (from Test)
-[16:41:04] [Server thread/INFO]: Loaded 927 advancements
-[16:41:05] [Render thread/INFO]: [CHAT] Reload successed!
-[16:41:05] [Render thread/INFO]: Loaded 927 advancements
-[16:41:10] [Server thread/INFO]: Saving and pausing game...
-[16:41:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
-[16:41:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
-[16:41:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
-[16:42:47] [Server thread/INFO]: [GLgele: 重新加载中！]
-[16:42:47] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:42:47] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:42:47] [Render thread/INFO]: [CHAT] 重新加载中！
-[16:42:47] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:42:47] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:42:47] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:42:47] [Server thread/INFO]: Reloading ResourceManager: Default, Test
-[16:42:48] [Server thread/INFO]: Loaded 7 recipes
-[16:42:48] [Server thread/INFO]: Loaded 927 advancements
-[16:42:48] [Render thread/INFO]: [CHAT] Reload successed!
-[16:42:48] [Render thread/INFO]: Loaded 927 advancements
-[16:43:10] [Server thread/INFO]: [GLgele: 杀死了41个实体]
-[16:43:10] [Render thread/INFO]: [CHAT] 杀死了41个实体
-[16:44:07] [Server thread/INFO]: [GLgele: 重新加载中！]
-[16:44:07] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:44:07] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:44:07] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:44:07] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:44:07] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:44:07] [Server thread/INFO]: Reloading ResourceManager: Default, Test
-[16:44:07] [Render thread/INFO]: [CHAT] 重新加载中！
-[16:44:07] [Server thread/INFO]: Loaded 7 recipes
-[16:44:07] [Server thread/INFO]: Loaded 927 advancements
-[16:44:08] [Render thread/INFO]: [CHAT] Reload successed!
-[16:44:08] [Render thread/INFO]: Loaded 927 advancements
-[16:44:47] [Server thread/INFO]: [GLgele: 重新加载中！]
-[16:44:47] [Render thread/INFO]: [CHAT] 重新加载中！
-[16:44:47] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:44:47] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:44:47] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:44:47] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:44:47] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:44:47] [Server thread/INFO]: Reloading ResourceManager: Default, Test
-[16:44:47] [Server thread/INFO]: Loaded 7 recipes
-[16:44:47] [Server thread/INFO]: Loaded 927 advancements
-[16:44:48] [Render thread/INFO]: [CHAT] Reload successed!
-[16:44:48] [Render thread/INFO]: Loaded 927 advancements
-[16:45:41] [Server thread/INFO]: [GLgele: 召唤了新的箭]
-[16:45:41] [Render thread/INFO]: [CHAT] 召唤了新的箭
-[16:45:44] [Server thread/INFO]: [GLgele: 召唤了新的箭]
-[16:45:44] [Render thread/INFO]: [CHAT] 召唤了新的箭
-[16:45:52] [Server thread/INFO]: [GLgele: 召唤了新的箭]
-[16:45:52] [Render thread/INFO]: [CHAT] 召唤了新的箭
-[16:46:04] [Server thread/INFO]: [GLgele: 召唤了新的箭]
-[16:46:04] [Render thread/INFO]: [CHAT] 召唤了新的箭
-[16:46:07] [Server thread/INFO]: [GLgele: 召唤了新的箭]
-[16:46:07] [Render thread/INFO]: [CHAT] 召唤了新的箭
-[16:46:15] [Server thread/INFO]: [GLgele: 召唤了新的箭]
-[16:46:15] [Render thread/INFO]: [CHAT] 召唤了新的箭
-[16:46:19] [Server thread/INFO]: [GLgele: 召唤了新的箭]
-[16:46:19] [Render thread/INFO]: [CHAT] 召唤了新的箭
-[16:46:23] [Server thread/INFO]: [GLgele: 召唤了新的箭]
-[16:46:23] [Render thread/INFO]: [CHAT] 召唤了新的箭
-[16:46:25] [Server thread/INFO]: Saving and pausing game...
-[16:46:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
-[16:46:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
-[16:46:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
-[16:46:31] [Server thread/INFO]: GLgele lost connection: 连接中止
-[16:46:31] [Server thread/INFO]: GLgele退出了游戏
-[16:46:31] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[16:46:31] [Server thread/INFO]: Stopping server
-[16:46:31] [Server thread/INFO]: Saving players
-[16:46:31] [Server thread/INFO]: Saving worlds
-[16:46:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
-[16:46:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (Void_CBtest): All chunks are saved
-[16:46:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
-[16:46:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:46:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
-[16:46:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:46:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (Void_CBtest): All chunks are saved
-[16:46:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:46:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:46:31] [Render thread/INFO]: Stopping!
+[18:55:01] [Render thread/INFO]: Environment: authHost='https://mcskin.littleservice.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:60455/https/api.mojang.com', sessionHost='http://127.0.0.1:60455/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:60455/https/api.minecraftservices.com', name='PROD'
+[18:55:01] [Render thread/INFO]: Setting user: GLgele
+[18:55:02] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[18:55:05] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[18:55:05] [Render thread/INFO]: Reloading ResourceManager: Default, TestPack
+[18:55:10] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[18:55:14] [Worker-Main-10/WARN]: Texture test:item/remote_off with size 200x200 limits mip level from 4 to 3
+[18:55:14] [Worker-Main-10/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[18:55:17] [Render thread/INFO]: OpenAL initialized.
+[18:55:17] [Render thread/INFO]: Sound engine started
+[18:55:17] [Render thread/INFO]: Created: 1024x1024x3 minecraft:textures/atlas/blocks.png-atlas
+[18:55:17] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[18:55:17] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[18:55:17] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[18:55:17] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[18:55:17] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[18:55:17] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18:55:19] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[18:55:19] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[18:55:19] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[18:56:11] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:56:11] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:56:11] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:56:11] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:56:11] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:56:11] [Render thread/INFO]: Reloading ResourceManager: Default, Test
+[18:56:11] [Render thread/INFO]: Loaded 7 recipes
+[18:56:12] [Render thread/INFO]: Loaded 927 advancements
+[18:56:12] [Render thread/INFO]: Environment: authHost='https://mcskin.littleservice.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:60455/https/api.mojang.com', sessionHost='http://127.0.0.1:60455/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:60455/https/api.minecraftservices.com', name='PROD'
+[18:56:12] [Server thread/INFO]: Starting integrated minecraft server version 1.16.5
+[18:56:12] [Server thread/INFO]: Generating keypair
+[18:56:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:56:13] [Render thread/INFO]: 准备生成区域中：0%
+[18:56:13] [Render thread/INFO]: Time elapsed: 399 ms
+[18:56:13] [Server thread/INFO]: Changing view distance to 11, from 10
+[18:56:14] [Server thread/INFO]: GLgele[local:E:b571ba8a] logged in with entity id 1 at (1.009226916757201, 4.0, -2.8233066070919306)
+[18:56:14] [Server thread/INFO]: GLgele加入了游戏
+[18:56:14] [Server thread/INFO]: Saving and pausing game...
+[18:56:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[18:56:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[18:56:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[18:56:15] [Render thread/INFO]: Loaded 927 advancements
+[18:56:48] [Server thread/INFO]: [GLgele: 已将1个[命令方块]给予GLgele]
+[18:56:48] [Render thread/INFO]: [CHAT] 已将1个[命令方块]给予GLgele
+[18:56:54] [Server thread/INFO]: Saving and pausing game...
+[18:56:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[18:56:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[18:56:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[18:57:38] [Render thread/INFO]: [CHAT] 成功设置：playsound minecraft:block.note_block.bell music @a 1.00 4.58 -8.36 
+[18:57:48] [Server thread/INFO]: Saving and pausing game...
+[18:57:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[18:57:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[18:57:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[18:57:54] [Server thread/INFO]: <GLgele> playsound minecraft:block.note_block.bell music @a 1.00 4.58 -8.36
+[18:57:54] [Render thread/INFO]: [CHAT] <GLgele> playsound minecraft:block.note_block.bell music @a 1.00 4.58 -8.36
+[18:57:55] [Server thread/INFO]: [GLgele: 已将声音minecraft:block.note_block.bell播放给GLgele]
+[18:57:55] [Render thread/INFO]: [CHAT] 已将声音minecraft:block.note_block.bell播放给GLgele
+[18:57:56] [Server thread/INFO]: [GLgele: 已将声音minecraft:block.note_block.bell播放给GLgele]
+[18:57:56] [Render thread/INFO]: [CHAT] 已将声音minecraft:block.note_block.bell播放给GLgele
+[18:57:56] [Server thread/INFO]: [GLgele: 已将声音minecraft:block.note_block.bell播放给GLgele]
+[18:57:56] [Render thread/INFO]: [CHAT] 已将声音minecraft:block.note_block.bell播放给GLgele
+[18:57:57] [Server thread/INFO]: [GLgele: 已将声音minecraft:block.note_block.bell播放给GLgele]
+[18:57:57] [Render thread/INFO]: [CHAT] 已将声音minecraft:block.note_block.bell播放给GLgele
+[18:57:57] [Server thread/INFO]: [GLgele: 已将声音minecraft:block.note_block.bell播放给GLgele]
+[18:57:57] [Render thread/INFO]: [CHAT] 已将声音minecraft:block.note_block.bell播放给GLgele
+[18:57:59] [Server thread/INFO]: Saving and pausing game...
+[18:57:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[18:57:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[18:57:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[18:58:06] [Render thread/INFO]: [CHAT] 成功设置：playsound minecraft:block.note_block.bell music @a ~ ~ ~
+[18:58:06] [Server thread/INFO]: Saving and pausing game...
+[18:58:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[18:58:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[18:58:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[18:58:07] [Render thread/INFO]: [CHAT] 成功设置：playsound minecraft:block.note_block.bell music @a ~ ~ ~ 10
+[18:58:09] [Server thread/INFO]: Saving and pausing game...
+[18:58:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[18:58:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[18:58:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[18:58:13] [Render thread/INFO]: [CHAT] 成功设置：playsound minecraft:block.note_block.bell block @a ~ ~ ~ 10
+[18:58:18] [Server thread/INFO]: Saving and pausing game...
+[18:58:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[18:58:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[18:58:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[18:58:23] [Server thread/INFO]: Saving and pausing game...
+[18:58:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[18:58:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[18:58:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[18:58:47] [Server thread/INFO]: Saving and pausing game...
+[18:58:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[18:58:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[18:58:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[18:58:51] [Render thread/INFO]: Reloading ResourceManager: Default, Programmer Art, TestPack
+[18:58:52] [Worker-Main-12/WARN]: Texture test:item/remote_off with size 200x200 limits mip level from 4 to 3
+[18:58:52] [Worker-Main-12/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[18:58:52] [Render thread/INFO]: OpenAL initialized.
+[18:58:52] [Render thread/INFO]: Sound engine started
+[18:58:53] [Render thread/INFO]: Created: 1024x1024x3 minecraft:textures/atlas/blocks.png-atlas
+[18:58:53] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[18:58:53] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[18:58:53] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[18:58:53] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[18:58:53] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[18:58:53] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18:58:53] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[18:58:53] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[18:58:53] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[18:59:02] [Server thread/INFO]: [GLgele: 已将1个[调试棒]给予GLgele]
+[18:59:02] [Render thread/INFO]: [CHAT] 已将1个[调试棒]给予GLgele
+[18:59:50] [Server thread/INFO]: Saving and pausing game...
+[18:59:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[18:59:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[18:59:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:00:24] [Server thread/INFO]: [GLgele: 你的游戏模式已被设置为生存模式 ]
+[19:00:24] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为生存模式 
+[19:00:31] [Server thread/INFO]: [GLgele: 你的游戏模式已被设置为冒险模式 ]
+[19:00:31] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为冒险模式 
+[19:00:33] [Server thread/INFO]: [GLgele: 你的游戏模式已被设置为创造模式 ]
+[19:00:33] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为创造模式 
+[19:00:51] [Server thread/INFO]: [GLgele: 你的游戏模式已被设置为生存模式 ]
+[19:00:51] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为生存模式 
+[19:00:58] [Server thread/INFO]: [GLgele: 你的游戏模式已被设置为创造模式 ]
+[19:00:58] [Render thread/INFO]: [CHAT] 你的游戏模式已被设置为创造模式 
+[19:01:46] [Server thread/INFO]: Saving and pausing game...
+[19:01:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:01:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:01:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:02:05] [Server thread/INFO]: Saving and pausing game...
+[19:02:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:02:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:02:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:02:32] [Server thread/INFO]: Saving and pausing game...
+[19:02:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:02:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:02:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:02:43] [Server thread/INFO]: Saving and pausing game...
+[19:02:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:02:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:02:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:02:59] [Render thread/INFO]: [CHAT] 需要浮点型
+[19:02:59] [Render thread/INFO]: [CHAT] /time set df<--[此处]
+[19:03:00] [Server thread/INFO]: [GLgele: 将时间设为1000]
+[19:03:00] [Render thread/INFO]: [CHAT] 将时间设为1000
+[19:03:06] [Server thread/INFO]: Saving and pausing game...
+[19:03:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:03:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:03:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:03:22] [Server thread/INFO]: Saving and pausing game...
+[19:03:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:03:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:03:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:03:29] [Server thread/INFO]: Saving and pausing game...
+[19:03:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:03:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:03:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:03:57] [Server thread/INFO]: Saving and pausing game...
+[19:03:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:03:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:03:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:04:36] [Server thread/INFO]: Saving and pausing game...
+[19:04:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:04:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:04:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:04:48] [Server thread/INFO]: Saving and pausing game...
+[19:04:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:04:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:04:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:05:26] [Server thread/INFO]: Saving and pausing game...
+[19:05:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:05:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:05:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:05:42] [Server thread/INFO]: Saving and pausing game...
+[19:05:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:05:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:05:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:06:26] [Server thread/INFO]: Saving and pausing game...
+[19:06:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:06:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:06:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:08:02] [Render thread/INFO]: Reloading ResourceManager: Default, Programmer Art, TestPack, XeKrcreate1.16V2.zip
+[19:08:02] [Worker-Main-12/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=false,1': Unknown blockstate property: '1'
+[19:08:02] [Worker-Main-12/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=true,1': Unknown blockstate property: '1'
+[19:08:03] [Worker-Main-12/WARN]: Texture minecraft:block/daylight_detector_09 with size 8x8 limits mip level from 4 to 3
+[19:08:03] [Worker-Main-12/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[19:08:03] [Render thread/INFO]: OpenAL initialized.
+[19:08:03] [Render thread/INFO]: Sound engine started
+[19:08:03] [Render thread/INFO]: Created: 2048x1024x3 minecraft:textures/atlas/blocks.png-atlas
+[19:08:03] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19:08:03] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:08:03] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:08:03] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:08:03] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:08:03] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:08:04] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:08:04] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:08:04] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:14:28] [Server thread/INFO]: [GLgele: 将时间设为1000]
+[19:14:28] [Render thread/INFO]: [CHAT] 将时间设为1000
+[19:15:35] [Server thread/INFO]: Saving and pausing game...
+[19:15:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:15:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:15:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:15:40] [Render thread/INFO]: Reloading ResourceManager: Default, Programmer Art, TestPack, Undertale-Musics, XeKrcreate1.16V2.zip
+[19:15:40] [Worker-Main-29/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=false,1': Unknown blockstate property: '1'
+[19:15:40] [Worker-Main-29/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=true,1': Unknown blockstate property: '1'
+[19:15:40] [Worker-Main-29/WARN]: Texture minecraft:block/daylight_detector_09 with size 8x8 limits mip level from 4 to 3
+[19:15:40] [Worker-Main-29/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[19:15:41] [Render thread/INFO]: OpenAL initialized.
+[19:15:41] [Render thread/INFO]: Sound engine started
+[19:15:41] [Render thread/INFO]: Created: 2048x1024x3 minecraft:textures/atlas/blocks.png-atlas
+[19:15:41] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19:15:41] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:15:41] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:15:41] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:15:41] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:15:41] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:15:41] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:15:41] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:15:41] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:15:49] [Render thread/INFO]: [CHAT] 未知或不完整的命令，错误见下
+[19:15:49] [Render thread/INFO]: [CHAT] ...undertale:<--[此处]
+[19:15:51] [Server thread/INFO]: Saving and pausing game...
+[19:15:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:15:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:15:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:15:55] [Render thread/INFO]: Reloading ResourceManager: Default, Programmer Art, TestPack, XeKrcreate1.16V2.zip, Undertale-Musics
+[19:15:56] [Worker-Main-11/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=false,1': Unknown blockstate property: '1'
+[19:15:56] [Worker-Main-11/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=true,1': Unknown blockstate property: '1'
+[19:15:56] [Worker-Main-11/WARN]: Texture minecraft:block/daylight_detector_09 with size 8x8 limits mip level from 4 to 3
+[19:15:56] [Worker-Main-11/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[19:15:56] [Render thread/INFO]: OpenAL initialized.
+[19:15:56] [Render thread/INFO]: Sound engine started
+[19:15:57] [Render thread/INFO]: Created: 2048x1024x3 minecraft:textures/atlas/blocks.png-atlas
+[19:15:57] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19:15:57] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:15:57] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:15:57] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:15:57] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:15:57] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:15:57] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:15:57] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:15:57] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:16:08] [Render thread/INFO]: [CHAT] 未知或不完整的命令，错误见下
+[19:16:08] [Render thread/INFO]: [CHAT] .../undertale<--[此处]
+[19:16:25] [Server thread/INFO]: [GLgele: 已将声音undertale:songs/undertale播放给GLgele]
+[19:16:25] [Render thread/WARN]: Unable to play unknown soundEvent: undertale:songs/undertale
+[19:16:25] [Render thread/INFO]: [CHAT] 已将声音undertale:songs/undertale播放给GLgele
+[19:16:28] [Server thread/INFO]: [GLgele: 已将声音undertale:songs/undertale播放给GLgele]
+[19:16:28] [Render thread/INFO]: [CHAT] 已将声音undertale:songs/undertale播放给GLgele
+[19:16:32] [Render thread/INFO]: [CHAT] 未知或不完整的命令，错误见下
+[19:16:32] [Render thread/INFO]: [CHAT] /stopsound<--[此处]
+[19:16:34] [Server thread/INFO]: [GLgele: 已停止所有声音]
+[19:16:34] [Render thread/INFO]: [CHAT] 已停止所有声音
+[19:16:35] [Server thread/INFO]: Saving and pausing game...
+[19:16:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:16:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:16:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:16:56] [Server thread/INFO]: Saving and pausing game...
+[19:16:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:16:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:16:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:17:04] [Server thread/INFO]: Saving and pausing game...
+[19:17:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:17:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:17:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:17:07] [Render thread/INFO]: [CHAT] [调试]： 已重新加载资源包
+[19:17:07] [Render thread/INFO]: Reloading ResourceManager: Default, Programmer Art, TestPack, XeKrcreate1.16V2.zip, Undertale-Musics
+[19:17:07] [Server thread/INFO]: Saving and pausing game...
+[19:17:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:17:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:17:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:17:08] [Worker-Main-29/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=false,1': Unknown blockstate property: '1'
+[19:17:08] [Worker-Main-29/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=true,1': Unknown blockstate property: '1'
+[19:17:08] [Worker-Main-29/WARN]: Texture minecraft:block/daylight_detector_08 with size 8x8 limits mip level from 4 to 3
+[19:17:08] [Worker-Main-29/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[19:17:08] [Render thread/INFO]: OpenAL initialized.
+[19:17:08] [Render thread/INFO]: Sound engine started
+[19:17:08] [Render thread/INFO]: Created: 2048x1024x3 minecraft:textures/atlas/blocks.png-atlas
+[19:17:08] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19:17:08] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:17:08] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:17:08] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:17:08] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:17:08] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:17:09] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:17:09] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:17:09] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:17:44] [Server thread/INFO]: Saving and pausing game...
+[19:17:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:17:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:17:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:18:25] [Render thread/INFO]: [CHAT] [调试]： 已重新加载资源包
+[19:18:25] [Render thread/INFO]: Reloading ResourceManager: Default, Programmer Art, TestPack, XeKrcreate1.16V2.zip, Undertale-Musics
+[19:18:25] [Server thread/INFO]: Saving and pausing game...
+[19:18:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:18:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:18:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:18:25] [Worker-Main-29/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=false,1': Unknown blockstate property: '1'
+[19:18:25] [Worker-Main-29/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=true,1': Unknown blockstate property: '1'
+[19:18:26] [Worker-Main-29/WARN]: Texture minecraft:block/daylight_detector_09 with size 8x8 limits mip level from 4 to 3
+[19:18:26] [Worker-Main-29/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[19:18:26] [Render thread/INFO]: OpenAL initialized.
+[19:18:26] [Render thread/INFO]: Sound engine started
+[19:18:26] [Render thread/INFO]: Created: 2048x1024x3 minecraft:textures/atlas/blocks.png-atlas
+[19:18:26] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19:18:26] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:18:26] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:18:26] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:18:26] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:18:26] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:18:26] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:18:26] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:18:26] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:18:35] [Server thread/INFO]: Saving and pausing game...
+[19:18:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:18:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:18:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:18:47] [Render thread/INFO]: [CHAT] [调试]： 已重新加载资源包
+[19:18:47] [Render thread/INFO]: Reloading ResourceManager: Default, Programmer Art, TestPack, XeKrcreate1.16V2.zip, Undertale-Musics
+[19:18:47] [Server thread/INFO]: Saving and pausing game...
+[19:18:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:18:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:18:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:18:47] [Worker-Main-30/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=false,1': Unknown blockstate property: '1'
+[19:18:47] [Worker-Main-30/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=true,1': Unknown blockstate property: '1'
+[19:18:47] [Worker-Main-30/WARN]: Texture minecraft:block/daylight_detector_09 with size 8x8 limits mip level from 4 to 3
+[19:18:47] [Worker-Main-30/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[19:18:48] [Render thread/INFO]: OpenAL initialized.
+[19:18:48] [Render thread/INFO]: Sound engine started
+[19:18:48] [Render thread/INFO]: Created: 2048x1024x3 minecraft:textures/atlas/blocks.png-atlas
+[19:18:48] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19:18:48] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:18:48] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:18:48] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:18:48] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:18:48] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:18:48] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:18:48] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:18:48] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:19:01] [Server thread/INFO]: Saving and pausing game...
+[19:19:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:19:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:19:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:20:53] [Server thread/INFO]: Saving and pausing game...
+[19:20:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:20:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:20:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:20:54] [Server thread/INFO]: [GLgele: 重新加载中！]
+[19:20:54] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:20:54] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:20:54] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:20:54] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:20:54] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:20:54] [Server thread/INFO]: Reloading ResourceManager: Default, Test
+[19:20:54] [Render thread/INFO]: [CHAT] 重新加载中！
+[19:20:54] [Server thread/INFO]: Loaded 7 recipes
+[19:20:54] [Server thread/INFO]: Loaded 927 advancements
+[19:20:55] [Render thread/INFO]: [CHAT] Reload successed!
+[19:20:55] [Render thread/INFO]: Loaded 927 advancements
+[19:21:03] [Render thread/INFO]: [CHAT] 已启用2个数据包：[vanilla（内置）], [file/Test（世界）]
+[19:21:03] [Render thread/INFO]: [CHAT] 已无更多可用的数据包
+[19:21:45] [Server thread/INFO]: [GLgele: 已将世界的出生点设置为0, 4, 0 [0.0]]
+[19:21:45] [Render thread/INFO]: [CHAT] 已将世界的出生点设置为0, 4, 0 [0.0]
+[19:21:52] [Render thread/INFO]: [CHAT] [调试]： 碰撞体积：显示
+[19:21:53] [Render thread/INFO]: [CHAT] [调试]： 碰撞体积：隐藏
+[19:21:55] [Render thread/INFO]: [CHAT] [调试]： 按键设置：
+[19:21:55] [Render thread/INFO]: [CHAT] F3 + A = 重新加载区块
+[19:21:55] [Render thread/INFO]: [CHAT] F3 + B = 显示碰撞体积
+[19:21:55] [Render thread/INFO]: [CHAT] F3 + C = 用/tp命令的形式复制你的位置，按住F3 + C使游戏崩溃
+[19:21:55] [Render thread/INFO]: [CHAT] F3 + D = 清空聊天记录
+[19:21:55] [Render thread/INFO]: [CHAT] F3 + F = 在渲染距离间循环（按Shift来反向循环）
+[19:21:55] [Render thread/INFO]: [CHAT] F3 + G = 显示区块边界
+[19:21:55] [Render thread/INFO]: [CHAT] F3 + H = 显示高级提示框
+[19:21:55] [Render thread/INFO]: [CHAT] F3 + I = 将实体或方块的数据复制到剪贴板
+[19:21:55] [Render thread/INFO]: [CHAT] F3 + N = 在上一个模式和旁观模式间切换
+[19:21:55] [Render thread/INFO]: [CHAT] F3 + P = 失去焦点时暂停
+[19:21:55] [Render thread/INFO]: [CHAT] F3 + Q = 显示此列表
+[19:21:55] [Render thread/INFO]: [CHAT] F3 + T = 重新加载资源包
+[19:21:55] [Render thread/INFO]: [CHAT] F3 + Esc = 暂停但不显示菜单（如果可以暂停的话）
+[19:21:55] [Render thread/INFO]: [CHAT] F3 + F4 = 打开游戏模式切换器
+[19:21:57] [Render thread/INFO]: [CHAT] [调试]： 区块边界：显示
+[19:22:09] [Render thread/INFO]: [CHAT] [调试]： 区块边界：隐藏
+[19:22:09] [Server thread/INFO]: Saving and pausing game...
+[19:22:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:22:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:22:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:22:14] [Render thread/INFO]: [CHAT] 成功设置：execute as @a 
+[19:22:15] [Server thread/INFO]: Saving and pausing game...
+[19:22:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:22:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:22:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:22:18] [Server thread/INFO]: Saving and pausing game...
+[19:22:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:22:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:22:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:22:19] [Render thread/INFO]: [CHAT] 成功设置：execute as @a 
+[19:22:28] [Server thread/INFO]: [GLgele] a
+[19:22:28] [Render thread/INFO]: [CHAT] [GLgele] a
+[19:22:29] [Server thread/INFO]: Saving and pausing game...
+[19:22:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:22:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:22:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:22:33] [Render thread/INFO]: [CHAT] 成功设置：execute as @a at @s
+[19:22:35] [Server thread/INFO]: Saving and pausing game...
+[19:22:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:22:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:22:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:22:40] [Render thread/INFO]: [CHAT] 成功设置：execute as @a at @s run
+[19:22:40] [Server thread/INFO]: Saving and pausing game...
+[19:22:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:22:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:22:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:23:38] [Server thread/INFO]: Saving and pausing game...
+[19:23:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:23:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:23:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:25:21] [Render thread/INFO]: [CHAT] 未知或不完整的命令，错误见下
+[19:25:21] [Render thread/INFO]: [CHAT] ...bient.cave<--[此处]
+[19:25:33] [Server thread/INFO]: [GLgele: 已将声音minecraft:ambient.cave播放给GLgele]
+[19:25:33] [Render thread/INFO]: [CHAT] 已将声音minecraft:ambient.cave播放给GLgele
+[19:26:03] [Server thread/INFO]: [GLgele: 已将声音minecraft:enchant.thorns.hit播放给GLgele]
+[19:26:03] [Render thread/INFO]: [CHAT] 已将声音minecraft:enchant.thorns.hit播放给GLgele
+[19:26:05] [Server thread/INFO]: [GLgele: 已将声音minecraft:enchant.thorns.hit播放给GLgele]
+[19:26:05] [Render thread/INFO]: [CHAT] 已将声音minecraft:enchant.thorns.hit播放给GLgele
+[19:26:06] [Server thread/INFO]: [GLgele: 已将声音minecraft:enchant.thorns.hit播放给GLgele]
+[19:26:06] [Render thread/INFO]: [CHAT] 已将声音minecraft:enchant.thorns.hit播放给GLgele
+[19:27:03] [Server thread/INFO]: [GLgele: 已将声音minecraft:music.under_water播放给GLgele]
+[19:27:03] [Render thread/INFO]: [CHAT] 已将声音minecraft:music.under_water播放给GLgele
+[19:27:07] [Server thread/INFO]: [GLgele: 已将声音minecraft:music.under_water播放给GLgele]
+[19:27:07] [Render thread/INFO]: [CHAT] 已将声音minecraft:music.under_water播放给GLgele
+[19:27:36] [Render thread/INFO]: [CHAT] 未知或不完整的命令，错误见下
+[19:27:36] [Render thread/INFO]: [CHAT] /stopsound<--[此处]
+[19:27:37] [Server thread/INFO]: [GLgele: 已停止所有声音]
+[19:27:37] [Render thread/INFO]: [CHAT] 已停止所有声音
+[19:28:33] [Render thread/INFO]: [CHAT] 未知或不完整的命令，错误见下
+[19:28:33] [Render thread/INFO]: [CHAT] ..._disc.wait<--[此处]
+[19:28:44] [Server thread/INFO]: [GLgele: 已将声音minecraft:music_disc.cat播放给GLgele]
+[19:28:44] [Render thread/INFO]: [CHAT] 已将声音minecraft:music_disc.cat播放给GLgele
+[19:28:47] [Render thread/INFO]: [CHAT] 未知或不完整的命令，错误见下
+[19:28:47] [Render thread/INFO]: [CHAT] /stopsound<--[此处]
+[19:28:48] [Server thread/INFO]: [GLgele: 已停止所有声音]
+[19:28:49] [Render thread/INFO]: [CHAT] 已停止所有声音
+[19:29:10] [Render thread/INFO]: [CHAT] [调试]： 已重新加载资源包
+[19:29:10] [Render thread/INFO]: Reloading ResourceManager: Default, Programmer Art, TestPack, XeKrcreate1.16V2.zip, Undertale-Musics
+[19:29:10] [Server thread/INFO]: Saving and pausing game...
+[19:29:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:29:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:29:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:29:11] [Worker-Main-43/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=false,1': Unknown blockstate property: '1'
+[19:29:11] [Worker-Main-43/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=true,1': Unknown blockstate property: '1'
+[19:29:11] [Worker-Main-43/WARN]: Texture minecraft:block/daylight_detector_08 with size 8x8 limits mip level from 4 to 3
+[19:29:11] [Worker-Main-43/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[19:29:11] [Render thread/INFO]: OpenAL initialized.
+[19:29:11] [Render thread/INFO]: Sound engine started
+[19:29:12] [Render thread/INFO]: Created: 2048x1024x3 minecraft:textures/atlas/blocks.png-atlas
+[19:29:12] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19:29:12] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:29:12] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:29:12] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:29:12] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:29:12] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:29:12] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:29:12] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:29:12] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:29:27] [Server thread/INFO]: [GLgele: 已将声音minecraft:music_disc.11播放给GLgele]
+[19:29:27] [Render thread/INFO]: [CHAT] 已将声音minecraft:music_disc.11播放给GLgele
+[19:29:31] [Server thread/INFO]: [GLgele: 已停止所有声音]
+[19:29:31] [Render thread/INFO]: [CHAT] 已停止所有声音
+[19:29:52] [Render thread/INFO]: [CHAT] [调试]： 已重新加载资源包
+[19:29:52] [Render thread/INFO]: Reloading ResourceManager: Default, Programmer Art, TestPack, XeKrcreate1.16V2.zip, Undertale-Musics
+[19:29:52] [Server thread/INFO]: Saving and pausing game...
+[19:29:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:29:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:29:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:29:52] [Worker-Main-45/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=false,1': Unknown blockstate property: '1'
+[19:29:52] [Worker-Main-45/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=true,1': Unknown blockstate property: '1'
+[19:29:52] [Worker-Main-45/WARN]: Texture minecraft:block/daylight_detector_09 with size 8x8 limits mip level from 4 to 3
+[19:29:52] [Worker-Main-45/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[19:29:53] [Render thread/INFO]: OpenAL initialized.
+[19:29:53] [Render thread/INFO]: Sound engine started
+[19:29:53] [Render thread/INFO]: Created: 2048x1024x3 minecraft:textures/atlas/blocks.png-atlas
+[19:29:53] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19:29:53] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:29:53] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:29:53] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:29:53] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:29:53] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:29:53] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:29:53] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:29:53] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:29:57] [Render thread/INFO]: [CHAT] 需要浮点型
+[19:29:57] [Render thread/INFO]: [CHAT] /time set d<--[此处]
+[19:29:59] [Server thread/INFO]: [GLgele: 将时间设为1000]
+[19:29:59] [Render thread/INFO]: [CHAT] 将时间设为1000
+[19:30:02] [Server thread/INFO]: [GLgele: 已将声音minecraft:music_disc.11播放给GLgele]
+[19:30:02] [Render thread/INFO]: [CHAT] 已将声音minecraft:music_disc.11播放给GLgele
+[19:30:06] [Render thread/INFO]: [CHAT] 未知或不完整的命令，错误见下
+[19:30:06] [Render thread/INFO]: [CHAT] /stopsound<--[此处]
+[19:30:08] [Server thread/INFO]: [GLgele: 已停止所有声音]
+[19:30:08] [Render thread/INFO]: [CHAT] 已停止所有声音
+[19:36:06] [Render thread/INFO]: [CHAT] [调试]： 已重新加载资源包
+[19:36:06] [Render thread/INFO]: Reloading ResourceManager: Default, Programmer Art, TestPack, XeKrcreate1.16V2.zip, Undertale-Musics
+[19:36:07] [Server thread/INFO]: Saving and pausing game...
+[19:36:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:36:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:36:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:36:07] [Worker-Main-11/WARN]: Invalid sounds.json in resourcepack: 'Undertale-Musics'
+v: Non [a-z0-9/._-] character in path of location: minecraft:songs/Toby Fox-Undertale
+	at vk.<init>(SourceFile:41) ~[1.16.5.jar:?]
+	at vk.<init>(SourceFile:46) ~[1.16.5.jar:?]
+	at emq.<init>(SourceFile:18) ~[1.16.5.jar:?]
+	at ems.b(SourceFile:68) ~[1.16.5.jar:?]
+	at ems.a(SourceFile:40) ~[1.16.5.jar:?]
+	at ems.a(SourceFile:23) ~[1.16.5.jar:?]
+	at ems.deserialize(SourceFile:16) ~[1.16.5.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:187) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.0.jar:?]
+	at afd.a(SourceFile:504) ~[1.16.5.jar:?]
+	at afd.a(SourceFile:522) ~[1.16.5.jar:?]
+	at enu.a(SourceFile:69) ~[1.16.5.jar:?]
+	at enu.b(SourceFile:39) ~[1.16.5.jar:?]
+	at ack.a(SourceFile:11) ~[1.16.5.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[19:36:07] [Worker-Main-9/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=false,1': Unknown blockstate property: '1'
+[19:36:07] [Worker-Main-9/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/scaffolding.json' in resourcepack: 'XeKrcreate1.16V2.zip' for variant: 'bottom=true,1': Unknown blockstate property: '1'
+[19:36:07] [Worker-Main-9/WARN]: Texture minecraft:block/daylight_detector_09 with size 8x8 limits mip level from 4 to 3
+[19:36:07] [Worker-Main-9/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[19:36:07] [Render thread/INFO]: OpenAL initialized.
+[19:36:07] [Render thread/INFO]: Sound engine started
+[19:36:08] [Render thread/INFO]: Created: 2048x1024x3 minecraft:textures/atlas/blocks.png-atlas
+[19:36:08] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19:36:08] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:36:08] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:36:08] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:36:08] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:36:08] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:36:08] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:36:08] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:36:08] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:36:37] [Server thread/INFO]: Saving and pausing game...
+[19:36:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:36:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:36:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:36:59] [Server thread/INFO]: Saving and pausing game...
+[19:36:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:36:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:36:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:36:59] [Server thread/INFO]: GLgele lost connection: 连接中止
+[19:36:59] [Server thread/INFO]: GLgele退出了游戏
+[19:36:59] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[19:36:59] [Server thread/INFO]: Stopping server
+[19:36:59] [Server thread/INFO]: Saving players
+[19:36:59] [Server thread/INFO]: Saving worlds
+[19:36:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:overworld
+[19:36:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (Void_CBtest): All chunks are saved
+[19:36:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_nether
+[19:36:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:36:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Void_CBtest]'/minecraft:the_end
+[19:36:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:36:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (Void_CBtest): All chunks are saved
+[19:36:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:36:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:37:00] [Render thread/INFO]: Stopping!

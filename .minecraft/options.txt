@@ -1,5 +1,5 @@
 version:2586
-autoJump:true
+autoJump:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -12,7 +12,7 @@ invertYMouse:false
 realmsNotifications:true
 reducedDebugInfo:false
 snooperEnabled:false
-showSubtitles:false
+showSubtitles:true
 touchscreen:false
 fullscreen:false
 bobView:true
@@ -33,7 +33,7 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","file/TestPack"]
+resourcePacks:["vanilla","programer_art","file/TestPack","file/XeKrcreate1.16V2.zip","file/Undertale-Musics"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
