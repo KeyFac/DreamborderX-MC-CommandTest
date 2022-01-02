@@ -1,317 +1,139 @@
-[11:35:31] [Client thread/INFO]: Setting user: GLgele
-[11:35:32] [Client thread/WARN]: Skipping bad option: lastServer:
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.pickItem:key.mouse.middle
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.playerlist:key.keyboard.tab
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.advancements:key.keyboard.l
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.hotbar.5:key.keyboard.5
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.hotbar.6:key.keyboard.6
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.hotbar.7:key.keyboard.7
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.hotbar.8:key.keyboard.8
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.hotbar.1:key.keyboard.1
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.hotbar.2:key.keyboard.2
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.hotbar.3:key.keyboard.3
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.hotbar.4:key.keyboard.4
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.sprint:key.keyboard.left.control
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.forward:key.keyboard.w
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.drop:key.keyboard.q
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.back:key.keyboard.s
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.attack:key.mouse.left
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.use:key.mouse.right
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.saveToolbarActivator:key.keyboard.c
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.smoothCamera:key.keyboard.unknown
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.right:key.keyboard.d
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.jump:key.keyboard.space
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.sneak:key.keyboard.left.shift
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.spectatorOutlines:key.keyboard.unknown
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.left:key.keyboard.a
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.command:key.keyboard.slash
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.screenshot:key.keyboard.f2
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.hotbar.9:key.keyboard.9
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.togglePerspective:key.keyboard.f5
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.chat:key.keyboard.t
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.inventory:key.keyboard.e
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.fullscreen:key.keyboard.f11
-[11:35:32] [Client thread/WARN]: Skipping bad option: key_key.loadToolbarActivator:key.keyboard.x
-[11:35:32] [Client thread/INFO]: LWJGL Version: 2.9.4
-[11:35:33] [Client thread/INFO]: Reloading ResourceManager: Default
-[11:35:33] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[11:35:33] [Thread-3/INFO]: Initializing LWJGL OpenAL
-[11:35:33] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[11:35:33] [Thread-3/INFO]: OpenAL initialized.
-[11:35:34] [Sound Library Loader/INFO]: Sound engine started
-[11:35:38] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[11:35:39] [Client thread/INFO]: Narrator library for x64 successfully loaded
-[11:35:41] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[11:38:23] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
-[11:38:23] [Server thread/INFO]: Generating keypair
-[11:38:23] [Server thread/INFO]: Loaded 488 advancements
-[11:38:23] [Server thread/WARN]: Unable to find spawn biome
-[11:38:23] [Server thread/INFO]: Preparing start region for level 0
-[11:38:24] [Server thread/INFO]: Changing view distance to 12, from 10
-[11:38:24] [Server thread/INFO]: GLgele[local:E:9ef48f3e] logged in with entity id 0 at (477.5, 56.0, 94.5)
-[11:38:24] [Server thread/INFO]: GLgele加入了游戏
-[11:38:25] [Server thread/INFO]: Saving and pausing game...
-[11:38:25] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:38:26] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:38:26] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:38:26] [Server thread/INFO]: Saving and pausing game...
-[11:38:26] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:38:26] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:38:26] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:39:09] [Server thread/INFO]: [GLgele: 将GLgele传送到 0.5，56.0，0.5]
-[11:39:09] [Client thread/INFO]: [CHAT] 将GLgele传送到 0.5，56.0，0.5
-[11:39:14] [Server thread/INFO]: [GLgele: 已将世界的出生点设置为（0，56，0）]
-[11:39:14] [Client thread/INFO]: [CHAT] 已将世界的出生点设置为（0，56，0）
-[11:39:20] [Server thread/INFO]: Saving and pausing game...
-[11:39:20] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:39:20] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:39:20] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:39:39] [Client thread/INFO]: Loaded 5 advancements
-[11:39:40] [Client thread/INFO]: Loaded 39 advancements
-[11:39:44] [Client thread/INFO]: [CHAT] grant, revoke, test
-[11:39:45] [Client thread/INFO]: [CHAT] everything, from, only, through, until
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[用钻石包裹我]
-[11:39:46] [Server thread/INFO]: GLgele达成了目标[天空即为极限]
-[11:39:46] [Server thread/INFO]: GLgele达成了目标[招募援兵]
-[11:39:46] [Server thread/INFO]: GLgele完成了挑战[终极奉献]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[整装上阵]
-[11:39:46] [Server thread/INFO]: GLgele完成了挑战[见鬼去吧]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[甜蜜的梦]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[用钻石包裹我]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele达成了目标[天空即为极限]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[热腾腾的]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele达成了目标[招募援兵]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele完成了挑战[终极奉献]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[整装上阵]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele完成了挑战[见鬼去吧]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[甜蜜的梦]
-[11:39:46] [Server thread/INFO]: GLgele达成了目标[你需要来点薄荷糖]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[解放末地]
-[11:39:46] [Server thread/INFO]: GLgele完成了挑战[怪物狩猎完成]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[附魔师]
-[11:39:46] [Server thread/INFO]: GLgele完成了挑战[狂乱的鸡尾酒]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[隔墙有眼]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[永恒的伙伴]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[带信标回家]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[抱歉，今天不行]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[这不是铁镐么]
-[11:39:46] [Server thread/INFO]: GLgele达成了目标[超越生死]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[怪物猎人]
-[11:39:46] [Server thread/INFO]: GLgele完成了挑战[探索的时光]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[本地的酿造厂]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[开荒垦地]
-[11:39:46] [Server thread/INFO]: GLgele达成了目标[下一世代]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[热腾腾的]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele达成了目标[你需要来点薄荷糖]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[解放末地]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele完成了挑战[怪物狩猎完成]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[附魔师]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele完成了挑战[狂乱的鸡尾酒]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[隔墙有眼]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[永恒的伙伴]
-[11:39:46] [Server thread/INFO]: GLgele完成了挑战[狙击手间的对决]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[带信标回家]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[抱歉，今天不行]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[这不是铁镐么]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele达成了目标[超越生死]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[怪物猎人]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele完成了挑战[探索的时光]
-[11:39:46] [Server thread/INFO]: GLgele完成了挑战[这上面的风景不错]
-[11:39:46] [Server thread/INFO]: GLgele达成了目标[信标工程师]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[凋零山庄]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[本地的酿造厂]
-[11:39:46] [Server thread/INFO]: GLgele完成了挑战[均衡饮食]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[开荒垦地]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele达成了目标[下一世代]
-[11:39:46] [Server thread/INFO]: GLgele完成了挑战[为什么会变成这样呢？]
-[11:39:46] [Server thread/INFO]: GLgele完成了挑战[子空间泡泡]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele完成了挑战[狙击手间的对决]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[诡异又可怕的骷髅]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele完成了挑战[这上面的风景不错]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele达成了目标[信标工程师]
-[11:39:46] [Server thread/INFO]: GLgele完成了挑战[成双成对]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[凋零山庄]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele完成了挑战[均衡饮食]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[石器时代]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele完成了挑战[为什么会变成这样呢？]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele完成了挑战[子空间泡泡]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[我们需要再深入些]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[这交易不错！]
-[11:39:46] [Server thread/INFO]: GLgele完成了挑战[不稳定的同盟]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[诡异又可怕的骷髅]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele完成了挑战[成双成对]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[石器时代]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[钻石！]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[获得升级]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[可怕的要塞]
-[11:39:46] [Server thread/INFO]: GLgele达成了目标[僵尸科医生]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[冰桶挑战]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[在游戏尽头的城市]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[远程折跃]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[与火共舞]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[瞄准目标]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[结束了？]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[我从哪儿来？]
-[11:39:46] [Server thread/INFO]: GLgele达成了目标[结束了…再一次…]
-[11:39:46] [Server thread/INFO]: GLgele取得了进度[来硬的]
-[11:39:46] [Server thread/INFO]: [GLgele: 已将全部进度给予GLgele（共计443项）]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[我们需要再深入些]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[这交易不错！]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele完成了挑战[不稳定的同盟]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[钻石！]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[获得升级]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[可怕的要塞]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele达成了目标[僵尸科医生]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[冰桶挑战]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[在游戏尽头的城市]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[远程折跃]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[与火共舞]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[瞄准目标]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[结束了？]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[我从哪儿来？]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele达成了目标[结束了…再一次…]
-[11:39:46] [Client thread/INFO]: [CHAT] GLgele取得了进度[来硬的]
-[11:39:46] [Client thread/INFO]: [CHAT] 已将全部进度给予GLgele（共计443项）
-[11:39:46] [Client thread/INFO]: Loaded 488 advancements
-[11:39:49] [Server thread/INFO]: Saving and pausing game...
-[11:39:49] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:39:49] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:39:49] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:40:18] [Server thread/INFO]: Saving and pausing game...
-[11:40:18] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:40:18] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:40:18] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:40:30] [Server thread/INFO]: Saving and pausing game...
-[11:40:30] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:40:30] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:40:30] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:40:59] [Server thread/INFO]: Saving and pausing game...
-[11:40:59] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:40:59] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:40:59] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:41:25] [Server thread/INFO]: Saving and pausing game...
-[11:41:25] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:41:25] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:41:25] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:41:44] [Server thread/INFO]: Saving and pausing game...
-[11:41:44] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:41:44] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:41:44] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:41:52] [Server thread/INFO]: Saving and pausing game...
-[11:41:52] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:41:52] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:41:52] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:42:11] [Server thread/INFO]: Saving and pausing game...
-[11:42:11] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:42:11] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:42:11] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:42:19] [Server thread/INFO]: Saving and pausing game...
-[11:42:19] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:42:19] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:42:19] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:42:24] [Server thread/INFO]: Saving and pausing game...
-[11:42:24] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:42:24] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:42:24] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:42:33] [Server thread/INFO]: Saving and pausing game...
-[11:42:33] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:42:33] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:42:33] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:42:40] [Server thread/INFO]: Saving and pausing game...
-[11:42:40] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:42:40] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:42:40] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:42:49] [Server thread/INFO]: Saving and pausing game...
-[11:42:49] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:42:49] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:42:49] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:42:52] [Server thread/INFO]: Saving and pausing game...
-[11:42:52] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:42:52] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:42:52] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:42:55] [Server thread/INFO]: Saving and pausing game...
-[11:42:55] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:42:55] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:42:55] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:42:59] [Server thread/INFO]: Saving and pausing game...
-[11:42:59] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:42:59] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:42:59] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:43:02] [Server thread/INFO]: Saving and pausing game...
-[11:43:02] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:43:02] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:43:02] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:43:05] [Server thread/INFO]: Saving and pausing game...
-[11:43:05] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:43:05] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:43:05] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:43:09] [Server thread/INFO]: Saving and pausing game...
-[11:43:09] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:43:09] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:43:09] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:43:16] [Server thread/INFO]: Saving and pausing game...
-[11:43:16] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:43:16] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:43:16] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:43:19] [Server thread/INFO]: Saving and pausing game...
-[11:43:19] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:43:19] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:43:19] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:44:19] [Server thread/INFO]: Saving and pausing game...
-[11:44:19] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:44:19] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:44:19] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:44:31] [Server thread/INFO]: Saving and pausing game...
-[11:44:31] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:44:31] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:44:31] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:44:49] [Server thread/INFO]: Saving and pausing game...
-[11:44:49] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:44:49] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:44:49] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:44:54] [Server thread/INFO]: Saving and pausing game...
-[11:44:54] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:44:54] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:44:54] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:44:59] [Server thread/INFO]: Saving and pausing game...
-[11:44:59] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:44:59] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:44:59] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:45:02] [Server thread/INFO]: Saving and pausing game...
-[11:45:02] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:45:02] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:45:02] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:45:07] [Server thread/INFO]: Saving and pausing game...
-[11:45:07] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:45:07] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:45:07] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:45:13] [Server thread/INFO]: Saving and pausing game...
-[11:45:13] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:45:13] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:45:13] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:45:20] [Server thread/INFO]: Saving and pausing game...
-[11:45:20] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:45:20] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:45:20] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:48:03] [Client thread/INFO]: [CHAT] /setblock, /setworldspawn
-[11:48:06] [Client thread/INFO]: [CHAT] minecraft:red_flower, minecraft:red_glazed_terracotta, minecraft:red_mushroom, minecraft:red_mushroom_block, minecraft:red_nether_brick, minecraft:red_sandstone, minecraft:red_sandstone_stairs, minecraft:red_shulker_box, minecraft:redstone_block, minecraft:redstone_lamp, minecraft:redstone_ore, minecraft:redstone_torch, minecraft:redstone_wire
-[11:48:08] [Client thread/INFO]: [CHAT] minecraft:redstone_block, minecraft:redstone_lamp, minecraft:redstone_ore, minecraft:redstone_torch, minecraft:redstone_wire
-[11:48:11] [Client thread/INFO]: [CHAT] 没有名为minecraft:redstone_lampm的方块
-[11:48:13] [Server thread/INFO]: [GLgele: 方块已放置]
-[11:48:13] [Client thread/INFO]: [CHAT] 方块已放置
-[11:48:34] [Server thread/INFO]: Saving and pausing game...
-[11:48:34] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:48:34] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:48:34] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:48:35] [Server thread/INFO]: Stopping server
-[11:48:35] [Server thread/INFO]: Saving players
-[11:48:35] [Server thread/INFO]: GLgele lost connection: 连接中止
-[11:48:35] [Server thread/INFO]: GLgele退出了游戏
-[11:48:35] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[11:48:35] [Server thread/INFO]: Saving worlds
-[11:48:35] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[11:48:35] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[11:48:35] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[11:48:36] [Client thread/INFO]: Stopping!
-[11:48:36] [Client thread/INFO]: SoundSystem shutting down...
-[11:48:36] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[16:08:55] [Client thread/INFO]: Setting user: GLgele
+[16:08:57] [Client thread/WARN]: Skipping bad option: lastServer:
+[16:08:57] [Client thread/INFO]: LWJGL Version: 2.9.4
+[16:08:58] [Client thread/INFO]: Reloading ResourceManager: Default
+[16:08:59] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:08:59] [Thread-3/INFO]: Initializing LWJGL OpenAL
+[16:08:59] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:08:59] [Thread-3/INFO]: OpenAL initialized.
+[16:09:00] [Sound Library Loader/INFO]: Sound engine started
+[16:09:06] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[16:09:08] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[16:09:10] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[16:09:28] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[16:09:28] [Server thread/INFO]: Generating keypair
+[16:09:28] [Server thread/INFO]: Loaded 488 advancements
+[16:09:28] [Server thread/INFO]: Preparing start region for level 0
+[16:09:29] [Server thread/INFO]: Changing view distance to 12, from 10
+[16:09:29] [Server thread/INFO]: GLgele[local:E:d0966268] logged in with entity id 0 at (-10.714198451342439, 56.0, -7.123666831407385)
+[16:09:29] [Server thread/INFO]: GLgele加入了游戏
+[16:09:30] [Server thread/INFO]: Saving and pausing game...
+[16:09:30] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
+[16:09:30] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
+[16:09:30] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
+[16:09:30] [Client thread/INFO]: Loaded 488 advancements
+[16:11:09] [Server thread/INFO]: Saving and pausing game...
+[16:11:09] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
+[16:11:09] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
+[16:11:09] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
+[16:11:16] [Server thread/INFO]: Saving and pausing game...
+[16:11:16] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
+[16:11:16] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
+[16:11:16] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
+[16:11:20] [Server thread/INFO]: [GLgele: 将时间设为1000]
+[16:11:20] [Client thread/INFO]: [CHAT] 将时间设为1000
+[16:11:22] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
+[16:11:26] [Server thread/INFO]: [GLgele: 游戏规则keepInventory已经更新为 true]
+[16:11:26] [Client thread/INFO]: [CHAT] 游戏规则keepInventory已经更新为 true
+[16:11:30] [Client thread/INFO]: [CHAT] doDaylightCycle, doEntityDrops, doFireTick, doLimitedCrafting, doMobLoot, doMobSpawning, doTileDrops, doWeatherCycle
+[16:11:31] [Server thread/INFO]: [GLgele: 游戏规则doDaylightCycle已经更新为 false]
+[16:11:31] [Client thread/INFO]: [CHAT] 游戏规则doDaylightCycle已经更新为 false
+[16:11:34] [Server thread/INFO]: [GLgele: 将时间设为1000]
+[16:11:34] [Client thread/INFO]: [CHAT] 将时间设为1000
+[16:11:37] [Server thread/INFO]: Saving and pausing game...
+[16:11:37] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
+[16:11:37] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
+[16:11:37] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
+[16:11:49] [Server thread/INFO]: Saving and pausing game...
+[16:11:49] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
+[16:11:49] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
+[16:11:49] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
+[16:12:02] [Server thread/INFO]: Saving and pausing game...
+[16:12:02] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
+[16:12:02] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
+[16:12:02] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
+[16:15:31] [Client thread/INFO]: [CHAT] /setblock, /setworldspawn
+[16:15:36] [Client thread/INFO]: [CHAT] minecraft:stone, minecraft:stone_brick_stairs, minecraft:stone_button, minecraft:stone_pressure_plate, minecraft:stone_slab, minecraft:stone_slab2, minecraft:stone_stairs, minecraft:stonebrick
+[16:15:38] [Server thread/INFO]: [GLgele: 方块已放置]
+[16:15:38] [Client thread/INFO]: [CHAT] 方块已放置
+[16:16:00] [Client thread/INFO]: [CHAT] /setblock, /setworldspawn
+[16:16:05] [Server thread/INFO]: [GLgele: 方块已放置]
+[16:16:05] [Client thread/INFO]: [CHAT] 方块已放置
+[16:17:10] [Client thread/INFO]: [CHAT] 未知命令。请使用/help来查看命令列表。
+[16:17:13] [Client thread/INFO]: [CHAT] [调试]： 高级提示框：显示
+[16:17:28] [Client thread/INFO]: [CHAT] 没有名为minecraft:co的方块
+[16:17:33] [Client thread/INFO]: [CHAT] minecraft:coal_block, minecraft:coal_ore, minecraft:cobblestone, minecraft:cobblestone_wall, minecraft:cocoa, minecraft:command_block, minecraft:concrete, minecraft:concrete_powder
+[16:17:41] [Client thread/INFO]: [CHAT] minecraft:red_flower, minecraft:red_glazed_terracotta, minecraft:red_mushroom, minecraft:red_mushroom_block, minecraft:red_nether_brick, minecraft:red_sandstone, minecraft:red_sandstone_stairs, minecraft:red_shulker_box, minecraft:redstone_block, minecraft:redstone_lamp, minecraft:redstone_ore, minecraft:redstone_torch, minecraft:redstone_wire
+[16:22:17] [Client thread/INFO]: [CHAT] /setblock, /setworldspawn
+[16:22:22] [Server thread/INFO]: [GLgele: 方块已放置]
+[16:22:22] [Client thread/INFO]: [CHAT] 方块已放置
+[16:24:41] [Server thread/INFO]: GLgele掉出了这个世界
+[16:24:41] [Server thread/INFO]: [GLgele: 已清除GLgele]
+[16:24:41] [Client thread/INFO]: [CHAT] GLgele掉出了这个世界
+[16:24:41] [Client thread/INFO]: [CHAT] 已清除GLgele
+[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.tile.lever]
+[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.tile.lever]
+[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.tile.lever]
+[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.tile.lever]
+[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.item.diode]
+[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.tile.notGate]
+[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.tile.lever]
+[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.tile.notGate]
+[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.item.redstone]
+[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.tile.notGate]
+[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.item.diode]
+[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.item.redstone]
+[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.tile.lever
+[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.tile.lever
+[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.tile.lever
+[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.tile.lever
+[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.item.diode
+[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.tile.notGate
+[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.tile.lever
+[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.tile.notGate
+[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.item.redstone
+[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.tile.notGate
+[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.item.diode
+[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.item.redstone
+[16:25:09] [Client thread/INFO]: [CHAT] /setblock, /setworldspawn
+[16:25:12] [Server thread/INFO]: [GLgele: 方块已放置]
+[16:25:12] [Client thread/INFO]: [CHAT] 方块已放置
+[16:25:41] [Client thread/INFO]: [CHAT] /setblock, /setworldspawn
+[16:25:46] [Server thread/INFO]: [GLgele: 方块已放置]
+[16:25:46] [Client thread/INFO]: [CHAT] 方块已放置
+[16:25:54] [Server thread/INFO]: [GLgele: 方块已放置]
+[16:25:54] [Client thread/INFO]: [CHAT] 方块已放置
+[16:26:01] [Server thread/INFO]: [GLgele: 方块已放置]
+[16:26:01] [Client thread/INFO]: [CHAT] 方块已放置
+[16:26:06] [Server thread/INFO]: [GLgele: 方块已放置]
+[16:26:06] [Client thread/INFO]: [CHAT] 方块已放置
+[16:26:08] [Server thread/INFO]: [GLgele: 方块已放置]
+[16:26:08] [Client thread/INFO]: [CHAT] 方块已放置
+[16:26:11] [Server thread/INFO]: [GLgele: 方块已放置]
+[16:26:11] [Client thread/INFO]: [CHAT] 方块已放置
+[16:26:15] [Client thread/INFO]: [CHAT] 无法放置方块
+[16:26:17] [Server thread/INFO]: [GLgele: 方块已放置]
+[16:26:17] [Client thread/INFO]: [CHAT] 方块已放置
+[16:26:19] [Client thread/INFO]: [CHAT] 无法放置方块
+[16:26:20] [Server thread/INFO]: [GLgele: 方块已放置]
+[16:26:20] [Client thread/INFO]: [CHAT] 方块已放置
+[16:26:23] [Server thread/INFO]: [GLgele: 方块已放置]
+[16:26:23] [Client thread/INFO]: [CHAT] 方块已放置
+[16:26:29] [Server thread/INFO]: [GLgele: 方块已放置]
+[16:26:29] [Client thread/INFO]: [CHAT] 方块已放置
+[16:29:16] [Server thread/INFO]: Saving and pausing game...
+[16:29:16] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
+[16:29:16] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
+[16:29:16] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
+[16:29:17] [Server thread/INFO]: Stopping server
+[16:29:17] [Server thread/INFO]: Saving players
+[16:29:17] [Server thread/INFO]: GLgele lost connection: 连接中止
+[16:29:17] [Server thread/INFO]: GLgele退出了游戏
+[16:29:17] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[16:29:17] [Server thread/INFO]: Saving worlds
+[16:29:17] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
+[16:29:17] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
+[16:29:17] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
+[16:29:17] [Client thread/INFO]: Stopping!
+[16:29:17] [Client thread/INFO]: SoundSystem shutting down...
+[16:29:18] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
