@@ -1,0 +1,673 @@
+[19:12:04] [main/INFO]: Loading Minecraft 1.16.5 with Fabric Loader 0.12.12
+[19:12:04] [main/INFO]: Loading 53 mods:
+	- cloth-basic-math 0.5.1 via cloth-config2
+	- cloth-config2 4.11.15 via immersive_portals
+	- fabric 0.40.0+1.16
+	- fabric-api-base 0.3.0+f74f7c7d7d via fabric
+	- fabric-api-lookup-api-v1 1.3.0+f74f7c7d7d via fabric
+	- fabric-biome-api-v1 3.1.11+f74f7c7d7d via fabric
+	- fabric-blockrenderlayer-v1 1.1.5+ca58154a7d via fabric
+	- fabric-command-api-v1 1.1.2+f74f7c7d7d via fabric
+	- fabric-commands-v0 0.2.2+ca58154a7d via fabric
+	- fabric-containers-v0 0.1.11+9354966b7d via fabric
+	- fabric-content-registries-v0 0.2.4+f74f7c7d7d via fabric
+	- fabric-crash-report-info-v1 0.1.3+ca58154a7d via fabric
+	- fabric-dimensions-v1 2.0.6+f74f7c7d7d via fabric
+	- fabric-entity-events-v1 1.2.3+77df1b337d via fabric
+	- fabric-events-interaction-v0 0.4.4+35ff49a47d via fabric
+	- fabric-events-lifecycle-v0 0.2.1+ca58154a7d via fabric
+	- fabric-game-rule-api-v1 1.0.6+f74f7c7d7d via fabric
+	- fabric-item-api-v1 1.2.1+ca58154a7d via fabric
+	- fabric-item-groups-v0 0.2.7+2868a2287d via fabric
+	- fabric-key-binding-api-v1 1.0.4+f74f7c7d7d via fabric
+	- fabric-keybindings-v0 0.2.1+ca58154a7d via fabric
+	- fabric-lifecycle-events-v1 1.2.1+ca58154a7d via fabric
+	- fabric-loot-tables-v1 1.0.2+ca58154a7d via fabric
+	- fabric-mining-levels-v0 0.1.3+ca58154a7d via fabric
+	- fabric-models-v0 0.3.0+f74f7c7d7d via fabric
+	- fabric-networking-api-v1 1.0.4+f74f7c7d7d via fabric
+	- fabric-networking-blockentity-v0 0.2.8+ca58154a7d via fabric
+	- fabric-networking-v0 0.3.2+ca58154a7d via fabric
+	- fabric-object-builder-api-v1 1.9.5+f74f7c7d7d via fabric
+	- fabric-object-builders-v0 0.7.2+ca58154a7d via fabric
+	- fabric-particles-v1 0.2.4+ca58154a7d via fabric
+	- fabric-registry-sync-v0 0.7.4+ca58154a7d via fabric
+	- fabric-renderer-api-v1 0.4.4+f74f7c7d7d via fabric
+	- fabric-renderer-indigo 0.4.4+ca58154a7d via fabric
+	- fabric-renderer-registries-v1 2.3.0+f74f7c7d7d via fabric
+	- fabric-rendering-data-attachment-v1 0.1.5+ca58154a7d via fabric
+	- fabric-rendering-fluids-v1 0.1.13+ca58154a7d via fabric
+	- fabric-rendering-v0 1.1.2+ca58154a7d via fabric
+	- fabric-rendering-v1 1.6.0+2868a2287d via fabric
+	- fabric-resource-loader-v0 0.4.7+f74f7c7d7d via fabric
+	- fabric-screen-api-v1 1.0.0+c045166c7d via fabric
+	- fabric-screen-handler-api-v1 1.1.5+f74f7c7d7d via fabric
+	- fabric-structure-api-v1 1.1.11+ca0ef93d7d via fabric
+	- fabric-tag-extensions-v0 1.1.1+ca58154a7d via fabric
+	- fabric-textures-v0 1.0.6+ca58154a7d via fabric
+	- fabric-tool-attribute-api-v1 1.2.7+f74f7c7d7d via fabric
+	- fabric-transfer-api-v1 1.3.0+35ff49a47d via fabric
+	- fabricloader 0.12.12
+	- imm_ptl_core 0.102 via immersive_portals
+	- immersive_portals 0.102
+	- java 8
+	- minecraft 1.16.5
+	- modmenu v1.16.8+unknown.bd9230a via immersive_portals
+[19:12:04] [main/WARN]: Mod `modmenu` (v1.16.8+unknown.bd9230a) does not respect SemVer - comparison support is limited.
+[19:12:04] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/D:/Users/Administrator/Documents/GitHub/DreamborderX-MC-CommandTest/.minecraft/libraries/net/fabricmc/sponge-mixin/0.10.7+mixin.0.8.4/sponge-mixin-0.10.7+mixin.0.8.4.jar Service=Knot/Fabric Env=CLIENT
+[19:12:16] [main/INFO]: Environment: authHost='https://mcskin.littleservice.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:51762/https/api.mojang.com', sessionHost='http://127.0.0.1:51762/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:51762/https/api.minecraftservices.com', name='PROD'
+[19:12:16] [main/INFO]: Setting user: GLgele
+[19:12:17] [main/INFO]: Immersive Portals Mod Initializing
+[19:12:18] [main/INFO]: Reach entity attributes mod is not present
+[19:12:18] [main/INFO]: Pehkui is not present
+[19:12:18] [main/INFO]: [Indigo] Registering Indigo renderer!
+[19:12:18] [main/INFO]: [Indigo] Compatibility mode enabled.
+[19:12:18] [main/INFO]: IP Config Applied
+[19:12:19] [main/INFO]: Optifine is not present
+[19:12:19] [main/INFO]: Sodium is not present
+[19:12:19] [main/WARN]: WARNING! Mod cloth-basic-math is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[19:12:19] [main/WARN]: WARNING! Mod cloth-config2 is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[19:12:20] [main/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[19:12:27] [main/INFO]: Narrator library for x64 successfully loaded
+[19:12:27] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Cloth Config v4, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Command API (v1), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Crash Report Info (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot Tables (v1), Fabric Mining Levels (v0), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking Block Entity (v0), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Object Builders (v0), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Structure API (v1), Fabric Tag Extensions (v0), Fabric Textures (v0), Fabric Tool Attribute API (v1), Fabric Transfer API (v1), Fabric Loader, Immersive Portals Core, Immersive Portals, Mod Menu)
+[19:12:32] [main/INFO]: OpenAL initialized.
+[19:12:32] [main/INFO]: Sound engine started
+[19:12:32] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[19:12:33] [main/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[19:12:33] [main/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19:12:33] [main/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:12:33] [main/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:12:33] [main/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:12:33] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:12:33] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:12:34] [main/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:12:34] [main/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:12:34] [main/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:12:46] [main/INFO]: Found new data pack Fabric Mods, loading it automatically
+[19:12:46] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:12:46] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:12:46] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:12:46] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:12:46] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:12:46] [main/INFO]: Successfully initialized command /immersive_portals_debug
+[19:12:46] [main/INFO]: Reloading ResourceManager: Default, Test, Fabric Mods (Fabric Tool Attribute API (v1), Immersive Portals)
+[19:12:47] [main/INFO]: Loaded 7 recipes
+[19:12:47] [main/INFO]: Loaded 927 advancements
+[19:12:48] [main/INFO]: Applied 0 biome modifications to 0 of 79 new biomes in 1.765 ms
+[19:12:48] [main/INFO]: Environment: authHost='https://mcskin.littleservice.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:51762/https/api.mojang.com', sessionHost='http://127.0.0.1:51762/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:51762/https/api.minecraftservices.com', name='PROD'
+[19:12:48] [main/INFO]: IP Config Applied
+[19:12:48] [Server thread/INFO]: Starting integrated minecraft server version 1.16.5
+[19:12:48] [Server thread/INFO]: Generating keypair
+[19:12:49] [Server thread/INFO]: Immersive Portals' Dimension Id Record File Does Not Exist
+[19:12:49] [Server thread/INFO]: Immersive Portals' dimension id record is missing
+[19:12:49] [Server thread/INFO]: Cannot retrieve Fabric's dimension id record.
+[19:12:49] [Server thread/INFO]: If this is not a newly created world, existing portal data may be corrupted!!!
+[19:12:49] [Server thread/INFO]: Dimension Id Record is Missing
+[19:12:49] [Server thread/INFO]: Start Completing Dimension Id Record
+[19:12:49] [Server thread/INFO]: Before:
+
+[19:12:49] [Server thread/INFO]: Server Loaded Dimensions:
+immersive_portals:alternate1
+immersive_portals:alternate2
+immersive_portals:alternate3
+immersive_portals:alternate4
+immersive_portals:alternate5
+minecraft:overworld
+minecraft:the_end
+minecraft:the_nether
+
+[19:12:49] [Server thread/INFO]: After:
+minecraft:overworld -> 0
+minecraft:the_nether -> -1
+minecraft:the_end -> 1
+immersive_portals:alternate1 -> 2
+immersive_portals:alternate2 -> 3
+immersive_portals:alternate3 -> 4
+immersive_portals:alternate4 -> 5
+immersive_portals:alternate5 -> 6
+[19:12:49] [Server thread/INFO]: Dimension Id Info Saved to File
+[19:12:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:12:49] [main/INFO]: 准备生成区域中：0%
+[19:12:49] [main/INFO]: 准备生成区域中：0%
+[19:12:49] [Server thread/INFO]: Loading custom portal gen
+[19:12:49] [main/INFO]: Time elapsed: 661 ms
+[19:12:50] [Server thread/INFO]: Changing view distance to 11, from 10
+[19:12:52] [Server thread/INFO]: GLgele[local:E:a92592b9] logged in with entity id 1 at (0.422304703208793, 4.0, -3.2990943326801685)
+[19:12:52] [Netty Local Client IO #0/INFO]: Received Dimension Type Sync
+[19:12:52] [Netty Local Client IO #0/INFO]: 
+minecraft:overworld -> minecraft:overworld
+immersive_portals:alternate1 -> immersive_portals:surface_type
+immersive_portals:alternate4 -> immersive_portals:surface_type
+immersive_portals:alternate3 -> immersive_portals:surface_type
+immersive_portals:alternate2 -> immersive_portals:surface_type
+immersive_portals:alternate5 -> immersive_portals:surface_type
+minecraft:the_nether -> minecraft:the_nether
+minecraft:the_end -> minecraft:the_end
+
+[19:12:52] [Netty Local Client IO #0/INFO]: Received Dimension Int Id Sync
+[19:12:52] [Netty Local Client IO #0/INFO]: 
+minecraft:overworld -> 0
+immersive_portals:alternate1 -> 2
+immersive_portals:alternate2 -> 3
+minecraft:the_nether -> -1
+immersive_portals:alternate3 -> 4
+immersive_portals:alternate4 -> 5
+minecraft:the_end -> 1
+immersive_portals:alternate5 -> 6
+[19:12:52] [Server thread/INFO]: GLgele加入了游戏
+[19:12:52] [main/INFO]: WorldRenderer reloaded minecraft:overworld
+[19:12:52] [Server thread/INFO]: Saving and pausing game...
+[19:12:52] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld Void_CBtest'/minecraft:overworld
+[19:12:52] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether Void_CBtest'/minecraft:the_nether
+[19:12:52] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end Void_CBtest'/minecraft:the_end
+[19:12:52] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 Void_CBtest'/immersive_portals:alternate1
+[19:12:52] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 Void_CBtest'/immersive_portals:alternate2
+[19:12:52] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 Void_CBtest'/immersive_portals:alternate3
+[19:12:52] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 Void_CBtest'/immersive_portals:alternate4
+[19:12:52] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 Void_CBtest'/immersive_portals:alternate5
+[19:12:53] [main/INFO]: Loaded 927 advancements
+[19:13:17] [Server thread/INFO]: Saving and pausing game...
+[19:13:17] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld Void_CBtest'/minecraft:overworld
+[19:13:17] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether Void_CBtest'/minecraft:the_nether
+[19:13:17] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end Void_CBtest'/minecraft:the_end
+[19:13:17] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 Void_CBtest'/immersive_portals:alternate1
+[19:13:17] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 Void_CBtest'/immersive_portals:alternate2
+[19:13:17] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 Void_CBtest'/immersive_portals:alternate3
+[19:13:17] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 Void_CBtest'/immersive_portals:alternate4
+[19:13:17] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 Void_CBtest'/immersive_portals:alternate5
+[19:14:02] [main/INFO]: [CHAT] [空间折叠] 查看如何使用传送门框架 https://qouteall.fun/immptl/wiki/Portal-Customization#portal-helper-block
+[19:14:32] [Server thread/INFO]: [GLgele: 更改了位于2, 4, -10的方块]
+[19:14:32] [main/INFO]: [CHAT] 更改了位于2, 4, -10的方块
+[19:15:00] [Server thread/INFO]: [GLgele: 更改了位于-2, 4, -10的方块]
+[19:15:00] [main/INFO]: [CHAT] 更改了位于-2, 4, -10的方块
+[19:15:05] [Server thread/INFO]: Saving and pausing game...
+[19:15:06] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld Void_CBtest'/minecraft:overworld
+[19:15:06] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether Void_CBtest'/minecraft:the_nether
+[19:15:06] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end Void_CBtest'/minecraft:the_end
+[19:15:06] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 Void_CBtest'/immersive_portals:alternate1
+[19:15:06] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 Void_CBtest'/immersive_portals:alternate2
+[19:15:06] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 Void_CBtest'/immersive_portals:alternate3
+[19:15:06] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 Void_CBtest'/immersive_portals:alternate4
+[19:15:06] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 Void_CBtest'/immersive_portals:alternate5
+[19:15:07] [Server thread/INFO]: Saving and pausing game...
+[19:15:07] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld Void_CBtest'/minecraft:overworld
+[19:15:07] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether Void_CBtest'/minecraft:the_nether
+[19:15:07] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end Void_CBtest'/minecraft:the_end
+[19:15:07] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 Void_CBtest'/immersive_portals:alternate1
+[19:15:07] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 Void_CBtest'/immersive_portals:alternate2
+[19:15:07] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 Void_CBtest'/immersive_portals:alternate3
+[19:15:07] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 Void_CBtest'/immersive_portals:alternate4
+[19:15:07] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 Void_CBtest'/immersive_portals:alternate5
+[19:16:09] [Server thread/INFO]: Saving and pausing game...
+[19:16:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld Void_CBtest'/minecraft:overworld
+[19:16:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether Void_CBtest'/minecraft:the_nether
+[19:16:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end Void_CBtest'/minecraft:the_end
+[19:16:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 Void_CBtest'/immersive_portals:alternate1
+[19:16:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 Void_CBtest'/immersive_portals:alternate2
+[19:16:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 Void_CBtest'/immersive_portals:alternate3
+[19:16:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 Void_CBtest'/immersive_portals:alternate4
+[19:16:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 Void_CBtest'/immersive_portals:alternate5
+[19:16:11] [Server thread/INFO]: [GLgele: 将时间设为1000]
+[19:16:11] [main/INFO]: [CHAT] 将时间设为1000
+[19:16:17] [main/INFO]: [CHAT] 游戏规则keepInventory目前为：true
+[19:16:21] [Server thread/INFO]: [GLgele: 游戏规则doDaylightCycle已被设为：false]
+[19:16:21] [main/INFO]: [CHAT] 游戏规则doDaylightCycle已被设为：false
+[19:16:22] [main/INFO]: [CHAT] 游戏规则keepInventory目前为：true
+[19:16:24] [Server thread/INFO]: [GLgele: 将时间设为1000]
+[19:16:24] [main/INFO]: [CHAT] 将时间设为1000
+[19:16:34] [Server thread/INFO]: Portal Generation Attempted minecraft:overworld -2 4 -12
+[19:16:34] [main/INFO]: [CHAT] [空间折叠] 如何制作自定义传送门： https://qouteall.fun/immptl/wiki/Portal-Customization
+[19:16:37] [Server thread/INFO]: Portal Generation Attempted minecraft:overworld 2 4 -10
+[19:16:39] [main/INFO]: [CHAT] [Immersive Portals] Portals abruptly load many chunks and may cause lag spikes. The lag will probably disappear after playing for 1 or 2 minutes.
+[19:16:43] [Server thread/INFO]: Portal Generation Attempted minecraft:overworld -2 4 -10
+[19:16:52] [main/INFO]: Client Teleported Portal{5,west,(minecraft:overworld -1 5 -16)->(minecraft:overworld 2 5 -16)} 4721
+[19:16:54] [main/INFO]: Client Teleported Portal{7,east,(minecraft:overworld 2 5 -16)->(minecraft:overworld -1 5 -16)} 4751
+[19:17:04] [main/INFO]: Client Teleported Portal{8,west,(minecraft:overworld 2 5 -16)->(minecraft:overworld -1 5 -16)} 4957
+[19:17:06] [main/INFO]: Client Teleported Portal{8,west,(minecraft:overworld 2 5 -16)->(minecraft:overworld -1 5 -16)} 4988
+[19:17:07] [main/INFO]: Client Teleported Portal{8,west,(minecraft:overworld 2 5 -16)->(minecraft:overworld -1 5 -16)} 5009
+[19:17:07] [main/INFO]: Client Teleported Portal{8,west,(minecraft:overworld 2 5 -16)->(minecraft:overworld -1 5 -16)} 5018
+[19:18:06] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:18:15] [main/INFO]: Client Teleported Portal{6,east,(minecraft:overworld -1 5 -16)->(minecraft:overworld 2 5 -16)} 6378
+[19:19:18] [main/INFO]: [CHAT] Removed Portal{8,west,(minecraft:overworld 2 5 -16)->(minecraft:overworld -1 5 -16),imm_ptl:intrinsic_portal_helper}
+[19:19:18] [main/INFO]: [CHAT] Removed Portal{6,east,(minecraft:overworld -1 5 -16)->(minecraft:overworld 2 5 -16),imm_ptl:intrinsic_portal_helper}
+[19:19:20] [main/INFO]: Client Teleported Portal{7,east,(minecraft:overworld 2 5 -16)->(minecraft:overworld -1 5 -16),imm_ptl:intrinsic_portal_helper} 7682
+[19:19:21] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:19:30] [main/INFO]: Client Teleported Portal{7,east,(minecraft:overworld 2 5 -16)->(minecraft:overworld -1 5 -16),imm_ptl:intrinsic_portal_helper} 7872
+[19:19:30] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:19:30] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:19:30] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:19:31] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:20:09] [main/INFO]: Client Teleported Portal{7,east,(minecraft:overworld 2 5 -16)->(minecraft:overworld -1 5 -16),imm_ptl:intrinsic_portal_helper} 8661
+[19:20:15] [main/INFO]: Client Teleported Portal{7,east,(minecraft:overworld 2 5 -16)->(minecraft:overworld -1 5 -16),imm_ptl:intrinsic_portal_helper} 8778
+[19:20:17] [main/INFO]: Client Teleported Portal{5,west,(minecraft:overworld -2 5 -16)->(minecraft:overworld 2 5 -16)} 8811
+[19:20:20] [main/INFO]: Client Teleported Portal{7,east,(minecraft:overworld 2 5 -16)->(minecraft:overworld -1 5 -16),imm_ptl:intrinsic_portal_helper} 8866
+[19:20:32] [main/INFO]: Client Teleported Portal{5,west,(minecraft:overworld -2 5 -16)->(minecraft:overworld 2 5 -16)} 9105
+[19:20:33] [main/INFO]: Client Teleported Portal{7,east,(minecraft:overworld 2 5 -16)->(minecraft:overworld -1 5 -16),imm_ptl:intrinsic_portal_helper} 9124
+[19:21:11] [main/INFO]: [CHAT] deleted Portal{7,east,(minecraft:overworld 2 5 -16)->(minecraft:overworld -1 5 -16),imm_ptl:intrinsic_portal_helper}
+[19:21:13] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:21:15] [main/INFO]: [CHAT] deleted Portal{5,west,(minecraft:overworld -2 5 -16)->(minecraft:overworld 2 5 -16),imm_ptl:intrinsic_portal_helper}
+[19:21:43] [Server thread/INFO]: Portal Generation Attempted minecraft:overworld 2 4 -17
+[19:21:43] [Server thread/INFO]: Cannot Find Portal Placement on Ground with 3 Spacing
+[19:21:43] [Server thread/INFO]: Generated Portal On Ground
+[19:21:43] [main/INFO]: [CHAT] No compatible portal helper frame can be found nearby. A new frame has been generated. It can only link to a compatible frame. 1x3 can link to 2x6, but 1x2 cannot link to 2x5.
+[19:21:51] [main/INFO]: [CHAT] deleted Portal{23,east,(minecraft:overworld 2 6 -15)->(minecraft:overworld 0 11 0),imm_ptl:intrinsic_portal_helper}
+[19:21:53] [main/INFO]: [CHAT] deleted Portal{24,east,(minecraft:overworld 0 11 0)->(minecraft:overworld 2 6 -15),imm_ptl:intrinsic_portal_helper}
+[19:22:07] [main/INFO]: [CHAT] deleted Portal{25,west,(minecraft:overworld 0 11 0)->(minecraft:overworld 2 6 -15),imm_ptl:intrinsic_portal_helper}
+[19:22:10] [main/INFO]: [CHAT] deleted Portal{22,west,(minecraft:overworld 2 6 -15)->(minecraft:overworld 0 11 0),imm_ptl:intrinsic_portal_helper}
+[19:22:41] [Server thread/INFO]: Portal Generation Attempted minecraft:overworld 2 4 -13
+[19:22:46] [Server thread/INFO]: Portal Generation Attempted minecraft:overworld 2 4 -13
+[19:22:47] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -1 6 -15)->(minecraft:overworld 2 6 -15)} 11810
+[19:22:54] [main/INFO]: Client Teleported Portal{33,east,(minecraft:overworld -1 6 -15)->(minecraft:overworld 2 6 -15)} 11945
+[19:22:54] [main/INFO]: Client Teleported Portal{33,east,(minecraft:overworld -1 6 -15)->(minecraft:overworld 2 6 -15)} 11954
+[19:22:54] [main/INFO]: Client Teleported Portal{33,east,(minecraft:overworld -1 6 -15)->(minecraft:overworld 2 6 -15)} 11962
+[19:22:55] [main/INFO]: Client Teleported Portal{33,east,(minecraft:overworld -1 6 -15)->(minecraft:overworld 2 6 -15)} 11970
+[19:22:55] [main/INFO]: Client Teleported Portal{33,east,(minecraft:overworld -1 6 -15)->(minecraft:overworld 2 6 -15)} 11977
+[19:22:56] [main/INFO]: Client Teleported Portal{33,east,(minecraft:overworld -1 6 -15)->(minecraft:overworld 2 6 -15)} 11984
+[19:22:56] [main/INFO]: Client Teleported Portal{33,east,(minecraft:overworld -1 6 -15)->(minecraft:overworld 2 6 -15)} 11992
+[19:22:56] [main/INFO]: Client Teleported Portal{33,east,(minecraft:overworld -1 6 -15)->(minecraft:overworld 2 6 -15)} 11999
+[19:22:57] [main/INFO]: Client Teleported Portal{33,east,(minecraft:overworld -1 6 -15)->(minecraft:overworld 2 6 -15)} 12008
+[19:22:58] [main/INFO]: Client Teleported Portal{31,west,(minecraft:overworld 2 6 -15)->(minecraft:overworld -1 6 -15)} 12024
+[19:22:58] [main/INFO]: Client Teleported Portal{31,west,(minecraft:overworld 2 6 -15)->(minecraft:overworld -1 6 -15)} 12034
+[19:22:58] [main/INFO]: Client Teleported Portal{31,west,(minecraft:overworld 2 6 -15)->(minecraft:overworld -1 6 -15)} 12043
+[19:23:07] [main/INFO]: Client Teleported Portal{32,east,(minecraft:overworld 2 6 -15)->(minecraft:overworld -1 6 -15)} 12208
+[19:23:08] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -1 6 -15)->(minecraft:overworld 2 6 -15)} 12237
+[19:23:09] [main/INFO]: Client Teleported Portal{32,east,(minecraft:overworld 2 6 -15)->(minecraft:overworld -1 6 -15)} 12256
+[19:23:09] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -1 6 -15)->(minecraft:overworld 2 6 -15)} 12261
+[19:23:22] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:24:15] [Server thread/INFO]: [GLgele: 你的游戏模式已被设置为生存模式 ]
+[19:24:15] [main/INFO]: [CHAT] 你的游戏模式已被设置为生存模式 
+[19:24:57] [Server thread/INFO]: [GLgele: 你的游戏模式已被设置为创造模式 ]
+[19:24:57] [main/INFO]: [CHAT] 你的游戏模式已被设置为创造模式 
+[19:24:59] [Server thread/INFO]: [GLgele: 你的游戏模式已被设置为冒险模式 ]
+[19:24:59] [main/INFO]: [CHAT] 你的游戏模式已被设置为冒险模式 
+[19:25:08] [Server thread/INFO]: [GLgele: 你的游戏模式已被设置为创造模式 ]
+[19:25:08] [main/INFO]: [CHAT] 你的游戏模式已被设置为创造模式 
+[19:25:09] [Server thread/INFO]: Saving and pausing game...
+[19:25:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld Void_CBtest'/minecraft:overworld
+[19:25:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether Void_CBtest'/minecraft:the_nether
+[19:25:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end Void_CBtest'/minecraft:the_end
+[19:25:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 Void_CBtest'/immersive_portals:alternate1
+[19:25:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 Void_CBtest'/immersive_portals:alternate2
+[19:25:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 Void_CBtest'/immersive_portals:alternate3
+[19:25:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 Void_CBtest'/immersive_portals:alternate4
+[19:25:09] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 Void_CBtest'/immersive_portals:alternate5
+[19:25:16] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:25:19] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:25:59] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -2 6 -17)->(minecraft:overworld 11 6 -13),imm_ptl:intrinsic_portal_helper} 15616
+[19:26:36] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -1 6 -17)->(minecraft:overworld 12 6 -17),imm_ptl:intrinsic_portal_helper} 16357
+[19:26:39] [main/INFO]: Client Teleported Portal{32,east,(minecraft:overworld 2 6 -15)->(minecraft:overworld -1 6 -15)} 16419
+[19:26:47] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -1 6 -17)->(minecraft:overworld 2 6 -17),imm_ptl:intrinsic_portal_helper} 16570
+[19:26:47] [main/INFO]: Client Teleported Portal{32,east,(minecraft:overworld 2 6 -15)->(minecraft:overworld -1 6 -15)} 16583
+[19:26:49] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -1 6 -17)->(minecraft:overworld 3 6 -17),imm_ptl:intrinsic_portal_helper} 16627
+[19:26:51] [main/INFO]: Client Teleported Portal{32,east,(minecraft:overworld 2 6 -15)->(minecraft:overworld -1 6 -15)} 16654
+[19:26:51] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -1 6 -17)->(minecraft:overworld 3 6 -17),imm_ptl:intrinsic_portal_helper} 16665
+[19:26:52] [main/INFO]: Client Teleported Portal{32,east,(minecraft:overworld 2 6 -15)->(minecraft:overworld -1 6 -15)} 16686
+[19:26:53] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -1 6 -17)->(minecraft:overworld 3 6 -17),imm_ptl:intrinsic_portal_helper} 16700
+[19:26:54] [main/INFO]: Client Teleported Portal{32,east,(minecraft:overworld 2 6 -15)->(minecraft:overworld -1 6 -15)} 16714
+[19:26:54] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -1 6 -17)->(minecraft:overworld 3 6 -17),imm_ptl:intrinsic_portal_helper} 16724
+[19:26:55] [main/INFO]: Client Teleported Portal{32,east,(minecraft:overworld 2 6 -15)->(minecraft:overworld -1 6 -15)} 16743
+[19:26:56] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -1 6 -17)->(minecraft:overworld 3 6 -17),imm_ptl:intrinsic_portal_helper} 16757
+[19:27:30] [main/INFO]: [CHAT] 未知或不完整的命令，错误见下
+[19:27:30] [main/INFO]: [CHAT] ...ove_portal<--[此处]
+[19:27:56] [main/INFO]: Client Teleported Portal{31,west,(minecraft:overworld 2 6 -15)->(minecraft:overworld -1 6 -15)} 17958
+[19:27:57] [main/INFO]: Client Teleported Portal{33,east,(minecraft:overworld -1 6 -15)->(minecraft:overworld 2 6 -15)} 17978
+[19:28:10] [main/INFO]: Client Teleported Portal{31,west,(minecraft:overworld 2 6 -15)->(minecraft:overworld -1 6 -15)} 18246
+[19:28:34] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:28:39] [main/INFO]: Client Teleported Portal{33,east,(minecraft:overworld -1 6 -15)->(minecraft:overworld 2 6 -15)} 18822
+[19:30:30] [main/INFO]: Client Teleported Portal{31,west,(minecraft:overworld 4 6 -15)->(minecraft:overworld -1 6 -15)} 21041
+[19:30:31] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -1 6 -15)->(minecraft:overworld 3 6 -17),imm_ptl:intrinsic_portal_helper} 21057
+[19:30:31] [main/INFO]: Client Teleported Portal{31,west,(minecraft:overworld 4 6 -15)->(minecraft:overworld -1 6 -15)} 21061
+[19:30:31] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -1 6 -15)->(minecraft:overworld 3 6 -17),imm_ptl:intrinsic_portal_helper} 21064
+[19:30:32] [main/INFO]: Client Teleported Portal{31,west,(minecraft:overworld 4 6 -15)->(minecraft:overworld -1 6 -15)} 21073
+[19:30:32] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -1 6 -15)->(minecraft:overworld 3 6 -17),imm_ptl:intrinsic_portal_helper} 21086
+[19:30:45] [main/INFO]: Client Teleported Portal{31,west,(minecraft:overworld 4 6 -15)->(minecraft:overworld -1 6 -15)} 21342
+[19:30:45] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -1 6 -15)->(minecraft:overworld 3 6 -17),imm_ptl:intrinsic_portal_helper} 21344
+[19:30:45] [main/INFO]: Client Teleported Portal{31,west,(minecraft:overworld 4 6 -15)->(minecraft:overworld -1 6 -15)} 21348
+[19:30:46] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -1 6 -15)->(minecraft:overworld 3 6 -17),imm_ptl:intrinsic_portal_helper} 21349
+[19:30:46] [main/INFO]: Client Teleported Portal{31,west,(minecraft:overworld 4 6 -15)->(minecraft:overworld -1 6 -15)} 21352
+[19:30:46] [main/INFO]: Client Teleported Portal{34,west,(minecraft:overworld -1 6 -15)->(minecraft:overworld 3 6 -17),imm_ptl:intrinsic_portal_helper} 21353
+[19:30:58] [Server thread/INFO]: Saving and pausing game...
+[19:30:58] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld Void_CBtest'/minecraft:overworld
+[19:30:58] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether Void_CBtest'/minecraft:the_nether
+[19:30:58] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end Void_CBtest'/minecraft:the_end
+[19:30:58] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 Void_CBtest'/immersive_portals:alternate1
+[19:30:58] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 Void_CBtest'/immersive_portals:alternate2
+[19:30:58] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 Void_CBtest'/immersive_portals:alternate3
+[19:30:58] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 Void_CBtest'/immersive_portals:alternate4
+[19:30:58] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 Void_CBtest'/immersive_portals:alternate5
+[19:30:58] [Server thread/INFO]: GLgele lost connection: 连接中止
+[19:30:58] [Server thread/INFO]: GLgele退出了游戏
+[19:30:58] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[19:30:58] [Server thread/INFO]: Stopping server
+[19:30:58] [Server thread/INFO]: Saving players
+[19:30:58] [Server thread/INFO]: Saving worlds
+[19:30:58] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld Void_CBtest'/minecraft:overworld
+[19:30:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (Void_CBtest): All chunks are saved
+[19:30:58] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether Void_CBtest'/minecraft:the_nether
+[19:30:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:30:58] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end Void_CBtest'/minecraft:the_end
+[19:30:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:30:58] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 Void_CBtest'/immersive_portals:alternate1
+[19:30:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate1): All chunks are saved
+[19:30:58] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 Void_CBtest'/immersive_portals:alternate2
+[19:30:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate2): All chunks are saved
+[19:30:58] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 Void_CBtest'/immersive_portals:alternate3
+[19:30:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate3): All chunks are saved
+[19:30:58] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 Void_CBtest'/immersive_portals:alternate4
+[19:30:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate4): All chunks are saved
+[19:30:58] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 Void_CBtest'/immersive_portals:alternate5
+[19:30:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate5): All chunks are saved
+[19:30:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (Void_CBtest): All chunks are saved
+[19:30:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:30:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:30:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate1): All chunks are saved
+[19:30:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate2): All chunks are saved
+[19:30:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate3): All chunks are saved
+[19:30:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate4): All chunks are saved
+[19:30:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate5): All chunks are saved
+[19:31:01] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:31:01] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:31:01] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:31:01] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:31:01] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:31:01] [main/INFO]: Successfully initialized command /immersive_portals_debug
+[19:31:01] [main/INFO]: Reloading ResourceManager: Default, Test, Fabric Mods (Fabric Tool Attribute API (v1), Immersive Portals)
+[19:31:02] [main/INFO]: Loaded 7 recipes
+[19:31:02] [main/INFO]: Loaded 927 advancements
+[19:31:02] [main/INFO]: Applied 0 biome modifications to 0 of 79 new biomes in 360.6 μs
+[19:31:02] [main/INFO]: Environment: authHost='https://mcskin.littleservice.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:51762/https/api.mojang.com', sessionHost='http://127.0.0.1:51762/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:51762/https/api.minecraftservices.com', name='PROD'
+[19:31:02] [main/INFO]: IP Config Applied
+[19:31:02] [Server thread/INFO]: Starting integrated minecraft server version 1.16.5
+[19:31:02] [Server thread/INFO]: Generating keypair
+[19:31:03] [Server thread/INFO]: Successfully read IP's dimension id record
+[19:31:03] [Server thread/INFO]: Start Completing Dimension Id Record
+[19:31:03] [Server thread/INFO]: Before:
+minecraft:overworld -> 0
+immersive_portals:alternate1 -> 2
+immersive_portals:alternate2 -> 3
+minecraft:the_nether -> -1
+immersive_portals:alternate3 -> 4
+immersive_portals:alternate4 -> 5
+minecraft:the_end -> 1
+immersive_portals:alternate5 -> 6
+[19:31:03] [Server thread/INFO]: Server Loaded Dimensions:
+immersive_portals:alternate1
+immersive_portals:alternate2
+immersive_portals:alternate3
+immersive_portals:alternate4
+immersive_portals:alternate5
+minecraft:overworld
+minecraft:the_end
+minecraft:the_nether
+
+[19:31:03] [Server thread/INFO]: After:
+minecraft:overworld -> 0
+immersive_portals:alternate1 -> 2
+immersive_portals:alternate2 -> 3
+minecraft:the_nether -> -1
+immersive_portals:alternate3 -> 4
+immersive_portals:alternate4 -> 5
+minecraft:the_end -> 1
+immersive_portals:alternate5 -> 6
+[19:31:03] [Server thread/INFO]: Dimension Id Info Saved to File
+[19:31:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:31:03] [main/INFO]: 准备生成区域中：0%
+[19:31:03] [Server thread/INFO]: Loading custom portal gen
+[19:31:03] [main/INFO]: Time elapsed: 330 ms
+[19:31:03] [Server thread/INFO]: Changing view distance to 11, from 10
+[19:31:03] [Server thread/INFO]: GLgele[local:E:382e909f] logged in with entity id 141 at (2.5053040800873547, 4.0, -1.485464899478611)
+[19:31:03] [Netty Local Client IO #1/INFO]: Received Dimension Type Sync
+[19:31:03] [Netty Local Client IO #1/INFO]: 
+minecraft:overworld -> minecraft:overworld
+immersive_portals:alternate1 -> immersive_portals:surface_type
+immersive_portals:alternate4 -> immersive_portals:surface_type
+immersive_portals:alternate3 -> immersive_portals:surface_type
+immersive_portals:alternate2 -> immersive_portals:surface_type
+immersive_portals:alternate5 -> immersive_portals:surface_type
+minecraft:the_nether -> minecraft:the_nether
+minecraft:the_end -> minecraft:the_end
+
+[19:31:03] [Netty Local Client IO #1/INFO]: Received Dimension Int Id Sync
+[19:31:03] [Netty Local Client IO #1/INFO]: 
+minecraft:overworld -> 0
+immersive_portals:alternate1 -> 2
+immersive_portals:alternate2 -> 3
+minecraft:the_nether -> -1
+immersive_portals:alternate3 -> 4
+immersive_portals:alternate4 -> 5
+minecraft:the_end -> 1
+immersive_portals:alternate5 -> 6
+[19:31:03] [Server thread/INFO]: GLgele加入了游戏
+[19:31:03] [main/INFO]: WorldRenderer reloaded minecraft:overworld
+[19:31:03] [Server thread/INFO]: Saving and pausing game...
+[19:31:03] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld Void_CBtest'/minecraft:overworld
+[19:31:04] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether Void_CBtest'/minecraft:the_nether
+[19:31:04] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end Void_CBtest'/minecraft:the_end
+[19:31:04] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 Void_CBtest'/immersive_portals:alternate1
+[19:31:04] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 Void_CBtest'/immersive_portals:alternate2
+[19:31:04] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 Void_CBtest'/immersive_portals:alternate3
+[19:31:04] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 Void_CBtest'/immersive_portals:alternate4
+[19:31:04] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 Void_CBtest'/immersive_portals:alternate5
+[19:31:04] [main/INFO]: Loaded 927 advancements
+[19:32:31] [Server thread/INFO]: Portal Generation Attempted minecraft:overworld 22 4 22
+[19:32:31] [Server thread/INFO]: Cannot Find Portal Placement on Ground with 3 Spacing
+[19:32:31] [Server thread/INFO]: Generated Portal On Ground
+[19:32:31] [main/INFO]: [CHAT] No compatible portal helper frame can be found nearby. A new frame has been generated. It can only link to a compatible frame. 1x3 can link to 2x6, but 1x2 cannot link to 2x5.
+[19:32:39] [main/INFO]: [CHAT] deleted Portal{152,north,(minecraft:overworld 24 9 23)->(minecraft:overworld 22 5 22),imm_ptl:intrinsic_portal_helper}
+[19:32:40] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:32:41] [main/INFO]: [CHAT] deleted Portal{151,south,(minecraft:overworld 24 9 23)->(minecraft:overworld 22 5 22),imm_ptl:intrinsic_portal_helper}
+[19:32:42] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:32:49] [main/INFO]: [CHAT] deleted Portal{149,north,(minecraft:overworld 22 5 22)->(minecraft:overworld 24 9 23),imm_ptl:intrinsic_portal_helper}
+[19:32:49] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:32:51] [main/INFO]: [CHAT] deleted Portal{150,south,(minecraft:overworld 22 5 22)->(minecraft:overworld 24 9 23),imm_ptl:intrinsic_portal_helper}
+[19:33:00] [Server thread/INFO]: Portal Generation Attempted minecraft:overworld -13 4 23
+[19:33:00] [Server thread/INFO]: Cannot Find Portal Placement on Ground with 3 Spacing
+[19:33:00] [Server thread/INFO]: Cannot Find Portal Placement on Ground with 1 Spacing
+[19:33:00] [Server thread/INFO]: Generated Portal On Ground
+[19:33:00] [main/INFO]: [CHAT] No compatible portal helper frame can be found nearby. A new frame has been generated. It can only link to a compatible frame. 1x3 can link to 2x6, but 1x2 cannot link to 2x5.
+[19:33:10] [main/INFO]: [CHAT] deleted Portal{161,east,(minecraft:overworld -12 9 25)->(minecraft:overworld -12 5 24),imm_ptl:intrinsic_portal_helper}
+[19:33:10] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:33:11] [main/INFO]: [CHAT] deleted Portal{162,west,(minecraft:overworld -12 9 25)->(minecraft:overworld -12 5 24),imm_ptl:intrinsic_portal_helper}
+[19:33:12] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:33:12] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:33:14] [main/INFO]: [CHAT] deleted Portal{159,west,(minecraft:overworld -12 5 24)->(minecraft:overworld -12 9 25),imm_ptl:intrinsic_portal_helper}
+[19:33:17] [main/INFO]: [CHAT] deleted Portal{160,east,(minecraft:overworld -12 5 24)->(minecraft:overworld -12 9 25),imm_ptl:intrinsic_portal_helper}
+[19:33:50] [Server thread/INFO]: Portal Generation Attempted minecraft:overworld 21 4 22
+[19:33:56] [main/INFO]: Client Teleported Portal{172,north,(minecraft:overworld -14 5 25)->(minecraft:overworld 22 5 22)} 25051
+[19:33:58] [main/INFO]: Client Teleported Portal{170,south,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 25)} 25080
+[19:34:00] [main/INFO]: Client Teleported Portal{172,north,(minecraft:overworld -14 5 25)->(minecraft:overworld 22 5 22)} 25120
+[19:34:01] [main/INFO]: Client Teleported Portal{170,south,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 25)} 25133
+[19:34:01] [Server thread/INFO]: Portal Generation Attempted minecraft:overworld 22 4 22
+[19:34:04] [Server thread/INFO]: Saving and pausing game...
+[19:34:04] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld Void_CBtest'/minecraft:overworld
+[19:34:04] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether Void_CBtest'/minecraft:the_nether
+[19:34:04] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end Void_CBtest'/minecraft:the_end
+[19:34:04] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 Void_CBtest'/immersive_portals:alternate1
+[19:34:04] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 Void_CBtest'/immersive_portals:alternate2
+[19:34:04] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 Void_CBtest'/immersive_portals:alternate3
+[19:34:04] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 Void_CBtest'/immersive_portals:alternate4
+[19:34:04] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 Void_CBtest'/immersive_portals:alternate5
+[19:34:09] [main/INFO]: Client Teleported Portal{172,north,(minecraft:overworld -14 5 25)->(minecraft:overworld 22 5 22)} 25276
+[19:34:10] [main/INFO]: Client Teleported Portal{170,south,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 25)} 25293
+[19:34:13] [main/INFO]: Client Teleported Portal{172,north,(minecraft:overworld -14 5 25)->(minecraft:overworld 22 5 22)} 25355
+[19:34:14] [main/INFO]: Client Teleported Portal{170,south,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 25)} 25376
+[19:34:18] [main/INFO]: Client Teleported Portal{169,north,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 25)} 25450
+[19:34:19] [main/INFO]: Client Teleported Portal{171,south,(minecraft:overworld -14 5 25)->(minecraft:overworld 22 5 22)} 25482
+[19:34:20] [main/INFO]: Client Teleported Portal{169,north,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 25)} 25492
+[19:34:44] [main/INFO]: Client Teleported Portal{171,south,(minecraft:overworld -14 5 25)->(minecraft:overworld 22 5 22)} 25979
+[19:35:05] [main/INFO]: [CHAT] deleted Portal{170,south,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 25),imm_ptl:intrinsic_portal_helper}
+[19:35:07] [main/INFO]: Client Teleported Portal{169,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 25)} 26433
+[19:35:32] [main/INFO]: [CHAT] deleted Portal{171,south,(minecraft:overworld -14 5 25)->(minecraft:overworld 22 5 22),imm_ptl:intrinsic_portal_helper}
+[19:35:33] [main/INFO]: [CHAT] deleted Portal{172,north,(minecraft:overworld -14 5 25)->(minecraft:overworld 22 5 22),imm_ptl:intrinsic_portal_helper}
+[19:35:33] [Server thread/INFO]: Reject cross portal block placing packet class_3222['GLgele'/141, l='ServerWorld minecraft:overworld Void_CBtest', x=-15.30, y=3.21, z=25.20]
+[19:35:46] [Server thread/INFO]: Portal Generation Attempted minecraft:overworld -14 4 25
+[19:35:46] [Server thread/INFO]: Cannot Find Portal Placement on Ground with 3 Spacing
+[19:35:46] [Server thread/INFO]: Generated Portal On Ground
+[19:35:46] [main/INFO]: [CHAT] No compatible portal helper frame can be found nearby. A new frame has been generated. It can only link to a compatible frame. 1x3 can link to 2x6, but 1x2 cannot link to 2x5.
+[19:35:55] [main/INFO]: [CHAT] deleted Portal{181,south,(minecraft:overworld -12 9 25)->(minecraft:overworld -14 5 25),imm_ptl:intrinsic_portal_helper}
+[19:35:56] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:35:56] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:35:56] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:35:56] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:35:58] [main/INFO]: [CHAT] deleted Portal{182,north,(minecraft:overworld -12 9 25)->(minecraft:overworld -14 5 25),imm_ptl:intrinsic_portal_helper}
+[19:35:58] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:36:01] [main/INFO]: [CHAT] deleted Portal{180,south,(minecraft:overworld -14 5 25)->(minecraft:overworld -12 9 25),imm_ptl:intrinsic_portal_helper}
+[19:36:01] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:36:02] [main/INFO]: [CHAT] deleted Portal{179,north,(minecraft:overworld -14 5 25)->(minecraft:overworld -12 9 25),imm_ptl:intrinsic_portal_helper}
+[19:36:11] [main/INFO]: [CHAT] deleted Portal{169,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 25),imm_ptl:intrinsic_portal_helper}
+[19:36:21] [Server thread/INFO]: Portal Generation Attempted minecraft:overworld 22 4 22
+[19:36:34] [main/INFO]: [CHAT] deleted Portal{189,south,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 25),imm_ptl:intrinsic_portal_helper}
+[19:36:37] [main/INFO]: Client Teleported Portal{188,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 25)} 28234
+[19:36:54] [main/INFO]: Client Teleported Portal{191,north,(minecraft:overworld -14 5 25)->(minecraft:overworld 22 5 22)} 28580
+[19:36:55] [main/INFO]: Client Teleported Portal{188,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 25)} 28588
+[19:36:57] [main/INFO]: Client Teleported Portal{190,south,(minecraft:overworld -14 5 25)->(minecraft:overworld 22 5 22)} 28629
+[19:36:58] [main/INFO]: Client Teleported Portal{188,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 25)} 28659
+[19:37:24] [main/INFO]: Client Teleported Portal{191,north,(minecraft:overworld -14 5 25)->(minecraft:overworld 22 5 22)} 29168
+[19:37:25] [main/INFO]: Client Teleported Portal{188,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 25)} 29196
+[19:37:26] [main/INFO]: Client Teleported Portal{190,south,(minecraft:overworld -14 5 25)->(minecraft:overworld 22 5 22)} 29210
+[19:37:27] [main/INFO]: Client Teleported Portal{188,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 25)} 29233
+[19:37:27] [main/INFO]: Client Teleported Portal{190,south,(minecraft:overworld -14 5 25)->(minecraft:overworld 22 5 22)} 29246
+[19:37:28] [main/INFO]: Client Teleported Portal{188,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 25)} 29262
+[19:37:28] [main/INFO]: Client Teleported Portal{190,south,(minecraft:overworld -14 5 25)->(minecraft:overworld 22 5 22)} 29267
+[19:37:30] [main/INFO]: [CHAT] deleted Portal{188,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 25),imm_ptl:intrinsic_portal_helper}
+[19:37:30] [Server thread/INFO]: Reject cross portal block placing packet class_3222['GLgele'/141, l='ServerWorld minecraft:overworld Void_CBtest', x=21.94, y=4.00, z=21.14]
+[19:37:31] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:37:35] [main/INFO]: [CHAT] You are not pointing to any non-global portal. (This command cannot process global portals)
+[19:37:35] [main/INFO]: [CHAT] deleted Portal{191,north,(minecraft:overworld -14 5 25)->(minecraft:overworld 22 5 22),imm_ptl:intrinsic_portal_helper}
+[19:37:37] [main/INFO]: [CHAT] deleted Portal{190,south,(minecraft:overworld -14 5 25)->(minecraft:overworld 22 5 22),imm_ptl:intrinsic_portal_helper}
+[19:37:46] [Server thread/INFO]: Portal Generation Attempted minecraft:overworld -14 4 24
+[19:37:46] [Server thread/INFO]: Cannot Find Portal Placement on Ground with 3 Spacing
+[19:37:46] [Server thread/INFO]: Generated Portal On Ground
+[19:37:46] [main/INFO]: [CHAT] No compatible portal helper frame can be found nearby. A new frame has been generated. It can only link to a compatible frame. 1x3 can link to 2x6, but 1x2 cannot link to 2x5.
+[19:37:51] [main/INFO]: [CHAT] deleted Portal{202,north,(minecraft:overworld -11 9 25)->(minecraft:overworld -14 5 24),imm_ptl:intrinsic_portal_helper}
+[19:37:56] [main/INFO]: [CHAT] deleted Portal{201,south,(minecraft:overworld -11 9 25)->(minecraft:overworld -14 5 24),imm_ptl:intrinsic_portal_helper}
+[19:37:57] [main/INFO]: [CHAT] deleted Portal{199,north,(minecraft:overworld -14 5 24)->(minecraft:overworld -11 9 25),imm_ptl:intrinsic_portal_helper}
+[19:37:59] [main/INFO]: [CHAT] deleted Portal{200,south,(minecraft:overworld -14 5 24)->(minecraft:overworld -11 9 25),imm_ptl:intrinsic_portal_helper}
+[19:38:13] [Server thread/INFO]: Portal Generation Attempted minecraft:overworld 22 4 22
+[19:38:15] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 24)} 30194
+[19:38:16] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 30215
+[19:38:18] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 24)} 30249
+[19:38:19] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 30278
+[19:38:21] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 24)} 30308
+[19:38:21] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 30326
+[19:38:24] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 24)} 30375
+[19:38:39] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 30677
+[19:38:41] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 24)} 30725
+[19:38:42] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 30730
+[19:38:53] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 30967
+[19:38:54] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 30972
+[19:38:58] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 31067
+[19:39:01] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 31118
+[19:39:02] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 31134
+[19:39:07] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 31231
+[19:39:12] [main/INFO]: Client Teleported Portal{209,south,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 24)} 31330
+[19:39:12] [main/INFO]: Client Teleported Portal{211,north,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 31346
+[19:39:14] [main/INFO]: [CHAT] deleted Portal{209,south,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 24),imm_ptl:intrinsic_portal_helper}
+[19:39:16] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 31411
+[19:39:17] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 31429
+[19:39:18] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 31455
+[19:39:46] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 32022
+[19:39:49] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 32068
+[19:39:53] [main/INFO]: Client Teleported Portal{211,north,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 32160
+[19:39:53] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 32163
+[19:39:59] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 32276
+[19:40:00] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 32290
+[19:40:17] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 32635
+[19:40:19] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 32672
+[19:40:25] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 32805
+[19:40:27] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 32837
+[19:41:02] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 33537
+[19:41:05] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 33588
+[19:41:05] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 33598
+[19:41:06] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 33618
+[19:41:06] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 33622
+[19:41:07] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 33645
+[19:41:08] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 33653
+[19:41:08] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 33663
+[19:41:09] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 33669
+[19:41:10] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 33688
+[19:41:10] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 33693
+[19:41:11] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 33712
+[19:41:12] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 33740
+[19:41:13] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 33753
+[19:41:16] [main/INFO]: Client Teleported Portal{211,north,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 33820
+[19:41:17] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 33844
+[19:41:18] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 33862
+[19:41:19] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 33873
+[19:41:22] [main/INFO]: [CHAT] deleted Portal{211,north,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22),imm_ptl:intrinsic_portal_helper}
+[19:41:24] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 33983
+[19:41:25] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 33998
+[19:41:28] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 34057
+[19:41:30] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 34088
+[19:41:31] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 34115
+[19:41:32] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 34132
+[19:41:33] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 34151
+[19:41:38] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 24)} 34250
+[19:41:39] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 34282
+[19:41:40] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 22)->(minecraft:overworld -14 5 24)} 34299
+[19:41:41] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 34308
+[19:41:47] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 34447
+[19:41:49] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 34471
+[19:41:50] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 34504
+[19:41:51] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 34521
+[19:41:53] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 34551
+[19:41:53] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22)} 34566
+[19:41:55] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 34603
+[19:41:59] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22),imm_ptl:intrinsic_portal_helper} 34681
+[19:42:01] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 34711
+[19:42:03] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 22),imm_ptl:intrinsic_portal_helper} 34748
+[19:42:04] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 34770
+[19:42:05] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 23),imm_ptl:intrinsic_portal_helper} 34804
+[19:42:06] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 34819
+[19:42:07] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 23),imm_ptl:intrinsic_portal_helper} 34837
+[19:42:08] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 34850
+[19:42:09] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 23),imm_ptl:intrinsic_portal_helper} 34875
+[19:42:09] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 34887
+[19:42:10] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 23),imm_ptl:intrinsic_portal_helper} 34902
+[19:42:11] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 34918
+[19:42:13] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 23),imm_ptl:intrinsic_portal_helper} 34957
+[19:42:14] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 34970
+[19:42:14] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 23),imm_ptl:intrinsic_portal_helper} 34984
+[19:42:16] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 35014
+[19:42:17] [main/INFO]: Client Teleported Portal{210,south,(minecraft:overworld -14 5 24)->(minecraft:overworld 22 5 23),imm_ptl:intrinsic_portal_helper} 35041
+[19:42:18] [main/INFO]: Client Teleported Portal{208,north,(minecraft:overworld 22 5 23)->(minecraft:overworld -14 5 24)} 35065
+[19:42:25] [Server thread/INFO]: Saving and pausing game...
+[19:42:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld Void_CBtest'/minecraft:overworld
+[19:42:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether Void_CBtest'/minecraft:the_nether
+[19:42:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end Void_CBtest'/minecraft:the_end
+[19:42:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 Void_CBtest'/immersive_portals:alternate1
+[19:42:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 Void_CBtest'/immersive_portals:alternate2
+[19:42:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 Void_CBtest'/immersive_portals:alternate3
+[19:42:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 Void_CBtest'/immersive_portals:alternate4
+[19:42:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 Void_CBtest'/immersive_portals:alternate5
+[19:42:25] [Server thread/INFO]: GLgele lost connection: 连接中止
+[19:42:25] [Server thread/INFO]: GLgele退出了游戏
+[19:42:25] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[19:42:25] [Server thread/INFO]: Stopping server
+[19:42:25] [Server thread/INFO]: Saving players
+[19:42:25] [Server thread/INFO]: Saving worlds
+[19:42:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld Void_CBtest'/minecraft:overworld
+[19:42:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (Void_CBtest): All chunks are saved
+[19:42:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether Void_CBtest'/minecraft:the_nether
+[19:42:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:42:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end Void_CBtest'/minecraft:the_end
+[19:42:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:42:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 Void_CBtest'/immersive_portals:alternate1
+[19:42:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate1): All chunks are saved
+[19:42:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 Void_CBtest'/immersive_portals:alternate2
+[19:42:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate2): All chunks are saved
+[19:42:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 Void_CBtest'/immersive_portals:alternate3
+[19:42:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate3): All chunks are saved
+[19:42:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 Void_CBtest'/immersive_portals:alternate4
+[19:42:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate4): All chunks are saved
+[19:42:25] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 Void_CBtest'/immersive_portals:alternate5
+[19:42:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate5): All chunks are saved
+[19:42:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (Void_CBtest): All chunks are saved
+[19:42:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:42:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:42:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate1): All chunks are saved
+[19:42:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate2): All chunks are saved
+[19:42:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate3): All chunks are saved
+[19:42:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate4): All chunks are saved
+[19:42:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate5): All chunks are saved
+[19:42:26] [main/INFO]: Stopping!

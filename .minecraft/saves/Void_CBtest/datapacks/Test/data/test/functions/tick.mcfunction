@@ -1,1 +1,0 @@
-#execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick"}}] at @s run summon minecraft:arrow ~ ~1 ~ {Motion:[1,0,1],pickup:2b}

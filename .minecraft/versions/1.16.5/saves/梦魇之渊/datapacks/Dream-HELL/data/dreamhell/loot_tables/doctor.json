@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:'test:test_bow',display:{Name:'{\"translate\":\"item.test.test_bow\"}'},CustomModelData:1340000}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

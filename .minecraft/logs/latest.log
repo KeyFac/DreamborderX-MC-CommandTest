@@ -1,139 +1,35 @@
-[16:08:55] [Client thread/INFO]: Setting user: GLgele
-[16:08:57] [Client thread/WARN]: Skipping bad option: lastServer:
-[16:08:57] [Client thread/INFO]: LWJGL Version: 2.9.4
-[16:08:58] [Client thread/INFO]: Reloading ResourceManager: Default
-[16:08:59] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[16:08:59] [Thread-3/INFO]: Initializing LWJGL OpenAL
-[16:08:59] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[16:08:59] [Thread-3/INFO]: OpenAL initialized.
-[16:09:00] [Sound Library Loader/INFO]: Sound engine started
-[16:09:06] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[16:09:08] [Client thread/INFO]: Narrator library for x64 successfully loaded
-[16:09:10] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[16:09:28] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
-[16:09:28] [Server thread/INFO]: Generating keypair
-[16:09:28] [Server thread/INFO]: Loaded 488 advancements
-[16:09:28] [Server thread/INFO]: Preparing start region for level 0
-[16:09:29] [Server thread/INFO]: Changing view distance to 12, from 10
-[16:09:29] [Server thread/INFO]: GLgele[local:E:d0966268] logged in with entity id 0 at (-10.714198451342439, 56.0, -7.123666831407385)
-[16:09:29] [Server thread/INFO]: GLgele加入了游戏
-[16:09:30] [Server thread/INFO]: Saving and pausing game...
-[16:09:30] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[16:09:30] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[16:09:30] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[16:09:30] [Client thread/INFO]: Loaded 488 advancements
-[16:11:09] [Server thread/INFO]: Saving and pausing game...
-[16:11:09] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[16:11:09] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[16:11:09] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[16:11:16] [Server thread/INFO]: Saving and pausing game...
-[16:11:16] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[16:11:16] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[16:11:16] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[16:11:20] [Server thread/INFO]: [GLgele: 将时间设为1000]
-[16:11:20] [Client thread/INFO]: [CHAT] 将时间设为1000
-[16:11:22] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
-[16:11:26] [Server thread/INFO]: [GLgele: 游戏规则keepInventory已经更新为 true]
-[16:11:26] [Client thread/INFO]: [CHAT] 游戏规则keepInventory已经更新为 true
-[16:11:30] [Client thread/INFO]: [CHAT] doDaylightCycle, doEntityDrops, doFireTick, doLimitedCrafting, doMobLoot, doMobSpawning, doTileDrops, doWeatherCycle
-[16:11:31] [Server thread/INFO]: [GLgele: 游戏规则doDaylightCycle已经更新为 false]
-[16:11:31] [Client thread/INFO]: [CHAT] 游戏规则doDaylightCycle已经更新为 false
-[16:11:34] [Server thread/INFO]: [GLgele: 将时间设为1000]
-[16:11:34] [Client thread/INFO]: [CHAT] 将时间设为1000
-[16:11:37] [Server thread/INFO]: Saving and pausing game...
-[16:11:37] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[16:11:37] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[16:11:37] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[16:11:49] [Server thread/INFO]: Saving and pausing game...
-[16:11:49] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[16:11:49] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[16:11:49] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[16:12:02] [Server thread/INFO]: Saving and pausing game...
-[16:12:02] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[16:12:02] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[16:12:02] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[16:15:31] [Client thread/INFO]: [CHAT] /setblock, /setworldspawn
-[16:15:36] [Client thread/INFO]: [CHAT] minecraft:stone, minecraft:stone_brick_stairs, minecraft:stone_button, minecraft:stone_pressure_plate, minecraft:stone_slab, minecraft:stone_slab2, minecraft:stone_stairs, minecraft:stonebrick
-[16:15:38] [Server thread/INFO]: [GLgele: 方块已放置]
-[16:15:38] [Client thread/INFO]: [CHAT] 方块已放置
-[16:16:00] [Client thread/INFO]: [CHAT] /setblock, /setworldspawn
-[16:16:05] [Server thread/INFO]: [GLgele: 方块已放置]
-[16:16:05] [Client thread/INFO]: [CHAT] 方块已放置
-[16:17:10] [Client thread/INFO]: [CHAT] 未知命令。请使用/help来查看命令列表。
-[16:17:13] [Client thread/INFO]: [CHAT] [调试]： 高级提示框：显示
-[16:17:28] [Client thread/INFO]: [CHAT] 没有名为minecraft:co的方块
-[16:17:33] [Client thread/INFO]: [CHAT] minecraft:coal_block, minecraft:coal_ore, minecraft:cobblestone, minecraft:cobblestone_wall, minecraft:cocoa, minecraft:command_block, minecraft:concrete, minecraft:concrete_powder
-[16:17:41] [Client thread/INFO]: [CHAT] minecraft:red_flower, minecraft:red_glazed_terracotta, minecraft:red_mushroom, minecraft:red_mushroom_block, minecraft:red_nether_brick, minecraft:red_sandstone, minecraft:red_sandstone_stairs, minecraft:red_shulker_box, minecraft:redstone_block, minecraft:redstone_lamp, minecraft:redstone_ore, minecraft:redstone_torch, minecraft:redstone_wire
-[16:22:17] [Client thread/INFO]: [CHAT] /setblock, /setworldspawn
-[16:22:22] [Server thread/INFO]: [GLgele: 方块已放置]
-[16:22:22] [Client thread/INFO]: [CHAT] 方块已放置
-[16:24:41] [Server thread/INFO]: GLgele掉出了这个世界
-[16:24:41] [Server thread/INFO]: [GLgele: 已清除GLgele]
-[16:24:41] [Client thread/INFO]: [CHAT] GLgele掉出了这个世界
-[16:24:41] [Client thread/INFO]: [CHAT] 已清除GLgele
-[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.tile.lever]
-[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.tile.lever]
-[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.tile.lever]
-[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.tile.lever]
-[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.item.diode]
-[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.tile.notGate]
-[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.tile.lever]
-[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.tile.notGate]
-[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.item.redstone]
-[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.tile.notGate]
-[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.item.diode]
-[16:24:51] [Server thread/INFO]: [GLgele: 已清除item.item.redstone]
-[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.tile.lever
-[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.tile.lever
-[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.tile.lever
-[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.tile.lever
-[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.item.diode
-[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.tile.notGate
-[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.tile.lever
-[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.tile.notGate
-[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.item.redstone
-[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.tile.notGate
-[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.item.diode
-[16:24:51] [Client thread/INFO]: [CHAT] 已清除item.item.redstone
-[16:25:09] [Client thread/INFO]: [CHAT] /setblock, /setworldspawn
-[16:25:12] [Server thread/INFO]: [GLgele: 方块已放置]
-[16:25:12] [Client thread/INFO]: [CHAT] 方块已放置
-[16:25:41] [Client thread/INFO]: [CHAT] /setblock, /setworldspawn
-[16:25:46] [Server thread/INFO]: [GLgele: 方块已放置]
-[16:25:46] [Client thread/INFO]: [CHAT] 方块已放置
-[16:25:54] [Server thread/INFO]: [GLgele: 方块已放置]
-[16:25:54] [Client thread/INFO]: [CHAT] 方块已放置
-[16:26:01] [Server thread/INFO]: [GLgele: 方块已放置]
-[16:26:01] [Client thread/INFO]: [CHAT] 方块已放置
-[16:26:06] [Server thread/INFO]: [GLgele: 方块已放置]
-[16:26:06] [Client thread/INFO]: [CHAT] 方块已放置
-[16:26:08] [Server thread/INFO]: [GLgele: 方块已放置]
-[16:26:08] [Client thread/INFO]: [CHAT] 方块已放置
-[16:26:11] [Server thread/INFO]: [GLgele: 方块已放置]
-[16:26:11] [Client thread/INFO]: [CHAT] 方块已放置
-[16:26:15] [Client thread/INFO]: [CHAT] 无法放置方块
-[16:26:17] [Server thread/INFO]: [GLgele: 方块已放置]
-[16:26:17] [Client thread/INFO]: [CHAT] 方块已放置
-[16:26:19] [Client thread/INFO]: [CHAT] 无法放置方块
-[16:26:20] [Server thread/INFO]: [GLgele: 方块已放置]
-[16:26:20] [Client thread/INFO]: [CHAT] 方块已放置
-[16:26:23] [Server thread/INFO]: [GLgele: 方块已放置]
-[16:26:23] [Client thread/INFO]: [CHAT] 方块已放置
-[16:26:29] [Server thread/INFO]: [GLgele: 方块已放置]
-[16:26:29] [Client thread/INFO]: [CHAT] 方块已放置
-[16:29:16] [Server thread/INFO]: Saving and pausing game...
-[16:29:16] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[16:29:16] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[16:29:16] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[16:29:17] [Server thread/INFO]: Stopping server
-[16:29:17] [Server thread/INFO]: Saving players
-[16:29:17] [Server thread/INFO]: GLgele lost connection: 连接中止
-[16:29:17] [Server thread/INFO]: GLgele退出了游戏
-[16:29:17] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[16:29:17] [Server thread/INFO]: Saving worlds
-[16:29:17] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/overworld
-[16:29:17] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_nether
-[16:29:17] [Server thread/INFO]: Saving chunks for level '1.12_redstone'/the_end
-[16:29:17] [Client thread/INFO]: Stopping!
-[16:29:17] [Client thread/INFO]: SoundSystem shutting down...
-[16:29:18] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[19:05:08] [main/INFO]: Loading Minecraft 1.16.5 with Fabric Loader 0.12.12
+[19:05:09] [main/WARN]: Mod resolution failed
+[19:05:09] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE immersive_portals 0.102 {depends fabric @ [>=0.28.1]}, ROOT_FORCELOAD_SINGLE immersive_portals 0.102]
+[19:05:09] [main/INFO]: Reason: [HARD_DEP immersive_portals 0.102 {depends fabric @ [>=0.28.1]}]
+[19:05:09] [main/INFO]: Fix: add [add:fabric 0.28.1 ([[0.28.1,∞)])], remove [], replace []
+[19:05:09] [main/ERROR]: Incompatible mod set!
+net.fabricmc.loader.impl.FormattedException: net.fabricmc.loader.impl.discovery.ModResolutionException: Mod resolution encountered an incompatible mod set!
+A potential solution has been determined:
+	 - Install fabric, version 0.28.1 or later.
+Unmet dependency listing:
+	 - Mod 'Immersive Portals' (immersive_portals) 0.102 requires version 0.28.1 or later of fabric, which is missing!
+Inactive mods:
+	 - mod 'Fabric API Base' (fabric-api-base) 0.2.0+daa38b3d7d, reason: inactive parent mod (nested jar)
+	 - mod 'Fabric Resource Loader (v0)' (fabric-resource-loader-v0) 0.4.2+ca58154a7d, reason: inactive parent mod (nested jar)
+	 - mod 'Fabric Screen API (v1)' (fabric-screen-api-v1) 1.0.0+c045166c7d, reason: inactive parent mod (nested jar)
+	 - mod 'Mod Menu' (modmenu) v1.16.8+unknown.bd9230a, reason: unknown
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:189) ~[fabric-loader-0.12.12.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142) ~[fabric-loader-0.12.12.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:71) [fabric-loader-0.12.12.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.12.12.jar:?]
+Caused by: net.fabricmc.loader.impl.discovery.ModResolutionException: Mod resolution encountered an incompatible mod set!
+A potential solution has been determined:
+	 - Install fabric, version 0.28.1 or later.
+Unmet dependency listing:
+	 - Mod 'Immersive Portals' (immersive_portals) 0.102 requires version 0.28.1 or later of fabric, which is missing!
+Inactive mods:
+	 - mod 'Fabric API Base' (fabric-api-base) 0.2.0+daa38b3d7d, reason: inactive parent mod (nested jar)
+	 - mod 'Fabric Resource Loader (v0)' (fabric-resource-loader-v0) 0.4.2+ca58154a7d, reason: inactive parent mod (nested jar)
+	 - mod 'Fabric Screen API (v1)' (fabric-screen-api-v1) 1.0.0+c045166c7d, reason: inactive parent mod (nested jar)
+	 - mod 'Mod Menu' (modmenu) v1.16.8+unknown.bd9230a, reason: unknown
+	at net.fabricmc.loader.impl.discovery.ModResolver.findCompatibleSet(ModResolver.java:159) ~[fabric-loader-0.12.12.jar:?]
+	at net.fabricmc.loader.impl.discovery.ModResolver.resolve(ModResolver.java:45) ~[fabric-loader-0.12.12.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.setup(FabricLoaderImpl.java:224) ~[fabric-loader-0.12.12.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:187) ~[fabric-loader-0.12.12.jar:?]
+	... 3 more
