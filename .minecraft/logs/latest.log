@@ -1,35 +1,89 @@
-[19:05:08] [main/INFO]: Loading Minecraft 1.16.5 with Fabric Loader 0.12.12
-[19:05:09] [main/WARN]: Mod resolution failed
-[19:05:09] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE immersive_portals 0.102 {depends fabric @ [>=0.28.1]}, ROOT_FORCELOAD_SINGLE immersive_portals 0.102]
-[19:05:09] [main/INFO]: Reason: [HARD_DEP immersive_portals 0.102 {depends fabric @ [>=0.28.1]}]
-[19:05:09] [main/INFO]: Fix: add [add:fabric 0.28.1 ([[0.28.1,∞)])], remove [], replace []
-[19:05:09] [main/ERROR]: Incompatible mod set!
-net.fabricmc.loader.impl.FormattedException: net.fabricmc.loader.impl.discovery.ModResolutionException: Mod resolution encountered an incompatible mod set!
-A potential solution has been determined:
-	 - Install fabric, version 0.28.1 or later.
-Unmet dependency listing:
-	 - Mod 'Immersive Portals' (immersive_portals) 0.102 requires version 0.28.1 or later of fabric, which is missing!
-Inactive mods:
-	 - mod 'Fabric API Base' (fabric-api-base) 0.2.0+daa38b3d7d, reason: inactive parent mod (nested jar)
-	 - mod 'Fabric Resource Loader (v0)' (fabric-resource-loader-v0) 0.4.2+ca58154a7d, reason: inactive parent mod (nested jar)
-	 - mod 'Fabric Screen API (v1)' (fabric-screen-api-v1) 1.0.0+c045166c7d, reason: inactive parent mod (nested jar)
-	 - mod 'Mod Menu' (modmenu) v1.16.8+unknown.bd9230a, reason: unknown
-	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:189) ~[fabric-loader-0.12.12.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142) ~[fabric-loader-0.12.12.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:71) [fabric-loader-0.12.12.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.12.12.jar:?]
-Caused by: net.fabricmc.loader.impl.discovery.ModResolutionException: Mod resolution encountered an incompatible mod set!
-A potential solution has been determined:
-	 - Install fabric, version 0.28.1 or later.
-Unmet dependency listing:
-	 - Mod 'Immersive Portals' (immersive_portals) 0.102 requires version 0.28.1 or later of fabric, which is missing!
-Inactive mods:
-	 - mod 'Fabric API Base' (fabric-api-base) 0.2.0+daa38b3d7d, reason: inactive parent mod (nested jar)
-	 - mod 'Fabric Resource Loader (v0)' (fabric-resource-loader-v0) 0.4.2+ca58154a7d, reason: inactive parent mod (nested jar)
-	 - mod 'Fabric Screen API (v1)' (fabric-screen-api-v1) 1.0.0+c045166c7d, reason: inactive parent mod (nested jar)
-	 - mod 'Mod Menu' (modmenu) v1.16.8+unknown.bd9230a, reason: unknown
-	at net.fabricmc.loader.impl.discovery.ModResolver.findCompatibleSet(ModResolver.java:159) ~[fabric-loader-0.12.12.jar:?]
-	at net.fabricmc.loader.impl.discovery.ModResolver.resolve(ModResolver.java:45) ~[fabric-loader-0.12.12.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.setup(FabricLoaderImpl.java:224) ~[fabric-loader-0.12.12.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:187) ~[fabric-loader-0.12.12.jar:?]
-	... 3 more
+[11:34:46] [Render thread/INFO]: Environment: authHost='https://mcskin.littleservice.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:54887/https/api.mojang.com', sessionHost='http://127.0.0.1:54887/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:54887/https/api.minecraftservices.com', name='PROD'
+[11:34:46] [Render thread/INFO]: Setting user: GLgele
+[11:34:47] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[11:34:50] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[11:34:51] [Render thread/INFO]: Reloading ResourceManager: Default, Programmer Art
+[11:34:55] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[11:34:59] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on 耳机 (QCTEHBB0B1BF5BAD292)
+[11:34:59] [Render thread/INFO]: Sound engine started
+[11:35:00] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[11:35:00] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[11:35:00] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[11:35:00] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[11:35:00] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[11:35:00] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[11:35:00] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[11:35:01] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[11:35:01] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[11:35:01] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[11:35:08] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:35:08] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:35:08] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:35:08] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:35:08] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:35:08] [Render thread/INFO]: Reloading ResourceManager: Default
+[11:35:09] [Render thread/INFO]: Loaded 7 recipes
+[11:35:10] [Render thread/INFO]: Loaded 1141 advancements
+[11:35:12] [Render thread/INFO]: Environment: authHost='https://mcskin.littleservice.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:54887/https/api.mojang.com', sessionHost='http://127.0.0.1:54887/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:54887/https/api.minecraftservices.com', name='PROD'
+[11:35:12] [Server thread/INFO]: Starting integrated minecraft server version 1.18.1
+[11:35:12] [Server thread/INFO]: Generating keypair
+[11:35:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:35:14] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:20] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:20] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:20] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:20] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:20] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:20] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:20] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:20] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:20] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:20] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:20] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:20] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:20] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:20] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:20] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:20] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:21] [Render thread/INFO]: 准备生成区域中：0%
+[11:35:21] [Render thread/INFO]: 准备生成区域中：1%
+[11:35:22] [Render thread/INFO]: 准备生成区域中：5%
+[11:35:22] [Render thread/INFO]: 准备生成区域中：9%
+[11:35:23] [Render thread/INFO]: 准备生成区域中：20%
+[11:35:23] [Render thread/INFO]: 准备生成区域中：25%
+[11:35:24] [Render thread/INFO]: 准备生成区域中：37%
+[11:35:24] [Render thread/INFO]: 准备生成区域中：46%
+[11:35:25] [Render thread/INFO]: 准备生成区域中：56%
+[11:35:25] [Render thread/INFO]: 准备生成区域中：63%
+[11:35:26] [Render thread/INFO]: 准备生成区域中：71%
+[11:35:26] [Render thread/INFO]: 准备生成区域中：83%
+[11:35:27] [Render thread/INFO]: 准备生成区域中：95%
+[11:35:27] [Render thread/INFO]: Time elapsed: 14626 ms
+[11:35:27] [Server thread/INFO]: Changing view distance to 12, from 10
+[11:35:27] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[11:35:30] [Server thread/INFO]: GLgele[local:E:7bb2536a] logged in with entity id 63 at (-4218.684224860379, 200.0, -2439.5768500520767)
+[11:35:30] [Server thread/INFO]: GLgele加入了游戏
+[11:35:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6775ms or 135 ticks behind
+[11:35:35] [Render thread/INFO]: Loaded 1141 advancements
+[11:35:43] [Server thread/INFO]: Saving and pausing game...
+[11:35:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[1.18]'/minecraft:overworld
+[11:35:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[1.18]'/minecraft:the_nether
+[11:35:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[1.18]'/minecraft:the_end
+[11:35:44] [Server thread/INFO]: Saving and pausing game...
+[11:35:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[1.18]'/minecraft:overworld
+[11:35:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[1.18]'/minecraft:the_nether
+[11:35:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[1.18]'/minecraft:the_end
+[11:35:44] [Server thread/INFO]: GLgele lost connection: 连接中止
+[11:35:44] [Server thread/INFO]: GLgele退出了游戏
+[11:35:44] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[11:35:44] [Server thread/INFO]: Stopping server
+[11:35:44] [Server thread/INFO]: Saving players
+[11:35:44] [Server thread/INFO]: Saving worlds
+[11:35:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[1.18]'/minecraft:overworld
+[11:35:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[1.18]'/minecraft:the_nether
+[11:35:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[1.18]'/minecraft:the_end
+[11:35:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (1.18): All chunks are saved
+[11:35:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:35:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:35:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:35:46] [Render thread/INFO]: Stopping!
