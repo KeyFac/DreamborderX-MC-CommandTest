@@ -1,0 +1,22 @@
+{
+  "id": "Super-Flat_-2523-70-1212",
+  "name": "Super Flat",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--3329981-waypoint-icon.png",
+  "x": -2523,
+  "y": 70,
+  "z": -1212,
+  "r": 205,
+  "g": 48,
+  "b": 67,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

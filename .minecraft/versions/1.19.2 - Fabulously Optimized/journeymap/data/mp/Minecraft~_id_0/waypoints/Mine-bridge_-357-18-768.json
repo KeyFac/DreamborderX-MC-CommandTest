@@ -1,0 +1,22 @@
+{
+  "id": "Mine-bridge_-357-18-768",
+  "name": "Mine bridge",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--13140213-waypoint-icon.png",
+  "x": -357,
+  "y": 18,
+  "z": -768,
+  "r": 55,
+  "g": 127,
+  "b": 11,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Public-Furnace_-375-78-719",
+  "name": "Public Furnace",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--11137650-waypoint-icon.png",
+  "x": -375,
+  "y": 78,
+  "z": -719,
+  "r": 86,
+  "g": 13,
+  "b": 142,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

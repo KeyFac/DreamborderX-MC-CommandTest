@@ -1,0 +1,22 @@
+{
+  "id": "Diamond-Netherite-Chest_166-63-926",
+  "name": "Diamond \u0026 Netherite Chest",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--2175833-waypoint-icon.png",
+  "x": 166,
+  "y": 63,
+  "z": -926,
+  "r": 222,
+  "g": 204,
+  "b": 167,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Nether-Portal-To-Soviet-Island_72-38-944",
+  "name": "Nether Portal - To Soviet Island",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--2316275-waypoint-icon.png",
+  "x": 72,
+  "y": 38,
+  "z": -944,
+  "r": 220,
+  "g": 168,
+  "b": 13,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Nether-Portal_-363-53-775",
+  "name": "Nether Portal",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--2943167-waypoint-icon.png",
+  "x": -363,
+  "y": -53,
+  "z": -775,
+  "r": 211,
+  "g": 23,
+  "b": 65,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

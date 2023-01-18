@@ -1,0 +1,22 @@
+{
+  "id": "New-Base_-2388-79-15551",
+  "name": "New Base",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--10642719-waypoint-icon.png",
+  "x": -2388,
+  "y": 79,
+  "z": 15551,
+  "r": 93,
+  "g": 154,
+  "b": 225,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

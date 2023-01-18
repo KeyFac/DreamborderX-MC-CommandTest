@@ -1,0 +1,226 @@
+{
+  "esp": false,
+  "fullBrightConfig": {
+    "enabled": false
+  },
+  "autoFishConfig": {
+    "enabled": false
+  },
+  "armorOverlayConfig": {
+    "enabled": true
+  },
+  "blocks": {
+    "configs": [
+      {
+        "block": "minecraft:iron_ore",
+        "enabled": true,
+        "drawTracers": true,
+        "tracerColor": -150997060,
+        "tracerLineWidth": 2,
+        "tracerLineStyle": 0,
+        "drawOutline": true,
+        "outlineColor": -2116,
+        "outlineLineWidth": 2.0,
+        "maxDistance": 1000.0
+      },
+      {
+        "block": "minecraft:diamond_ore",
+        "enabled": true,
+        "drawTracers": true,
+        "tracerColor": -11272961,
+        "tracerLineWidth": 2,
+        "tracerLineStyle": 0,
+        "drawOutline": true,
+        "outlineColor": -11272961,
+        "outlineLineWidth": 2.0,
+        "maxDistance": 1000.0
+      },
+      {
+        "block": "minecraft:deepslate_iron_ore",
+        "enabled": true,
+        "drawTracers": true,
+        "tracerColor": -1229,
+        "tracerLineWidth": 2,
+        "tracerLineStyle": 0,
+        "drawOutline": true,
+        "outlineColor": -1229,
+        "outlineLineWidth": 2.0,
+        "maxDistance": 1000.0
+      },
+      {
+        "block": "minecraft:deepslate_diamond_ore",
+        "enabled": true,
+        "drawTracers": true,
+        "tracerColor": -15016961,
+        "tracerLineWidth": 2,
+        "tracerLineStyle": 0,
+        "drawOutline": true,
+        "outlineColor": -15016961,
+        "outlineLineWidth": 2.0,
+        "maxDistance": 1000.0
+      }
+    ]
+  },
+  "entities": {
+    "configs": []
+  },
+  "lightLevelConfig": {
+    "enabled": false,
+    "display": false,
+    "maxDistance": 20.0
+  },
+  "killAuraConfig": {
+    "active": false,
+    "maxRange": 6.0,
+    "priorities": [
+      "Shulker Bullets",
+      "Monsters",
+      "Phantoms",
+      "Shulkers"
+    ],
+    "attackTickInterval": 1
+  },
+  "boatHackConfig": {
+    "overrideFriction": false,
+    "friction": 0.9
+  },
+  "autoDisconnectConfig": {
+    "enabled": false
+  },
+  "shulkerTooltipConfig": {
+    "enabled": true
+  },
+  "enderPearlPathConfig": {
+    "enabled": true
+  },
+  "elytraHackConfig": {
+    "enabled": false,
+    "heightControl": false,
+    "speedControl": false,
+    "horizontalSpeedLimitEnabled": false,
+    "horizontalSpeedLimit": 100.0,
+    "speedLimitEnabled": false,
+    "speedLimit": 100.0
+  },
+  "pigHackConfig": {
+    "enabled": false,
+    "allowRideWithoutCarrot": true,
+    "overrideSteeringSpeed": true,
+    "steeringSpeed": 0.1
+  },
+  "endCityChunksConfig": {
+    "enabled": false
+  },
+  "entityOwnerConfig": {
+    "enabled": false
+  },
+  "explorationMiniMapConfig": {
+    "enabled": false,
+    "dynamicUpdate": false,
+    "dynamicUpdateDelay": 0
+  },
+  "autoCriticalsConfig": {
+    "enabled": false,
+    "onlyOnGround": false
+  },
+  "flyHackConfig": {
+    "enabled": false,
+    "overrideFlyingSpeed": false,
+    "flyingSpeed": 0.05
+  },
+  "autoTotemConfig": {
+    "enabled": false
+  },
+  "deathCoordinatesConfig": {
+    "enabled": true
+  },
+  "elytraTunnelConfig": {
+    "enabled": false,
+    "limit": 122.8
+  },
+  "freeCamConfig": {
+    "acceleration": 50.0,
+    "maxSpeed": 50.0,
+    "slowdownFactor": 0.01,
+    "renderHands": false
+  },
+  "movementHackConfig": {
+    "disableSlowdownOnUseItem": false,
+    "scaleInputVector": false,
+    "inputVectorFactor": 1.0,
+    "disableCrouchingSlowdown": false,
+    "antiKnockback": false,
+    "antiPush": false
+  },
+  "lockInputsConfig": {
+    "mouseInputDisabled": false,
+    "holdForward": false,
+    "holdUse": false
+  },
+  "scaffoldConfig": {
+    "enabled": false,
+    "distance": 0.0,
+    "replaceBlocksFromInventory": false,
+    "attachToAir": false
+  },
+  "advancedTooltipsConfig": {
+    "beeContainer": false,
+    "repairCost": false
+  },
+  "fogConfig": {
+    "disableFog": false
+  },
+  "instantDisconnectConfig": {
+    "enabled": false
+  },
+  "scriptsConfig": {
+    "scripts": [
+      {
+        "name": "Toggle ESP",
+        "code": "main.toggleEsp();"
+      },
+      {
+        "name": "Toggle FreeCam",
+        "code": "freeCam.toggle();"
+      }
+    ]
+  },
+  "keyBindingsConfig": {
+    "bindings": [
+      "Toggle ESP",
+      "Toggle FreeCam",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "beaconConfig": {
+    "enabled": false,
+    "entries": []
+  },
+  "userNameConfig": {
+    "enabled": false
+  },
+  "newChunksConfig": {
+    "enabled": false
+  },
+  "autoDropConfig": {
+    "items": []
+  },
+  "containerButtonsConfig": {
+    "showTakeAll": false,
+    "showSmartPut": false
+  },
+  "chunksConfig": {
+    "ignoreServerViewDistance": false,
+    "dontUnloadChunks": false
+  },
+  "statusOverlayConfig": {
+    "enabled": false
+  }
+}

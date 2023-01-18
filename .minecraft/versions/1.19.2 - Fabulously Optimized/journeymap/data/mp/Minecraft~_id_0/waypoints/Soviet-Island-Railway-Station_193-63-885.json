@@ -1,0 +1,22 @@
+{
+  "id": "Soviet-Island-Railway-Station_193-63-885",
+  "name": "Soviet Island Railway Station",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--9675827-waypoint-icon.png",
+  "x": 193,
+  "y": 63,
+  "z": -885,
+  "r": 108,
+  "g": 91,
+  "b": 205,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

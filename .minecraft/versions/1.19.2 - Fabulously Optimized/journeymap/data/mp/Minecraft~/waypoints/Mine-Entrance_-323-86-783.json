@@ -1,0 +1,22 @@
+{
+  "id": "Mine-Entrance_-323-86-783",
+  "name": "Mine Entrance",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--14929308-waypoint-icon.png",
+  "x": -323,
+  "y": 86,
+  "z": -783,
+  "r": 28,
+  "g": 50,
+  "b": 100,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

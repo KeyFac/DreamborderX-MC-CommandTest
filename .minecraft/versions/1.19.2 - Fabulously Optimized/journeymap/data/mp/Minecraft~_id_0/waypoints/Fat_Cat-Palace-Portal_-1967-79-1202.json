@@ -1,0 +1,22 @@
+{
+  "id": "Fat_Cat-Palace-Portal_-1967-79-1202",
+  "name": "Fat_Cat Palace Portal",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--7597599-waypoint-icon.png",
+  "x": -1967,
+  "y": 79,
+  "z": -1202,
+  "r": 140,
+  "g": 17,
+  "b": 225,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}
