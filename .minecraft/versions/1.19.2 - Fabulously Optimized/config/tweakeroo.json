@@ -131,10 +131,10 @@
       "keys": ""
     },
     "freeCameraPlayerInputs": {
-      "keys": ""
+      "keys": "F,I"
     },
     "freeCameraPlayerMovement": {
-      "keys": ""
+      "keys": "F,M"
     },
     "hotbarScroll": {
       "keys": ""

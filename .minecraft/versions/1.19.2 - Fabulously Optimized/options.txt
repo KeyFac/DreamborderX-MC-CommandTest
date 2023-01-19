@@ -29,7 +29,7 @@ gamma:1.0
 renderDistance:12
 simulationDistance:6
 entityDistanceScaling:1.0
-guiScale:3
+guiScale:2
 particles:1
 maxFps:260
 graphicsMode:1
@@ -37,7 +37,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","Fabric Mods","lambdabettergrass/default","continuity/default","continuity/glass_pane_culling_fix","file/Mod Menu Helper.zip","midnightcontrols/bedrock"]
+resourcePacks:["vanilla","Fabric Mods","lambdabettergrass/default","continuity/default","continuity/glass_pane_culling_fix","file/Mod Menu Helper.zip","programer_art","file/Minecraft-Mod-Language-Modpack-1-18-FabricT1-19-1o2-Fabric.zip"]
 incompatibleResourcePacks:[]
 lastServer:49.89.117.163:49155
 lang:zh_cn
@@ -115,6 +115,16 @@ key_key.dynamicfps.toggle_forced:key.keyboard.unknown
 key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
 key_key.fabrishot.screenshot:key.keyboard.f9
 key_key.antighost.reveal:key.keyboard.unknown
+key_key.zergatul.cheatutils.reserved0:key.keyboard.unknown
+key_key.zergatul.cheatutils.reserved1:key.keyboard.unknown
+key_key.zergatul.cheatutils.reserved2:key.keyboard.unknown
+key_key.zergatul.cheatutils.reserved3:key.keyboard.unknown
+key_key.zergatul.cheatutils.reserved4:key.keyboard.unknown
+key_key.zergatul.cheatutils.reserved5:key.keyboard.unknown
+key_key.zergatul.cheatutils.reserved6:key.keyboard.unknown
+key_key.zergatul.cheatutils.reserved7:key.keyboard.unknown
+key_key.zergatul.cheatutils.reserved8:key.keyboard.unknown
+key_key.zergatul.cheatutils.reserved9:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.fabricskyboxes.toggle:key.keyboard.keypad.0
 key_key.journeymap.zoom_in:key.keyboard.equal

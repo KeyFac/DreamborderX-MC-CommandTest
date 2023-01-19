@@ -71,14 +71,14 @@
   },
   "killAuraConfig": {
     "active": false,
-    "maxRange": 6.0,
+    "maxRange": 10.0,
     "priorities": [
       "Shulker Bullets",
       "Monsters",
       "Phantoms",
       "Shulkers"
     ],
-    "attackTickInterval": 1
+    "attackTickInterval": 2
   },
   "boatHackConfig": {
     "overrideFriction": false,
