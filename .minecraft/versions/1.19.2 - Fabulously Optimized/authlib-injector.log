@@ -1,8 +1,8 @@
-Logging started at 2023-01-21T07:51:42.954143700Z
-[authlib-injector] [INFO] Version: 1.2.1
+Logging started at 2023-06-25T13:04:39.507962700Z
+[authlib-injector] [INFO] Version: 1.2.3
 [authlib-injector] [INFO] Authentication server: https://littleskin.cn/api/yggdrasil/
 [authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
-[authlib-injector] [INFO] Httpd is running on port 61817
+[authlib-injector] [INFO] Httpd is running on port 56202
 [authlib-injector] [INFO] Transformed [net.minecraft.class_742] with [Constant URL Transformer]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [ConcatenateURL Workaround]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilEnvironment] with [Constant URL Transformer]
