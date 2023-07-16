@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#X#",
+    "#O#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "X": {
+      "item": "minecraft:smooth_stone"
+    },
+    "O": {
+      "item": "minecraft:netherite_axe"
+    }
+  },
+  "result": {
+    "item": "minecraft:bee_spawn_egg"
+  }
+}

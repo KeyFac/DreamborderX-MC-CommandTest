@@ -1,0 +1,25 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "cdc",
+      "dad",
+      "bdb"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:netherite_sword"
+      },
+      "b": {
+        "item": "minecraft:prismarine_shard"
+      },
+      "d": {
+        "item": "minecraft:lava_bucket"
+      },
+      "c": {
+        "item": "minecraft:shroomlight"
+      }
+    },
+    "result": {
+      "item": "minecraft:enderman_spawn_egg"
+    }
+  }

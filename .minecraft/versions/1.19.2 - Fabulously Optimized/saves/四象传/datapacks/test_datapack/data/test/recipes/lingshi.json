@@ -1,0 +1,26 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "dcd",
+      "bab",
+      "cbc"
+    ],
+    "key": {
+      "b": {
+        "item": "minecraft:command_block"
+      },
+      "a": {
+        "item": "minecraft:netherite_sword"
+        
+      },
+      "c": {
+        "item": "minecraft:emerald_block"
+      },
+      "d": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "result": {
+      "item": "minecraft:drowned_spawn_egg"
+    }
+  }

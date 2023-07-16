@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "cdc",
+    "bab",
+    "cbc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_sword"
+    },
+    "b": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "c": {
+      "item": "minecraft:emerald_block"
+    },
+    "d": {
+      "item": "minecraft:tropical_fish"
+    }
+  },
+  "result": {
+    "item": "minecraft:cat_spawn_egg"
+  }
+}

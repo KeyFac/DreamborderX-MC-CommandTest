@@ -1,0 +1,26 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "#S#",
+      "OXO",
+      "OOO"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:bone"
+      },
+      "X": {
+        "item": "minecraft:netherite_sword"
+        
+      },
+      "S": {
+        "item": "minecraft:emerald_block"
+      },
+      "O": {
+        "item": "minecraft:sandstone"
+      }
+    },
+    "result": {
+      "item": "minecraft:elder_guardian_spawn_egg"
+    }
+  }

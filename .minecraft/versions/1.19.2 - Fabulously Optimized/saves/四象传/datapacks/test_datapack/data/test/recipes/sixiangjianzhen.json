@@ -1,0 +1,31 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "aba",
+    "cde",
+    "afa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lava_bucket"
+    },
+    "b": {
+      "item": "minecraft:diamond_sword"
+    },
+    "c": {
+      "item": "minecraft:iron_sword"
+    },
+    "d": {
+      "item": "minecraft:book"
+    },
+    "e": {
+      "item": "minecraft:wooden_sword"
+    },
+    "f": {
+      "item": "minecraft:stone_sword"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

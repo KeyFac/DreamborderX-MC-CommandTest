@@ -1,0 +1,1 @@
+execute as @a[distance=0..15,scores={shuaguai=249..}] run summon minecraft:silverfish ~ ~3 ~ {CustomName:"[\"噬竹虫\"]",Tags:["diren","jiezhi"],HandItems:[{id:"minecraft:experience_bottle",Count:1b,Damage:0s},{}],HandDropChances:[0.51f,0f]}

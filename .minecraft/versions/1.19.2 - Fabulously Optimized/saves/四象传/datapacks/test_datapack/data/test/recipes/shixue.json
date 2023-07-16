@@ -1,0 +1,31 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "efe",
+      "bac",
+      "ede"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:netherite_sword"
+      },
+      "b": {
+        "item": "minecraft:iron_sword"
+      },
+      "c": {
+        "item": "minecraft:diamond_sword"
+      },
+      "d": {
+        "item": "minecraft:water_bucket"
+      },
+      "e": {
+        "item": "minecraft:emerald_block"
+      },
+      "f": {
+        "item": "minecraft:conduit"
+      }
+    },
+    "result": {
+      "item": "minecraft:goat_spawn_egg"
+    }
+  }

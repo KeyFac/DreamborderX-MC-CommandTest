@@ -1,0 +1,3 @@
+execute as @a[scores={shuaguai=198..200},distance=0..15] run summon minecraft:phantom ~ ~5 ~ {CustomName:"[\"青龙之翼\"]",Health:100f,Tags:["xiaoguai","diren","wangling"],Attributes:[{Base:100d,Name:"generic.max_health"},{Base:20d,Name:"generic.attack_damage"}]}
+execute as @a[scores={shuaguai=20..22},distance=0..15] run summon minecraft:ravager ~ ~5 ~ {CustomName:"[\"青龙之躯\"]",Tags:["diren","xiaoguai","jiezhi"]}
+execute as @a[scores={shuaguai=102..104},distance=0..15] run summon minecraft:creeper ~ ~5 ~ {CustomName:"[\"青龙之心\"]",Health:100f,Tags:["diren","xiaoguai","jiezhi"],Attributes:[{Base:100d,Name:"generic.max_health"}],ExplosionRadius:6b}

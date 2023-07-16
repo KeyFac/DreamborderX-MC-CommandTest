@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "###",
+      "#O#",
+      "#X#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:bamboo"
+      },
+      "X": {
+        "item": "minecraft:nautilus_shell"
+      },
+      "O": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "result": {
+      "item": "minecraft:fox_spawn_egg"
+    }
+  }

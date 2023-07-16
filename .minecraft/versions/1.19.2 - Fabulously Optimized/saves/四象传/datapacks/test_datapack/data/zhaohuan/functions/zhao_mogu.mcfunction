@@ -1,0 +1,1 @@
+execute as @a[distance=0..15,scores={shuaguai=249..}] run summon minecraft:blaze ~ ~3 ~ {CustomName:"[\"蘑菇守卫\"]",Tags:["diren","jiezhi"],ArmorItems:[{},{},{id:"minecraft:lingering_potion",Count:1b,Damage:0s,tag:{display:{Name:"[\"亡灵蒸发剂\"]"},CustomPotionEffects:[{Id:6b,Duration:800,Amplifier:1b,Ambient:0b,ShowParticles:0b}]}},{}],ArmorDropChances:[0f,0f,0.15f,0f]}

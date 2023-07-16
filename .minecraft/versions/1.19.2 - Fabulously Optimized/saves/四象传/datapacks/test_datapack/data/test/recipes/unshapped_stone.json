@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "shabi",
+    "ingredients": [
+    {
+"item": "minecraft:diamond_ore"
+    },
+    {
+    "item": "minecraft:diamond_ore"
+    }
+   
+],
+"result": {
+    "item": "minecraft:stone","count": 1
+}
+}

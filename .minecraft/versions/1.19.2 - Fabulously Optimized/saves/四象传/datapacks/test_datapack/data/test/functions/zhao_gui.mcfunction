@@ -1,0 +1,1 @@
+execute as @a[distance=0..10,scores={shuaguai=249..}] run summon minecraft:vex ~ ~3 ~ {CustomName:"[\"鬼魂\"]",CustomNameVisible:1b,Tags:["xiaoguai","jiezhi","diren"],HandItems:[{id:"minecraft:shield",Count:1b,Damage:0s},{id:"minecraft:iron_sword",Count:1b,Damage:0s,tag:{Enchantments:[{id:"minecraft:knockback",lvl:3s}]}}],HandDropChances:[0f,0f]}

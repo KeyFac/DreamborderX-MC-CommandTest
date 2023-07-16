@@ -1,13 +1,13 @@
-Logging started at 2023-06-25T13:04:39.507962700Z
+Logging started at 2023-07-16T09:26:03.275855800Z
 [authlib-injector] [INFO] Version: 1.2.3
 [authlib-injector] [INFO] Authentication server: https://littleskin.cn/api/yggdrasil/
 [authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
-[authlib-injector] [INFO] Httpd is running on port 56202
+[authlib-injector] [INFO] Httpd is running on port 53414
 [authlib-injector] [INFO] Transformed [net.minecraft.class_742] with [Constant URL Transformer]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [ConcatenateURL Workaround]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilEnvironment] with [Constant URL Transformer]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo] with [Yggdrasil Public Key Transformer]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [Texture Whitelist Transformer]
 [authlib-injector] [INFO] Transformed [net.minecraft.class_3248] with [Username Character Check Transformer]
-[authlib-injector] [INFO] Transformed [com.mojang.patchy.MojangBlockListSupplier] with [Constant URL Transformer]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.properties.Property] with [Yggdrasil Public Key Transformer]
+[authlib-injector] [INFO] Transformed [traben.entity_texture_features.config.screens.ETFConfigScreenSkinToolOutcome] with [Constant URL Transformer]

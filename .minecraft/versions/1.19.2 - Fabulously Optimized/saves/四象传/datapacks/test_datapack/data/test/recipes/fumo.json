@@ -1,0 +1,10 @@
+
+{
+    "type": "blasting",
+    "ingredient": {
+        "item": "stone_axe"
+    },
+    "result": "minecraft:allay_spawn_egg",
+    "experience": 50,
+    "cookingtime": 500
+}

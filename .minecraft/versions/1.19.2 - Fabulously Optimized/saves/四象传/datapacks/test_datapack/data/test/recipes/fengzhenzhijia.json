@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "#X#",
+      "#X#",
+      "X X"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:diamond"
+      },
+      "X":{
+        "item": "minecraft:emerald_block"
+      }
+    },
+    "result": {
+      "item": "minecraft:cow_spawn_egg"
+    
+    }
+  }

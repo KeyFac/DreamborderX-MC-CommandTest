@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "###",
+      "###",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:chorus_fruit"
+      }
+    },
+    "result": {
+      "item": "minecraft:music_disc_cat"
+    
+    }
+  }

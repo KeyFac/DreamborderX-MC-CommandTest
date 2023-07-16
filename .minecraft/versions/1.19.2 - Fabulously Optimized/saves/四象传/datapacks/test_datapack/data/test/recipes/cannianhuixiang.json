@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "bcb",
+      "cac",
+      "bcb"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:netherite_sword"
+      },
+      "c": {
+        "item": "minecraft:flint"
+      },
+      "b": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "result": {
+      "item": "minecraft:donkey_spawn_egg"
+    }
+  }

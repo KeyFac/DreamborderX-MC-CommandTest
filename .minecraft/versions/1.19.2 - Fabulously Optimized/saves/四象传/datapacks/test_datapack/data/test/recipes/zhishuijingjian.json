@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "bbb",
+      "bab",
+      "bbb"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:netherite_sword"
+      },
+      "b": {
+        "item": "minecraft:large_amethyst_bud"
+      }
+    },
+    "result": {
+      "item": "minecraft:chicken_spawn_egg"
+    }
+  }

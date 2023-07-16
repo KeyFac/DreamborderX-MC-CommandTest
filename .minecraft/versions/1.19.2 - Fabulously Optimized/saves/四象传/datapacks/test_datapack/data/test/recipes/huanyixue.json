@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "# #",
+      "# #",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    "result": {
+      "item": "minecraft:dolphin_spawn_egg"
+    
+    }
+  }

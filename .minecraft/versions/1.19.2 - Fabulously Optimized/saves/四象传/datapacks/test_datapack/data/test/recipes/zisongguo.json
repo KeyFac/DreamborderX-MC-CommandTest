@@ -1,0 +1,31 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "faf",
+      "bcd",
+      "fef"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:carrot"
+      },
+      "b": {
+        "item": "minecraft:potato"
+      },
+      "c": {
+        "item": "minecraft:sweet_berries"
+      },
+      "d": {
+        "item": "minecraft:beetroot"
+      },
+      "e": {
+        "item": "minecraft:wheat"
+      },
+      "f": {
+        "item": "minecraft:purple_dye"
+      }
+    },
+    "result": {
+      "item": "minecraft:chorus_fruit"
+    }
+  }

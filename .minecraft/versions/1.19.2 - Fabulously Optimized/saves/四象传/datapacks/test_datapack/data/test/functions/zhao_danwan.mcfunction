@@ -1,0 +1,1 @@
+execute as @a[distance=0..7,scores={shuaguai=249..}] run summon minecraft:creeper ~ ~1 ~ {CustomName:"[\"高塔弹丸\"]",Health:35f,Tags:["xiaoguai","diren","jiezhi"],Attributes:[{Base:35d,Name:"generic.max_health"}],ExplosionRadius:5b,Fuse:40s}

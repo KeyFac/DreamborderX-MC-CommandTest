@@ -1,0 +1,28 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "cec",
+    "bab",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_sword"
+    },
+    "b": {
+      "item": "minecraft:glow_berries"
+    },
+    "c": {
+      "item": "minecraft:slime_block"
+    },
+    "d": {
+      "item": "minecraft:lingering_potion"
+    },
+    "e": {
+      "item": "minecraft:pufferfish"
+    }
+  },
+  "result": {
+    "item": "minecraft:blaze_spawn_egg"
+  }
+}

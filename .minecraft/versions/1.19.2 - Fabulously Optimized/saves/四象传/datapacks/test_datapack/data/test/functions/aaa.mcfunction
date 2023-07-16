@@ -1,0 +1,1 @@
+execute as @a[distance=0..15,scores={shuaguai=249..}] run summon minecraft:strider ~ ~3 ~ {CustomName:"[\"炽焰魔兽\"]",Tags:["diren","jiezhi"],ArmorItems:[{id:"minecraft:carrot",Count:1b,Damage:0s},{id:"minecraft:carrot",Count:1b,Damage:0s},{id:"minecraft:wheat",Count:1b,Damage:0s},{id:"minecraft:wheat",Count:1b,Damage:0s}],ArmorDropChances:[0.86f,0.78f,0.69f,0.72f]}

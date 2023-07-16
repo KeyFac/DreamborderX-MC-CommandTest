@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "###",
+      "# #",
+      "   "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    "result": {
+      "item": "minecraft:frog_spawn_egg"
+    
+    }
+  }

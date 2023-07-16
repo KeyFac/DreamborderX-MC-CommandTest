@@ -30,14 +30,14 @@ renderDistance:14
 simulationDistance:6
 entityDistanceScaling:1.0
 guiScale:2
-particles:1
+particles:0
 maxFps:260
 graphicsMode:1
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","Fabric Mods","lambdabettergrass/default","continuity/default","continuity/glass_pane_culling_fix","file/Mod Menu Helper.zip","programer_art","file/Minecraft-Mod-Language-Modpack-1-18-FabricT1-19-1o2-Fabric.zip","file/Firework 2023 RESSOURCEPACK by Skyblock Squad.zip"]
+resourcePacks:["vanilla","Fabric Mods","lambdabettergrass/default","continuity/default","continuity/glass_pane_culling_fix","file/Mod Menu Helper.zip","file/Minecraft-Mod-Language-Modpack-1-18-FabricT1-19-1o2-Fabric.zip","file/Firework 2023 RESSOURCEPACK by Skyblock Squad.zip"]
 incompatibleResourcePacks:[]
 lastServer:49.89.117.163:49155
 lang:zh_cn

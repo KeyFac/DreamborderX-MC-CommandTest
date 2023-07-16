@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "#j#",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:slime_ball"
+      },
+      "j":{
+        "item": "minecraft:slime_block"
+      }
+    },
+    "result": {
+      "item": "minecraft:music_disc_far"
+    
+    }
+  }

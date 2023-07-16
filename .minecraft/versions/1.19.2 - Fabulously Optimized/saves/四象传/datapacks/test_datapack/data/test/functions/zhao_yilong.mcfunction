@@ -1,0 +1,1 @@
+execute as @a[distance=0..10,scores={shuaguai=249..}] run summon minecraft:phantom ~ ~3 ~ {CustomName:"[\"水晶翼龙\"]",Tags:["xiaoguai","diren","wangling"]} 
