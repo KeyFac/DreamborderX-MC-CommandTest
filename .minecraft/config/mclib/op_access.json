@@ -1,0 +1,11 @@
+{
+    "mclib": {
+        "drop_items": true
+    },
+    "metamorph": {
+        "entity_selectors": true
+    },
+    "aperture": {
+        "camera_editor": true
+    }
+}
