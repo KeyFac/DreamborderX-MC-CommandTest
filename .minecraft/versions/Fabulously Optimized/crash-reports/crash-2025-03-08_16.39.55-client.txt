@@ -1,0 +1,391 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 2025-03-08 16:39:55
+Description: Initializing game
+
+java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'litematicatool' at 'com.finndog.litematicatool.ExampleMod'!
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$2(FabricLoaderImpl.java:403)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:401)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:52)
+	at net.minecraft.class_310.<init>(class_310.java:484)
+	at net.minecraft.client.main.Main.main(Main.java:223)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+Caused by: java.lang.NoClassDefFoundError: net/fabricmc/fabric/api/item/v1/FabricItemSettings
+	at com.finndog.litematicatool.ExampleMod.onInitialize(ExampleMod.java:16)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: net.fabricmc.fabric.api.item.v1.FabricItemSettings
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:226)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 8 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$2(FabricLoaderImpl.java:403)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:401)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:52)
+	at net.minecraft.class_310.<init>(class_310.java:484)
+Mixins in Stacktrace:
+	net.minecraft.class_310:
+		org.embeddedt.modernfix.common.mixin.bugfix.concurrency.MinecraftMixin (modernfix-common.mixins.json)
+		net.fabricmc.fabric.mixin.registry.sync.client.MinecraftClientMixin (fabric-registry-sync-v0.client.mixins.json)
+		me.flashyreese.mods.sodiumextra.mixin.gui.MinecraftClientAccessor (sodium-extra.mixins.json)
+		org.redlance.dima_dencep.mods.rrls.mixins.MinecraftClientMixin (rrls.mixins.json)
+		net.irisshaders.iris.mixin.MixinMinecraft_PipelineManagement (mixins.iris.json)
+		traben.entity_model_features.mixin.MixinResourceReloadStart (entity_model_features-common.mixins.json)
+		net.irisshaders.iris.mixin.MixinMinecraft_Keybinds (mixins.iris.json)
+		me.ramidzkh.fabrishot.mixins.MinecraftClientMixin (mixins.fabrishot.json)
+		dev.isxander.controlify.mixins.feature.virtualmouse.MinecraftMixin (controlify.mixins.json)
+		dynamic_fps.impl.mixin.MinecraftMixin (dynamic_fps-common.mixins.json)
+		ca.fxco.moreculling.mixin.blockstates.Minecraft_loadBlocksMixin (moreculling.mixins.json)
+		com.aizistral.nochatreports.common.mixins.client.MixinMinecraft (mixins/common/nochatreports.mixins.json)
+		org.embeddedt.modernfix.common.mixin.perf.dedicated_reload_executor.MinecraftMixin (modernfix-common.mixins.json)
+		net.raphimc.immediatelyfast.injection.mixins.core.MixinMinecraftClient (immediatelyfast-common.mixins.json)
+		foundationgames.enhancedblockentities.mixin.MinecraftClientMixin (enhancedblockentities.mixins.json)
+		net.fabricmc.fabric.mixin.event.interaction.client.MinecraftClientMixin (fabric-events-interaction-v0.client.mixins.json)
+		dev.isxander.controlify.mixins.feature.rumble.MinecraftMixin (controlify.mixins.json)
+		com.kingcontaria.fastquit.mixin.MinecraftClientMixin (fastquit.mixins.json)
+		dev.isxander.zoomify.mixins.hooks.MinecraftClientMixin (zoomify.mixins.json)
+		fi.dy.masa.tweakeroo.mixin.MixinMinecraftClient (mixins.tweakeroo.json)
+		org.embeddedt.modernfix.fabric.mixin.feature.measure_time.MinecraftMixin_Fabric (modernfix-fabric.mixins.json)
+		carpettisaddition.mixins.core.client.MinecraftClientMixin (carpet-tis-addition.mixins.json)
+		de.dafuqs.paginatedadvancements.mixin.MinecraftClientMixin (paginatedadvancements.mixins.json)
+		dev.isxander.yacl3.mixin.MinecraftMixin (yacl.mixins.json)
+		dev.isxander.controlify.mixins.feature.input.MinecraftMixin (controlify.mixins.json)
+		dev.isxander.controlify.mixins.feature.screenop.MinecraftMixin (controlify.mixins.json)
+		carpet.mixins.MinecraftMixin (carpet.mixins.json)
+		dev.isxander.controlify.mixins.core.MinecraftMixin (controlify.mixins.json)
+		org.embeddedt.modernfix.common.mixin.perf.blast_search_trees.MinecraftMixin (modernfix-common.mixins.json)
+		opekope2.optigui.mixin.MinecraftClientMixin (optigui.mixins.json)
+		org.embeddedt.modernfix.common.mixin.bugfix.world_leaks.MinecraftMixin (modernfix-common.mixins.json)
+		me.fallenbreath.tweakermore.mixins.tweaks.mc_tweaks.clientEntityTargetingSelectAll.MinecraftClient_extendedTargetMixin (tweakermore.mixins.json)
+		dev.isxander.controlify.mixins.feature.bind.MinecraftMixin (controlify.mixins.json)
+		me.fallenbreath.tweakermore.mixins.tweaks.mc_tweaks.keepMessageHistoryOnReconfiguration.MinecraftClientMixin (tweakermore.mixins.json)
+		me.fallenbreath.tweakermore.mixins.tweaks.mc_tweaks.multiplayerForcedEnabled.MinecraftClientMixin (tweakermore.mixins.json)
+		traben.entity_model_features.mixin.accessor.MinecraftClientAccessor (entity_model_features-common.mixins.json)
+		net.fabricmc.fabric.mixin.networking.client.accessor.MinecraftClientAccessor (fabric-networking-api-v1.client.mixins.json)
+		carpet.mixins.Minecraft_tickMixin (carpet.mixins.json)
+		com.aizistral.nochatreports.fabric.mixins.client.MixinMinecraft (mixins/fabric/nochatreports-fabric.mixins.json)
+		me.fallenbreath.tweakermore.mixins.doc.MinecraftClientMixin (tweakermore.mixins.json)
+		com.kingcontaria.fastquit.mixin.MinecraftClientAccessor (fastquit.mixins.json)
+		net.irisshaders.iris.mixin.MixinMinecraft_Images (mixins.iris.json)
+		traben.entity_model_features.mixin.MixinResourceReloadEnd (entity_model_features-common.mixins.json)
+		net.fabricmc.fabric.mixin.event.lifecycle.client.MinecraftClientMixin (fabric-lifecycle-events-v1.client.mixins.json)
+		traben.entity_texture_features.mixin.reloading.MixinResourceReload (entity_texture_features-common.mixins.json)
+		dev.kir.cubeswithoutborders.client.mixin.MinecraftClientMixin (cubes-without-borders.mixins.json)
+		org.embeddedt.modernfix.common.mixin.feature.measure_time.MinecraftMixin (modernfix-common.mixins.json)
+		me.jellysquid.mods.sodium.mixin.core.MinecraftClientMixin (sodium.mixins.json)
+		net.fabricmc.fabric.mixin.screen.MinecraftClientMixin (fabric-screen-api-v1.mixins.json)
+		malte0811.ferritecore.mixin.fabric.MinecraftMixin (ferritecore.fabric.mixin.json)
+		org.embeddedt.modernfix.fabric.mixin.core.MCMixin_Fabric (modernfix-fabric.mixins.json)
+		ca.fxco.moreculling.mixin.Minecraft_managersMixin (moreculling.mixins.json)
+		fi.dy.masa.litematica.mixin.MixinMinecraftClient (mixins.litematica.json)
+		jerozgen.languagereload.mixin.MinecraftClientAccessor (languagereload.mixins.json)
+		net.fabricmc.fabric.mixin.datagen.client.MinecraftClientMixin (fabric-data-generation-api-v1.client.mixins.json)
+		fi.dy.masa.malilib.mixin.MixinMinecraftClient (mixins.malilib.json)
+		traben.entity_texture_features.mixin.reloading.MixinMinecraftClient (entity_texture_features-common.mixins.json)
+		jerozgen.languagereload.mixin.MinecraftClientMixin (languagereload.mixins.json)
+		me.fallenbreath.tweakermore.mixins.tweaks.features.creativePickBlockWithState.MinecraftClientMixin (tweakermore.mixins.json)
+		me.fallenbreath.tweakermore.mixins.tweaks.mc_tweaks.clientEntityTargetingSelectAll.MinecraftClient_pickEntityMixin (tweakermore.mixins.json)
+
+-- Initialization --
+Details:
+	Modules: 
+		ADVAPI32.dll:高级 Windows 32 基本 API:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		COMCTL32.dll:用户体验控件库:6.10 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPT32.dll:加密 API32:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTBASE.dll:Base cryptographic API DLL:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTSP.dll:Cryptographic Service Provider API:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		DBGHELP.DLL:Windows Image Helper:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		DNSAPI.dll:DNS 客户端 API DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		GDI32.dll:GDI Client DLL:10.0.19041.4474 (WinBuild.160101.0800):Microsoft Corporation
+		IMM32.DLL:Multi-User Windows IMM32 API Client DLL:10.0.19041.4474 (WinBuild.160101.0800):Microsoft Corporation
+		IPHLPAPI.DLL:IP 帮助程序 API:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		KERNEL32.DLL:Windows NT 基本 API 客户端 DLL:10.0.19041.4717 (WinBuild.160101.0800):Microsoft Corporation
+		KERNELBASE.dll:Windows NT 基本 API 客户端 DLL:10.0.19041.4717 (WinBuild.160101.0800):Microsoft Corporation
+		NLAapi.dll:Network Location Awareness 2:10.0.19041.4123 (WinBuild.160101.0800):Microsoft Corporation
+		NSI.dll:NSI User-mode interface DLL:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		NTASN1.dll:Microsoft ASN.1 API:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		OLEAUT32.dll:OLEAUT32.DLL:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		Ole32.dll:用于 Windows 的 Microsoft OLE:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		POWRPROF.dll:电源配置文件帮助程序 DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		PSAPI.DLL:Process Status Helper:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		Pdh.dll:Windows 性能数据助手 DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		RPCRT4.dll:远程过程调用运行时:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		SHCORE.dll:SHCORE:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		SHELL32.dll:Windows Shell 公用 DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		UMPDC.dll
+		USER32.dll:多用户 Windows 用户 API 客户端 DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		USERENV.dll:Userenv:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		VCRUNTIME140.dll:Microsoft® C Runtime Library:14.29.30139.0 built by: vcwrkspc:Microsoft Corporation
+		VERSION.dll:Version Checking and File Installation Libraries:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		WINHTTP.dll:Windows HTTP 服务:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		WINMM.dll:MCI API DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		WS2_32.dll:Windows Socket 2.0 32 位 DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		Wldp.dll:Windows 锁定策略:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		amsi.dll:Anti-Malware Scan Interface:10.0.19041.4355 (WinBuild.160101.0800):Microsoft Corporation
+		bcrypt.dll:Windows 加密基元库:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		bcryptPrimitives.dll:Windows Cryptographic Primitives Library:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		clbcatq.dll:COM+ Configuration Catalog:2001.12.10941.16384 (WinBuild.160101.0800):Microsoft Corporation
+		combase.dll:用于 Windows 的 Microsoft COM:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		dbgcore.DLL:Windows Core Debugging Helpers:10.0.19041.4355 (WinBuild.160101.0800):Microsoft Corporation
+		extnet.dll:OpenJDK Platform binary:21.0.3.0:Microsoft
+		fwpuclnt.dll:FWP/IPsec 用户模式 API:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		gdi32full.dll:GDI Client DLL:10.0.19041.4717 (WinBuild.160101.0800):Microsoft Corporation
+		java.dll:OpenJDK Platform binary:21.0.3.0:Microsoft
+		java.exe:OpenJDK Platform binary:21.0.3.0:Microsoft
+		jemalloc.dll
+		jimage.dll:OpenJDK Platform binary:21.0.3.0:Microsoft
+		jli.dll:OpenJDK Platform binary:21.0.3.0:Microsoft
+		jna6455298254485076151.dll:JNA native library:7.0.0:Java(TM) Native Access (JNA)
+		jsvml.dll:OpenJDK Platform binary:21.0.3.0:Microsoft
+		jvm.dll:OpenJDK 64-Bit server VM:21.0.3.0:Microsoft
+		kernel.appcore.dll:AppModel API Host:10.0.19041.3758 (WinBuild.160101.0800):Microsoft Corporation
+		lwjgl.dll
+		management.dll:OpenJDK Platform binary:21.0.3.0:Microsoft
+		management_ext.dll:OpenJDK Platform binary:21.0.3.0:Microsoft
+		msvcp140.dll:Microsoft® C Runtime Library:14.29.30139.0 built by: vcwrkspc:Microsoft Corporation
+		msvcp_win.dll:Microsoft® C Runtime Library:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		msvcrt.dll:Windows NT CRT DLL:7.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		mswsock.dll:Microsoft Windows Sockets 2.0 服务提供程序:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		napinsp.dll:电子邮件命名填充提供程序:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		ncrypt.dll:Windows NCrypt 路由器:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		net.dll:OpenJDK Platform binary:21.0.3.0:Microsoft
+		nio.dll:OpenJDK Platform binary:21.0.3.0:Microsoft
+		ntdll.dll:NT 层 DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		perfos.dll:Windows 系统性能对象 DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		pnrpnsp.dll:PNRP 命名空间提供程序:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		profapi.dll:User Profile Basic API:10.0.19041.4355 (WinBuild.160101.0800):Microsoft Corporation
+		rasadhlp.dll:Remote Access AutoDial Helper:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		rsaenh.dll:Microsoft Enhanced Cryptographic Provider:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		sechost.dll:Host for SCM/SDDL/LSA Lookup APIs:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		shlwapi.dll:外壳简易实用工具库:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		sunmscapi.dll:OpenJDK Platform binary:21.0.3.0:Microsoft
+		ucrtbase.dll:Microsoft® C Runtime Library:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		vcruntime140_1.dll:Microsoft® C Runtime Library:14.29.30139.0 built by: vcwrkspc:Microsoft Corporation
+		verify.dll:OpenJDK Platform binary:21.0.3.0:Microsoft
+		win32u.dll:Win32u:10.0.19041.4717 (WinBuild.160101.0800):Microsoft Corporation
+		windows.storage.dll:Microsoft WinRT Storage API:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		winrnr.dll:LDAP RnR Provider DLL:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		wshbth.dll:Windows Sockets Helper DLL:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		zip.dll:OpenJDK Platform binary:21.0.3.0:Microsoft
+Stacktrace:
+	at net.minecraft.client.main.Main.main(Main.java:223)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+Mixins in Stacktrace:
+	net.minecraft.client.main.Main:
+		dev.kir.cubeswithoutborders.client.mixin.MainMixin (cubes-without-borders.mixins.json)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.6
+	Minecraft Version ID: 1.20.6
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 21.0.3, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 90516832 bytes (86 MiB) / 503316480 bytes (480 MiB) up to 2147483648 bytes (2048 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 10
+	Microarchitecture: Coffee Lake
+	Frequency (GHz): 2.40
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: NVIDIA GeForce GTX 1650
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MB): 4096.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 31.0.15.5186
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.67
+	Memory slot #0 type: DDR4
+	Virtual memory max (MB): 32674.59
+	Virtual memory used (MB): 22622.29
+	Swap memory total (MB): 24562.44
+	Swap memory used (MB): 4476.26
+	JVM Flags: 11 total; -Xmx2048m -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32m -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Fabric Mods: 
+		animatica: Animatica 0.6.1+1.20.6
+		bettermounthud: Better Mount HUD 1.2.3
+		capes: Capes 1.5.4+1.20.5
+		carpet: Carpet Mod 1.4.141+v240429
+		carpet-tis-addition: Carpet TIS Addition 1.65.2
+		cloth-config: Cloth Config v14 14.0.139
+			cloth-basic-math: cloth-basic-math 0.6.1
+		continuity: Continuity 3.0.0-beta.5+1.20.5
+		controlify: Controlify 2.0.0-beta.14+1.20.6-fabric
+			dev_isxander_libsdl4j: libsdl4j 3.6896c4c-38
+			org_hid4java_hid4java: hid4java 0.7.0
+			org_quiltmc_parsers_gson: gson 0.3.0
+			org_quiltmc_parsers_json: json 0.3.0
+		cubes-without-borders: Cubes Without Borders 2.1.1+1.20
+		debugify: Debugify 1.20.6+1.0
+		dynamic_fps: Dynamic FPS 3.7.3
+			net_lostluma_battery: battery 1.1.0
+		e4mc_minecraft: e4mc 5.2.1
+			folk_sisby_kaleido-config: kaleido-config 0.3.1+1.3.1
+		enhancedblockentities: Enhanced Block Entities 0.10.1+1.20.6
+		entity_model_features: Entity Model Features 2.2.6
+		entity_texture_features: Entity Texture Features 6.2.5
+			org_apache_httpcomponents_httpmime: httpmime 4.5.10
+		entityculling: EntityCulling 1.7.0
+		fabric-api: Fabric API 0.100.8+1.20.6
+			fabric-api-base: Fabric API Base 0.4.40+80f8cf51b0
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.59+e9d2a72bb0
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.25+be5d88beb0
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.20+6dfe4c9bb0
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.8+80f8cf51b0
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.50+80f8cf51b0
+			fabric-client-tags-api-v1: Fabric Client Tags 1.1.12+7f945d5bb0
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.45+f71b366fb0
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.24+80f8cf51b0
+			fabric-commands-v0: Fabric Commands (v0) 0.2.62+df3654b3b0
+			fabric-content-registries-v0: Fabric Content Registries (v0) 8.0.6+b82b2392b0
+			fabric-convention-tags-v1: Fabric Convention Tags 2.0.7+7f945d5bb0
+			fabric-convention-tags-v2: Fabric Convention Tags (v2) 2.1.3+f4bfb622b0
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.27+80f8cf51b0
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.1.17+2a2c66b6b0
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 19.2.5+a5d5299db0
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.68+94793913b0
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.6.8+e9d2a72bb0
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.7.6+c5fc38b3b0
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.50+80f8cf51b0
+			fabric-item-api-v1: Fabric Item API (v1) 8.2.3+6e5bbc4ab0
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.1.1+f4bfb622b0
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.45+80f8cf51b0
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.43+df3654b3b0
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.3.4+c5fc38b3b0
+			fabric-loot-api-v2: Fabric Loot API (v2) 3.0.6+97f703dab0
+			fabric-message-api-v1: Fabric Message API (v1) 6.0.11+a7dc0e41b0
+			fabric-model-loading-api-v1: Fabric Model Loading API (v1) 1.0.12+80f8cf51b0
+			fabric-models-v0: Fabric Models (v0) 0.4.11+9386d8a7b0
+			fabric-networking-api-v1: Fabric Networking API (v1) 4.2.0+a916f7c5b0
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 15.1.5+c5fc38b3b0
+			fabric-particles-v1: Fabric Particles (v1) 4.0.0+c5fc38b3b0
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 5.0.6+9c745bbbb0
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 5.0.19+c7d49fa1b0
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 3.3.0+81dac6a1b0
+			fabric-renderer-indigo: Fabric Renderer - Indigo 1.5.15+41791025b0
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.62+df3654b3b0
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.46+73761d2eb0
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.1.3+2c869dedb0
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.65+df3654b3b0
+			fabric-rendering-v1: Fabric Rendering (v1) 4.2.5+850ef40bb0
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 4.2.0+a5d5299db0
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 1.1.1+f4bfb622b0
+			fabric-screen-api-v1: Fabric Screen API (v1) 2.0.21+7b70ea8ab0
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.76+8c7b71c2b0
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.21+c5fc38b3b0
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 5.1.7+7fc4b352b0
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 6.0.10+74e2f560b0
+		fabric-language-kotlin: Fabric Language Kotlin 1.12.2+kotlin.2.0.20
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 2.0.20
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 2.0.20
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 2.0.20
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 2.0.20
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.25.0
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.9.0
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.9.0
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.6.1
+			org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm: kotlinx-io-bytestring-jvm 0.5.4
+			org_jetbrains_kotlinx_kotlinx-io-core-jvm: kotlinx-io-core-jvm 0.5.4
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.7.2
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.7.2
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.7.2
+		fabricloader: Fabric Loader 0.16.5
+			mixinextras: MixinExtras 0.4.1
+		fabricskyboxes: FabricSkyBoxes 0.7.4+mc1.20.5
+		fabrishot: Fabrishot 1.13.1
+		fastquit: FastQuit 3.0.0+1.20.6
+		ferritecore: FerriteCore 6.1.1
+		fsb-interop: FabricSkyBoxes Interop 1.4.0+mc1.20.5-build.53
+		immediatelyfast: ImmediatelyFast 1.2.21+1.20.6
+			net_lenni0451_reflect: Reflect 1.3.4
+		indium: Indium 1.0.34+mc1.20.1
+		iris: Iris 1.7.2+mc1.20.6
+			io_github_douira_glsl-transformer: glsl-transformer 2.0.1
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.13.1
+		isxander-main-menu-credits: Main Menu Credits 1.2.0
+		java: OpenJDK 64-Bit Server VM 21
+		languagereload: Language Reload 1.6.1+1.20.6
+		lanserverproperties: Lan Server Properties 1.13.2
+		lightweight-inventory-sorting: Lightweight Inventory Sorting 1.1.2+1.20.6
+		litematica: Litematica 0.18.1
+		litematica_printer: Litematica Printer 3.2
+		litematicatool: LitematicaTool 1.4.0
+		lithium: Lithium 0.12.5
+		malilib: MaLiLib 0.19.0
+		minecraft: Minecraft 1.20.6
+		mixintrace: MixinTrace 1.1.1+1.17
+		modelfix: Model Gap Fix 1.14
+		modernfix: ModernFix 5.18.0+mc1.20.6
+		modmenu: Mod Menu 10.0.0
+			placeholder-api: Placeholder API 2.4.0-pre.1+1.20.5
+		morechathistory: More Chat History 1.3.1
+		moreculling: More Culling 0.25.0
+			com_github_fallen-breath_conditional-mixin: conditional-mixin v0.6.2
+			mixinsquared: MixinSquared 0.1.1
+		mousetweaks: Mouse Tweaks 2.26
+		nochatreports: No Chat Reports 1.20.6-v2.7.1
+		optigui: OptiGUI 2.3.0-beta.5+1.20.5
+			org_apache_commons_commons-text: commons-text 1.12.0
+			org_ini4j_ini4j: ini4j 0.5.4
+		paginatedadvancements: Paginated Advancements 2.4.2
+		polytone: Polytone 1.20.6-2.0.2
+			net_objecthunter_exp4j: exp4j 0.4.8
+		puzzle: Puzzle 1.6.2+1.20.6
+			midnightlib: MidnightLib 1.5.5
+			puzzle-base: Puzzle Base 1.6.2+1.20.6
+			puzzle-gui: Puzzle GUI 1.6.2+1.20.6
+			puzzle-models: Puzzle Models 1.6.2+1.20.6
+			puzzle-splashscreen: Puzzle Splash Screen 1.6.2+1.20.6
+		reeses-sodium-options: Reese's Sodium Options 1.7.3+mc1.20.6
+		rrls: Remove Reloading Screen 4.1.0+mc1.20.6-fabric
+		sodium: Sodium 0.5.11+mc1.20.6
+		sodium-extra: Sodium Extra 0.5.6+mc1.20.6
+			caffeineconfig: CaffeineConfig 1.3.0+1.17
+		tweakermore: TweakerMore 3.24.1
+			conditional-mixin: conditional mixin 0.6.4
+		tweakeroo: Tweakeroo 0.20.0
+		worldedit: WorldEdit 7.3.3+6788-6359df8
+		yet_another_config_lib_v3: YetAnotherConfigLib 3.5.0+1.20.6-fabric
+			com_twelvemonkeys_common_common-image: common-image 3.10.0
+			com_twelvemonkeys_common_common-io: common-io 3.10.0
+			com_twelvemonkeys_common_common-lang: common-lang 3.10.0
+			com_twelvemonkeys_imageio_imageio-core: imageio-core 3.10.0
+			com_twelvemonkeys_imageio_imageio-metadata: imageio-metadata 3.10.0
+			com_twelvemonkeys_imageio_imageio-webp: imageio-webp 3.10.0
+		yosbr: YOSBR 0.1.2
+		zoomify: Zoomify 2.14.0+1.20.6
+			com_akuleshov7_ktoml-core-jvm: ktoml-core-jvm 0.5.1
+	Launched Version: Fabulously Optimized
+	Launcher name: HMCL
+	Backend library: LWJGL version 3.3.3-snapshot
+	Backend API: Unknown
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Universe: 404
+	Type: Client (map_client.txt)
+	Locale: zh_CN
+	CPU: <unknown>

@@ -1,0 +1,14 @@
+[2025-03-08 23:20:49] [INFO]: I18nUpdate Mod 3.6.0 is loaded in 1.20.6 with Fabric
+[2025-03-08 23:20:49] [DEBUG]: Minecraft path: F:\GitHub\DreamborderX-MC-CommandTest\.minecraft\versions\Fabulously Optimized
+[2025-03-08 23:20:49] [DEBUG]: Local Storage Pos: C:\Users\Administrator
+[2025-03-08 23:20:49] [DEBUG]: Local file C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20-Fabric.zip has been updated recently.
+[2025-03-08 23:20:49] [DEBUG]: Already up to date.
+[2025-03-08 23:20:49] [DEBUG]: Local file C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip has been updated recently.
+[2025-03-08 23:20:49] [DEBUG]: Already up to date.
+[2025-03-08 23:20:49] [DEBUG]: Local file C:\Users\Administrator\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18-Fabric.zip has been updated recently.
+[2025-03-08 23:20:49] [DEBUG]: Already up to date.
+[2025-03-08 23:20:49] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20-Fabric.zip
+[2025-03-08 23:20:49] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip
+[2025-03-08 23:20:49] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18-Fabric.zip
+[2025-03-08 23:20:49] [INFO]: Converted: [C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20-Fabric.zip, C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip, C:\Users\Administrator\.i18nupdatemod\1.18\Minecraft-Mod-Language-Modpack-1-18-Fabric.zip] -> C:\Users\Administrator\.i18nupdatemod\1.20.6\Minecraft-Mod-Language-Modpack-Converted-1.20.6.zip
+[2025-03-08 23:20:49] [INFO]: Synchronized: C:\Users\Administrator\.i18nupdatemod\1.20.6\Minecraft-Mod-Language-Modpack-Converted-1.20.6.zip -> F:\GitHub\DreamborderX-MC-CommandTest\.minecraft\versions\Fabulously Optimized\resourcepacks\Minecraft-Mod-Language-Modpack-Converted-1.20.6.zip

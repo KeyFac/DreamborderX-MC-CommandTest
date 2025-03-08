@@ -1,0 +1,19 @@
+/carpet
+/player
+/player test spawn at ~ ~ ~
+/player Test attack continuous
+/player Test attack once
+/player Test attack perTick 1
+/player Test kill
+/fill -8 -60 -8
+/fill -8 -60 -8 30 -43 39 air
+/gamerule maxCommandForkCount
+/gamerule maxCommandForkCount 2147483648
+/gamerule maxCommandForkCount 2147483647
+/fill -8 -60 -8 30 -43 39 air
+/gamerule maxCommandForkCount 65536
+/gamerule blockExplosionDropDecay
+/gamerule commandModificationBlockLimit 2147483647
+/fill -8 -60 -8 30 -43 39 air
+/kill @e[type=!minecraft:player]
+/clear @s
