@@ -17,3 +17,6 @@
 /fill -8 -60 -8 30 -43 39 air
 /kill @e[type=!minecraft:player]
 /clear @s
+/register zz0727 zz0727
+/rtp
+/seed
