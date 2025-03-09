@@ -1,3 +1,5 @@
 {
-  "signingModes": {}
+  "signingModes": {
+    "play.orwoe.cn:25565": "PROMPT"
+  }
 }

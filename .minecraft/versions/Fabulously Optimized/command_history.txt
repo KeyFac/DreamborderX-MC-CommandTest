@@ -20,3 +20,5 @@
 /register zz0727 zz0727
 /rtp
 /seed
+/rk list
+/rk help
